@@ -15,7 +15,7 @@
   -->
 
 <resources>
-    <string name="app_name">NADRA</string>
+    <string name="app_name">DRPrep</string>
     <string-array name="main_menu">
         <item>Home</item>
         <item>About</item>
