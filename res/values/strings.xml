@@ -18,9 +18,9 @@
     <string name="app_name">DRPrep</string>
     <string-array name="main_menu">
         <item>Home</item>
+        <item>Emergencies</item>
         <item>About</item>
         <item>Contact Us</item>
-        <item>Emergencies</item>
         <item>Support</item>
         
         
