@@ -21,7 +21,9 @@
         <item>About</item>
         <item>Contact Us</item>
         <item>Emergencies</item>
-        <item>Help</item>
+        <item>Support</item>
+        
+        
         
     </string-array>
     <string name="drawer_open">Open navigation drawer</string>
