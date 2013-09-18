@@ -72,10 +72,8 @@ public class MainActivity extends Activity {
     private ListView mDrawerList;
     private ActionBarDrawerToggle mDrawerToggle;
 
-    private CharSequence mDrawerTitle;
-    private CharSequence mDrawerTitle2;
-    private CharSequence mTitle;
-    private CharSequence mTitle2;
+    private CharSequence mDrawerTitle; 
+    private CharSequence mTitle; 
     private String[] mLinks;
     private String[] mLinks2;
 	private ListView mDrawerList1;
@@ -86,7 +84,6 @@ public class MainActivity extends Activity {
         setContentView(R.layout.activity_main);
 
         mTitle = mDrawerTitle = getTitle();
-        mTitle2 = mDrawerTitle2 = getTitle();
         mLinks = getResources().getStringArray(R.array.main_menu);
         mLinks2 = getResources().getStringArray(R.array.secondary_menu);
         
@@ -122,14 +119,12 @@ public class MainActivity extends Activity {
                 ) {
             public void onDrawerClosed(View view) {
                 getActionBar().setTitle(mTitle);
-                getActionBar().setTitle(mTitle2);
                 invalidateOptionsMenu(); // creates call to onPrepareOptionsMenu()
             }
          
 
             public void onDrawerOpened(View drawerView) {
-                getActionBar().setTitle(mDrawerTitle);
-                getActionBar().setTitle(mDrawerTitle2);
+                getActionBar().setTitle(mDrawerTitle);   
                 invalidateOptionsMenu(); // creates call to onPrepareOptionsMenu()
             }
         };
@@ -212,12 +207,10 @@ public class MainActivity extends Activity {
     @Override
     public void setTitle(CharSequence title) {
         mTitle = title;
-        getActionBar().setTitle(mTitle);
-        
-        mTitle2 = title;
-        getActionBar().setTitle(mTitle2);
+        getActionBar().setTitle(mTitle);   
         
     }
+    
 
     /**
      * When using the ActionBarDrawerToggle, you must call it during
