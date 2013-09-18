@@ -18,18 +18,15 @@
     <string name="app_name">DRPrep</string>
     <string-array name="main_menu">
         <item>Home</item>
-        <item>Emergencies</item>
         <item>About</item>
         <item>Contact Us</item>
         <item>Support</item>   
     </string-array>
     
     <string-array name="secondary_menu">
-        <item>Emergency 1</item>
-        <item>Emergency 2</item>
-        <item>Emergency 3</item>
-        <item>Emergency 4</item>
-        <item>Emergency 5</item>   
+        <item>Natural Disasters</item>
+        <item>Structural Disasters</item>
+        <item>Personal Emergencies</item>  
     </string-array>
     
     <string name="drawer_open">Open navigation drawer</string>
