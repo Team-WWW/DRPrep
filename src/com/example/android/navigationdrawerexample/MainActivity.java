@@ -72,8 +72,8 @@ public class MainActivity extends Activity {
     private ListView mDrawerList;
     private ActionBarDrawerToggle mDrawerToggle;
 
-    private CharSequence mDrawerTitle; 
-    private CharSequence mTitle; 
+    private CharSequence mDrawerTitle;
+    private CharSequence mTitle;
     private String[] mLinks;
     private String[] mLinks2;
 	private ListView mDrawerList1;
@@ -121,10 +121,9 @@ public class MainActivity extends Activity {
                 getActionBar().setTitle(mTitle);
                 invalidateOptionsMenu(); // creates call to onPrepareOptionsMenu()
             }
-         
 
             public void onDrawerOpened(View drawerView) {
-                getActionBar().setTitle(mDrawerTitle);   
+                getActionBar().setTitle(mDrawerTitle);
                 invalidateOptionsMenu(); // creates call to onPrepareOptionsMenu()
             }
         };
@@ -147,7 +146,8 @@ public class MainActivity extends Activity {
     public boolean onPrepareOptionsMenu(Menu menu) {
         // If the nav drawer is open, hide action items related to the content view
         boolean drawerOpen = mDrawerLayout.isDrawerOpen(mDrawerList);
-        menu.findItem(R.id.action_websearch).setVisible(!drawerOpen);
+        //boolean drawerOpen = mDrawerLayout.isDrawerOpen(mDrawerList1); //Maybe make an OR statement here to check if either are open. 
+        //menu.findItem(R.id.action_websearch).setVisible(!drawerOpen);
         return super.onPrepareOptionsMenu(menu);
     }
 
@@ -158,22 +158,24 @@ public class MainActivity extends Activity {
         if (mDrawerToggle.onOptionsItemSelected(item)) {
             return true;
         }
-        // Handle action buttons
-        switch(item.getItemId()) {
-        case R.id.action_websearch:
-            // create intent to perform web search for this planet
-            Intent intent = new Intent(Intent.ACTION_WEB_SEARCH);
-            intent.putExtra(SearchManager.QUERY, getActionBar().getTitle());
-            // catch event that there's no activity to handle intent
-            if (intent.resolveActivity(getPackageManager()) != null) {
-                startActivity(intent);
-            } else {
-                Toast.makeText(this, R.string.app_not_available, Toast.LENGTH_LONG).show();
-            }
-            return true;
-        default:
-            return super.onOptionsItemSelected(item);
-        }
+//        // Handle action buttons
+//        switch(item.getItemId()) {
+//        case R.id.action_websearch:
+//            // create intent to perform web search for this planet
+//            Intent intent = new Intent(Intent.ACTION_WEB_SEARCH);
+//            intent.putExtra(SearchManager.QUERY, getActionBar().getTitle());
+//            // catch event that there's no activity to handle intent
+//            if (intent.resolveActivity(getPackageManager()) != null) {
+//                startActivity(intent);
+//            } else {
+//                Toast.makeText(this, R.string.app_not_available, Toast.LENGTH_LONG).show();
+//            }
+//            return true;
+//        default:
+//            return super.onOptionsItemSelected(item);
+//        }
+        
+        return true;
     }
 
     /* The click listner for ListView in the navigation drawer */
@@ -207,10 +209,8 @@ public class MainActivity extends Activity {
     @Override
     public void setTitle(CharSequence title) {
         mTitle = title;
-        getActionBar().setTitle(mTitle);   
-        
+        getActionBar().setTitle(mTitle);
     }
-    
 
     /**
      * When using the ActionBarDrawerToggle, you must call it during
