@@ -74,7 +74,8 @@ public class MainActivity extends Activity {
 
     private CharSequence mDrawerTitle;
     private CharSequence mTitle;
-    private String[] mPlanetTitles;
+    private String[] mLinks;
+    private String[] mLinks2;
 	private ListView mDrawerList1;
 
     @Override
@@ -83,7 +84,9 @@ public class MainActivity extends Activity {
         setContentView(R.layout.activity_main);
 
         mTitle = mDrawerTitle = getTitle();
-        mPlanetTitles = getResources().getStringArray(R.array.main_menu);
+        mLinks = getResources().getStringArray(R.array.main_menu);
+        mLinks = getResources().getStringArray(R.array.secondary_menu);
+        
         mDrawerLayout = (DrawerLayout) findViewById(R.id.drawer_layout);
         mDrawerList = (ListView) findViewById(R.id.left_drawer);
         mDrawerList1 = (ListView) findViewById(R.id.Right_drawer);
@@ -92,13 +95,13 @@ public class MainActivity extends Activity {
         mDrawerLayout.setDrawerShadow(R.drawable.drawer_shadow, GravityCompat.START);
         // set up the drawer's list view with items and click listener
         mDrawerList.setAdapter(new ArrayAdapter<String>(this,
-                R.layout.drawer_list_item, mPlanetTitles));
+                R.layout.drawer_list_item, mLinks));
         mDrawerList.setOnItemClickListener(new DrawerItemClickListener());
         
         mDrawerLayout.setDrawerShadow(R.drawable.drawer_shadow, GravityCompat.END);
         // set up the drawer's list view with items and click listener
         mDrawerList1.setAdapter(new ArrayAdapter<String>(this,
-                R.layout.drawer_list_item, mPlanetTitles));
+                R.layout.drawer_list_item, mLinks2));
         mDrawerList1.setOnItemClickListener(new DrawerItemClickListener());
 
         // enable ActionBar app icon to behave as action to toggle nav drawer
@@ -192,7 +195,11 @@ public class MainActivity extends Activity {
 
         // update selected item and title, then close the drawer
         mDrawerList.setItemChecked(position, true);
-        setTitle(mPlanetTitles[position]);
+        setTitle(mLinks[position]);
+        mDrawerLayout.closeDrawer(mDrawerList);
+        
+        mDrawerList.setItemChecked(position, true);
+        setTitle(mLinks2[position]);
         mDrawerLayout.closeDrawer(mDrawerList);
     }
 

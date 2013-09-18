@@ -21,11 +21,17 @@
         <item>Emergencies</item>
         <item>About</item>
         <item>Contact Us</item>
-        <item>Support</item>
-        
-        
-        
+        <item>Support</item>   
     </string-array>
+    
+    <string-array name="secondary_menu">
+        <item>Emergency 1</item>
+        <item>Emergency 2</item>
+        <item>Emergency 3</item>
+        <item>Emergency 4</item>
+        <item>Emergency 5</item>   
+    </string-array>
+    
     <string name="drawer_open">Open navigation drawer</string>
     <string name="drawer_close">Close navigation drawer</string>
     <string name="action_websearch">Web search</string>
