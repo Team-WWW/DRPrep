@@ -85,7 +85,7 @@ public class MainActivity extends Activity {
 
         mTitle = mDrawerTitle = getTitle();
         mLinks = getResources().getStringArray(R.array.main_menu);
-        mLinks = getResources().getStringArray(R.array.secondary_menu);
+        mLinks2 = getResources().getStringArray(R.array.secondary_menu);
         
         mDrawerLayout = (DrawerLayout) findViewById(R.id.drawer_layout);
         mDrawerList = (ListView) findViewById(R.id.left_drawer);
