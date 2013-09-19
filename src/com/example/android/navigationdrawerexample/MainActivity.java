@@ -201,9 +201,9 @@ public class MainActivity extends Activity {
         setTitle(mLinks[position]);
         mDrawerLayout.closeDrawer(mDrawerList);
         
-        //mDrawerList1.setItemChecked(position, true);
-        //setTitle(mLinks2[position]);
-        //mDrawerLayout.closeDrawer(mDrawerList1);
+        mDrawerList1.setItemChecked(position, true);
+        setTitle(mLinks2[position]);
+        mDrawerLayout.closeDrawer(mDrawerList1);
     }
 
     @Override
