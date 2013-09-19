@@ -27,7 +27,7 @@
         <item>Natural Disasters</item>
         <item>Structural Disasters</item>
         <item>Personal Emergencies</item>
-        <item>Disclaimer</item>
+        
     </string-array>
     
     <string name="drawer_open">Open navigation drawer</string>
