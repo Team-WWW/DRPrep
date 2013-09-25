@@ -40,7 +40,7 @@ public final class R {
     }
     public static final class id {
         public static final int Right_drawer=0x7f090003;
-        public static final int action_OpenR=0x7f090005;
+        public static final int action_OpenR=0x7f090006;
         public static final int content_frame=0x7f090001;
         public static final int drawer_layout=0x7f090000;
         public static final int ic_launcher=0x7f090005;
@@ -57,12 +57,9 @@ public final class R {
         public static final int main=0x7f080000;
     }
     public static final class string {
-<<<<<<< HEAD
         public static final int action_RightMenu=0x7f050003;
-=======
->>>>>>> 814b3feebcb4cdddec2825400f4470cecafe14c0
         public static final int app_name=0x7f050000;
-        public static final int app_not_available=0x7f050003;
+        public static final int app_not_available=0x7f050004;
         public static final int drawer_close=0x7f050002;
         public static final int drawer_open=0x7f050001;
         public static final int test_title=0x7f050005;
