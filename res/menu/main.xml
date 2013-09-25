@@ -16,4 +16,15 @@
 
 <menu xmlns:android="http://schemas.android.com/apk/res/android">
     
+    <item android:id="@+id/action_OpenR"
+          android:icon="@drawable/ic_drawer"
+          android:title="@string/action_RightMenu"
+          android:showAsAction="ifRoom|withText" 
+
+          
+          />
+    
+    
+    
 </menu>
+

@@ -70,14 +70,16 @@ import android.widget.Toast;
 public class MainActivity extends Activity {
     private DrawerLayout mDrawerLayout;
     private ListView mDrawerList;
+    private ListView mDrawerList1;
+    
     private ActionBarDrawerToggle mDrawerToggle;
 
-    private CharSequence mDrawerTitle;
+    private CharSequence mDrawerTitle; //It says this is not used but it is?
     private CharSequence mTitle;
+    private CharSequence mTestTitle = "test";
     private String[] mLinks;
     private String[] mLinks2;
-	private ListView mDrawerList1;
-
+	
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -95,7 +97,7 @@ public class MainActivity extends Activity {
         mDrawerLayout.setDrawerShadow(R.drawable.drawer_shadow, GravityCompat.START);
         // set up the drawer's list view with items and click listener
         mDrawerList.setAdapter(new ArrayAdapter<String>(this,
-                R.layout.drawer_list_item, mLinks));
+                R.layout.drawer_list_item, mLinks));     //changing this to mLinks2 makes both menus the same
         mDrawerList.setOnItemClickListener(new DrawerItemClickListener());
         
         mDrawerLayout.setDrawerShadow(R.drawable.drawer_shadow, GravityCompat.END);
@@ -107,7 +109,14 @@ public class MainActivity extends Activity {
         // enable ActionBar app icon to behave as action to toggle nav drawer
         getActionBar().setDisplayHomeAsUpEnabled(true);
         getActionBar().setHomeButtonEnabled(true);
+       
+        //getActionBar().setDisplayShowTitleEnabled (false);  //Scott: This hides the title in the action bar!!!!
+        //getActionBar().setTitle(mTestTitle); //Scott: Failed test
+        
 
+        
+        
+        
         // ActionBarDrawerToggle ties together the the proper interactions
         // between the sliding drawer and the action bar app icon
         mDrawerToggle = new ActionBarDrawerToggle(
@@ -117,15 +126,18 @@ public class MainActivity extends Activity {
                 R.string.drawer_open,  /* "open drawer" description for accessibility */
                 R.string.drawer_close  /* "close drawer" description for accessibility */
                 ) {
-            public void onDrawerClosed(View view) {
-                getActionBar().setTitle(mTitle);
-                invalidateOptionsMenu(); // creates call to onPrepareOptionsMenu()
-            }
 
-            public void onDrawerOpened(View drawerView) {
-                getActionBar().setTitle(mDrawerTitle);
-                invalidateOptionsMenu(); // creates call to onPrepareOptionsMenu()
-            }
+//Doesn't seem to do anything        	
+//            public void onDrawerClosed(View view) {
+//                getActionBar().setTitle(mTitle);
+//                invalidateOptionsMenu(); // creates call to onPrepareOptionsMenu()
+//            }
+
+//doesn't seem to do anything
+//            public void onDrawerOpened(View drawerView) {
+//                getActionBar().setTitle(mDrawerTitle);
+//                invalidateOptionsMenu(); // creates call to onPrepareOptionsMenu()
+//            }
         };
         mDrawerLayout.setDrawerListener(mDrawerToggle);
 
@@ -134,6 +146,7 @@ public class MainActivity extends Activity {
         }
     }
 
+        
     @Override
     public boolean onCreateOptionsMenu(Menu menu) {
         MenuInflater inflater = getMenuInflater();
@@ -141,16 +154,18 @@ public class MainActivity extends Activity {
         return super.onCreateOptionsMenu(menu);
     }
 
-    /* Called whenever we call invalidateOptionsMenu() */
+    //Don't seem to need the below
+    /* Called whenever we call invalidateOptionsMenu() 
     @Override
     public boolean onPrepareOptionsMenu(Menu menu) {
         // If the nav drawer is open, hide action items related to the content view
         boolean drawerOpen = mDrawerLayout.isDrawerOpen(mDrawerList);
-        //boolean drawerOpen = mDrawerLayout.isDrawerOpen(mDrawerList1); //Maybe make an OR statement here to check if either are open. 
-        //menu.findItem(R.id.action_websearch).setVisible(!drawerOpen);
+        boolean drawerOpen1 = mDrawerLayout.isDrawerOpen(mDrawerList1); //Scott: Maybe make an OR statement here to check if either are open. 
+        //menu.findItem(R.id.action_OpenR).setVisible(!drawerOpen);  //Scott: this hides the right drawer button if the left drawer is open. 
         return super.onPrepareOptionsMenu(menu);
-    }
-
+    }  //Don't seem to need the above so I'm commenting it out*/
+    
+    
     @Override
     public boolean onOptionsItemSelected(MenuItem item) {
          // The action bar home/up action should open or close the drawer.
@@ -158,27 +173,25 @@ public class MainActivity extends Activity {
         if (mDrawerToggle.onOptionsItemSelected(item)) {
             return true;
         }
-//        // Handle action buttons
-//        switch(item.getItemId()) {
-//        case R.id.action_websearch:
-//            // create intent to perform web search for this planet
-//            Intent intent = new Intent(Intent.ACTION_WEB_SEARCH);
-//            intent.putExtra(SearchManager.QUERY, getActionBar().getTitle());
-//            // catch event that there's no activity to handle intent
-//            if (intent.resolveActivity(getPackageManager()) != null) {
-//                startActivity(intent);
-//            } else {
-//                Toast.makeText(this, R.string.app_not_available, Toast.LENGTH_LONG).show();
-//            }
-//            return true;
-//        default:
-//            return super.onOptionsItemSelected(item);
-//        }
-        
-        return true;
+             // Handle action buttons
+                switch(item.getItemId()) {
+                case R.id.action_OpenR:
+                   // create intent to perform web search for this planet
+                    Intent intent = new Intent(Intent.ACTION_WEB_SEARCH);
+                    //intent.putExtra(SearchManager.QUERY, getActionBar().getTitle());
+                    // catch event that there's no activity to handle intent
+                    if (intent.resolveActivity(getPackageManager()) != null) {
+                       startActivity(intent);
+                    } else {
+                        Toast.makeText(this, R.string.app_not_available, Toast.LENGTH_LONG).show();
+                    }
+                    return true;
+                default:
+                    return super.onOptionsItemSelected(item);
+                }
     }
 
-    /* The click listner for ListView in the navigation drawer */
+    /* The click listener for ListView in the navigation drawer */
     private class DrawerItemClickListener implements ListView.OnItemClickListener {
         @Override
         public void onItemClick(AdapterView<?> parent, View view, int position, long id) {
@@ -196,14 +209,15 @@ public class MainActivity extends Activity {
         FragmentManager fragmentManager = getFragmentManager();
         fragmentManager.beginTransaction().replace(R.id.content_frame, fragment).commit();
 
-        // update selected item and title, then close the drawer
-        mDrawerList.setItemChecked(position, true);
-        setTitle(mLinks[position]);
-        mDrawerLayout.closeDrawer(mDrawerList);
+        //Left Menu:
+        //mDrawerList.setItemChecked(position, true); //This appears to do nothing! 
+        //setTitle(mLinks[position]);  //This appears to do nothing! 
+        mDrawerLayout.closeDrawer(mDrawerList); // update selected item and title, then close the drawer
         
-        mDrawerList1.setItemChecked(position, true);
-        setTitle(mLinks2[position]);
-        mDrawerLayout.closeDrawer(mDrawerList1);
+        //Right Menu:
+        //mDrawerList1.setItemChecked(position, true);  //This appears to do nothing! 
+        //setTitle(mLinks2[position]);   //This appears to do nothing! 
+        mDrawerLayout.closeDrawer(mDrawerList1); // update selected item and title, then close the drawer
     }
 
     @Override
@@ -227,7 +241,7 @@ public class MainActivity extends Activity {
     @Override
     public void onConfigurationChanged(Configuration newConfig) {
         super.onConfigurationChanged(newConfig);
-        // Pass any configuration change to the drawer toggls
+        // Pass any configuration change to the drawer toggles
         mDrawerToggle.onConfigurationChanged(newConfig);
     }
 
