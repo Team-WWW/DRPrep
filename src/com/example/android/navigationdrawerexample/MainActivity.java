@@ -77,9 +77,11 @@ public class MainActivity extends Activity {
     
     private ActionBarDrawerToggle mDrawerToggle;
 
-    private CharSequence mDrawerTitle; //It says this is not used but it is?
+    private CharSequence mDrawerTitle;
+    private CharSequence mDrawerTitle1;//It says this is not used but it is?
     private CharSequence mTitle;
-    private CharSequence mTestTitle = "test";
+    private CharSequence mTitle1;
+    
     private String[] mLinks;
     private String[] mLinks2;
 	
@@ -89,6 +91,7 @@ public class MainActivity extends Activity {
         setContentView(R.layout.activity_main);
 
         mTitle = mDrawerTitle = getTitle();
+        mTitle1 = mDrawerTitle1 = getTitle();
         mLinks = getResources().getStringArray(R.array.main_menu);
         mLinks2 = getResources().getStringArray(R.array.secondary_menu);
         
@@ -180,7 +183,7 @@ public class MainActivity extends Activity {
                 switch(item.getItemId()) {
                 case R.id.action_OpenR:
                    // create intent to perform web search for this planet
-                    Intent intent = new Intent(Intent.ACTION_WEB_SEARCH);
+                    Intent intent = new Intent(Intent.ACTION_VIEW);
                     //intent.putExtra(SearchManager.QUERY, getActionBar().getTitle());
                     // catch event that there's no activity to handle intent
                     if (intent.resolveActivity(getPackageManager()) != null) {
@@ -213,20 +216,31 @@ public class MainActivity extends Activity {
         fragmentManager.beginTransaction().replace(R.id.content_frame, fragment).commit();
 
         //Left Menu:
-        //mDrawerList.setItemChecked(position, true); //This appears to do nothing! 
-        //setTitle(mLinks[position]);  //This appears to do nothing! 
+        mDrawerList.setItemChecked(position, true); //This appears to do nothing! 
+        setTitle(mLinks[position]);  //This appears to do nothing! 
         mDrawerLayout.closeDrawer(mDrawerList); // update selected item and title, then close the drawer
         
         //Right Menu:
-        //mDrawerList1.setItemChecked(position, true);  //This appears to do nothing! 
-        //setTitle(mLinks2[position]);   //This appears to do nothing! 
+        mDrawerList1.setItemChecked(position, true);  //This appears to do nothing! 
+        setTitle(mLinks2[position]);   //This appears to do nothing! 
         mDrawerLayout.closeDrawer(mDrawerList1); // update selected item and title, then close the drawer
     }
 
     @Override
-    public void setTitle(CharSequence title) {
+    public void setTitle(CharSequence title) 
+    {
         mTitle = title;
+        
         getActionBar().setTitle(mTitle);
+        
+    }
+    
+    public void setTitle1(CharSequence title1) 
+    {
+        
+        mTitle1 = title1;
+        
+        getActionBar().setTitle(mTitle1);
     }
 
     /**
