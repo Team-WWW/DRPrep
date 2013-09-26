@@ -91,13 +91,13 @@ public class MainActivity extends Activity {
         setContentView(R.layout.activity_main);
 
         mTitle = mDrawerTitle = getTitle();
-        mTitle1 = mDrawerTitle1 = getTitle();
+        //mTitle1 = mDrawerTitle1 = getTitle();
         mLinks = getResources().getStringArray(R.array.main_menu);
-        mLinks2 = getResources().getStringArray(R.array.secondary_menu);
+        //mLinks2 = getResources().getStringArray(R.array.secondary_menu);
         
         mDrawerLayout = (DrawerLayout) findViewById(R.id.drawer_layout);
         mDrawerList = (ListView) findViewById(R.id.left_drawer);
-        mDrawerList1 = (ListView) findViewById(R.id.Right_drawer);
+        //mDrawerList1 = (ListView) findViewById(R.id.Right_drawer);
 
         // set a custom shadow that overlays the main content when the drawer opens
         mDrawerLayout.setDrawerShadow(R.drawable.drawer_shadow, GravityCompat.START);
@@ -106,11 +106,11 @@ public class MainActivity extends Activity {
                 R.layout.drawer_list_item, mLinks));     //changing this to mLinks2 makes both menus the same
         mDrawerList.setOnItemClickListener(new DrawerItemClickListener());
         
-        mDrawerLayout.setDrawerShadow(R.drawable.drawer_shadow, GravityCompat.END);
+        //mDrawerLayout.setDrawerShadow(R.drawable.drawer_shadow, GravityCompat.END);
         // set up the drawer's list view with items and click listener
-        mDrawerList1.setAdapter(new ArrayAdapter<String>(this,
-                R.layout.drawer_list_item, mLinks2));
-        mDrawerList1.setOnItemClickListener(new DrawerItemClickListener());
+        //mDrawerList1.setAdapter(new ArrayAdapter<String>(this,
+         //       R.layout.drawer_list_item, mLinks2));
+        //mDrawerList1.setOnItemClickListener(new DrawerItemClickListener());
 
         // enable ActionBar app icon to behave as action to toggle nav drawer
         getActionBar().setDisplayHomeAsUpEnabled(true);
@@ -179,22 +179,22 @@ public class MainActivity extends Activity {
         if (mDrawerToggle.onOptionsItemSelected(item)) {
             return true;
         }
-             // Handle action buttons
-                switch(item.getItemId()) {
-                case R.id.action_OpenR:
-                   // create intent to perform web search for this planet
-                    Intent intent = new Intent(Intent.ACTION_VIEW);
-                    //intent.putExtra(SearchManager.QUERY, getActionBar().getTitle());
-                    // catch event that there's no activity to handle intent
-                    if (intent.resolveActivity(getPackageManager()) != null) {
-                       startActivity(intent);
-                    } else {
-                        Toast.makeText(this, R.string.app_not_available, Toast.LENGTH_LONG).show();
-                    }
-                    return true;
-                default:
-                    return super.onOptionsItemSelected(item);
-                }
+//             // Handle action buttons
+//                switch(item.getItemId()) {
+//                case R.id.action_OpenR:
+//                   // create intent to perform web search for this planet
+//                    Intent intent = new Intent(Intent.ACTION_VIEW);
+//                    //intent.putExtra(SearchManager.QUERY, getActionBar().getTitle());
+//                    // catch event that there's no activity to handle intent
+//                    if (intent.resolveActivity(getPackageManager()) != null) {
+//                       startActivity(intent);
+//                    } else {
+//                        Toast.makeText(this, R.string.app_not_available, Toast.LENGTH_LONG).show();
+//                    }
+                   return true;
+//                default:
+//                    return super.onOptionsItemSelected(item);
+//                }
     }
 
     /* The click listener for ListView in the navigation drawer */
@@ -221,9 +221,9 @@ public class MainActivity extends Activity {
         mDrawerLayout.closeDrawer(mDrawerList); // update selected item and title, then close the drawer
         
         //Right Menu:
-        mDrawerList1.setItemChecked(position, true);  //This appears to do nothing! 
-        setTitle(mLinks2[position]);   //This appears to do nothing! 
-        mDrawerLayout.closeDrawer(mDrawerList1); // update selected item and title, then close the drawer
+        //mDrawerList1.setItemChecked(position, true);  //This appears to do nothing! 
+        //setTitle(mLinks2[position]);   //This appears to do nothing! 
+        //mDrawerLayout.closeDrawer(mDrawerList1); // update selected item and title, then close the drawer
     }
 
     @Override
@@ -235,13 +235,13 @@ public class MainActivity extends Activity {
         
     }
     
-    public void setTitle1(CharSequence title1) 
-    {
+   // public void setTitle1(CharSequence title1) 
+    //{
         
-        mTitle1 = title1;
+    //    mTitle1 = title1;
         
-        getActionBar().setTitle(mTitle1);
-    }
+   //     getActionBar().setTitle(mTitle1);
+   // }
 
     /**
      * When using the ActionBarDrawerToggle, you must call it during
