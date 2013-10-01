@@ -71,19 +71,19 @@ import android.widget.Toast;
 
 
 public class MainActivity extends Activity {
-    private DrawerLayout mDrawerLayout;
-    private ListView mDrawerList;
-    private ListView mDrawerList1;
+    public DrawerLayout mDrawerLayout;
+    public ListView mDrawerList;
+    public ListView mDrawerList1;
     
-    private ActionBarDrawerToggle mDrawerToggle;
+    public ActionBarDrawerToggle mDrawerToggle;
 
-    private CharSequence mDrawerTitle;
-    private CharSequence mDrawerTitle1;//It says this is not used but it is?
-    private CharSequence mTitle;
-    private CharSequence mTitle1;
+    public CharSequence mDrawerTitle;
+    public CharSequence mDrawerTitle1;//It says this is not used but it is?
+    public CharSequence mTitle;
+    public CharSequence mTitle1;
     
-    private String[] mLinks;
-    private String[] mLinks2;
+    public String[] mLinks;
+    public String[] mLinks2;
 	
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -92,7 +92,7 @@ public class MainActivity extends Activity {
 
         mTitle = mDrawerTitle = getTitle();
         //mTitle1 = mDrawerTitle1 = getTitle();
-        mLinks = getResources().getStringArray(R.array.main_menu);
+        mLinks = getResources().getStringArray(R.array.menu);
         //mLinks2 = getResources().getStringArray(R.array.secondary_menu);
         
         mDrawerLayout = (DrawerLayout) findViewById(R.id.drawer_layout);
@@ -131,7 +131,8 @@ public class MainActivity extends Activity {
                 R.drawable.ic_drawer,  /* nav drawer image to replace 'Up' caret */
                 R.string.drawer_open,  /* "open drawer" description for accessibility */
                 R.string.drawer_close  /* "close drawer" description for accessibility */
-                ) {
+                ) 
+        {
 
 //Doesn't seem to do anything        	
 //            public void onDrawerClosed(View view) {
@@ -198,33 +199,41 @@ public class MainActivity extends Activity {
     }
 
     /* The click listener for ListView in the navigation drawer */
-    private class DrawerItemClickListener implements ListView.OnItemClickListener {
+    public class DrawerItemClickListener implements ListView.OnItemClickListener {
         @Override
         public void onItemClick(AdapterView<?> parent, View view, int position, long id) {
             selectItem(position);
         }
     }
 
-    private void selectItem(int position) {
-        // update the main content by replacing fragments
-        Fragment fragment = new PlanetFragment();
-        Bundle args = new Bundle();
-        args.putInt(PlanetFragment.ARG_PLANET_NUMBER, position);
-        fragment.setArguments(args);
-
-        FragmentManager fragmentManager = getFragmentManager();
-        fragmentManager.beginTransaction().replace(R.id.content_frame, fragment).commit();
+    void selectItem(int position) {
+        switch(position) {
+        case 1:
+                Intent a = new Intent(MainActivity.this, NaturalDisasters.class);
+                startActivity(a);
+        break;
+        case 2:
+                Intent b = new Intent(MainActivity.this, StructuralEmergencies.class);
+                startActivity(b);
+        break;
+        case 3:
+            	Intent c = new Intent(MainActivity.this, PersonalEmergencies.class);
+            	startActivity(c);
+        break;
+        default:
+        }
+    }
 
         //Left Menu:
-        mDrawerList.setItemChecked(position, true); //This appears to do nothing! 
-        setTitle(mLinks[position]);  //This appears to do nothing! 
-        mDrawerLayout.closeDrawer(mDrawerList); // update selected item and title, then close the drawer
+       // mDrawerList.setItemChecked(position, true); //This appears to do nothing! 
+       // setTitle(mLinks[position]);  //This appears to do nothing! 
+      //  mDrawerLayout.closeDrawer(mDrawerList); // update selected item and title, then close the drawer
         
         //Right Menu:
         //mDrawerList1.setItemChecked(position, true);  //This appears to do nothing! 
         //setTitle(mLinks2[position]);   //This appears to do nothing! 
         //mDrawerLayout.closeDrawer(mDrawerList1); // update selected item and title, then close the drawer
-    }
+   // }
 
     @Override
     public void setTitle(CharSequence title) 
@@ -277,7 +286,7 @@ public class MainActivity extends Activity {
                 Bundle savedInstanceState) {
             View rootView = inflater.inflate(R.layout.fragment_planet, container, false);
             int i = getArguments().getInt(ARG_PLANET_NUMBER);
-            String planet = getResources().getStringArray(R.array.main_menu)[i];
+            String planet = getResources().getStringArray(R.array.menu)[i];
             int imageId = getResources().getIdentifier(planet.toLowerCase(Locale.getDefault()),
                             "drawable", getActivity().getPackageName());
             ((ImageView) rootView.findViewById(R.id.image)).setImageResource(imageId);
