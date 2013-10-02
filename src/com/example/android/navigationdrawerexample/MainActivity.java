@@ -221,19 +221,14 @@ public class MainActivity extends Activity {
             	startActivity(c);
         break;
         default:
+        	
+        	
         }
-    }
-
-        //Left Menu:
-       // mDrawerList.setItemChecked(position, true); //This appears to do nothing! 
-       // setTitle(mLinks[position]);  //This appears to do nothing! 
-      //  mDrawerLayout.closeDrawer(mDrawerList); // update selected item and title, then close the drawer
         
-        //Right Menu:
-        //mDrawerList1.setItemChecked(position, true);  //This appears to do nothing! 
-        //setTitle(mLinks2[position]);   //This appears to do nothing! 
-        //mDrawerLayout.closeDrawer(mDrawerList1); // update selected item and title, then close the drawer
-   // }
+        mDrawerList.setItemChecked(position, true);
+    	setTitle(mLinks[position]);
+    	mDrawerLayout.closeDrawer(mDrawerList);// update selected item and title, then close the drawer
+    }
 
     @Override
     public void setTitle(CharSequence title) 
@@ -274,24 +269,24 @@ public class MainActivity extends Activity {
     /**
      * Fragment that appears in the "content_frame", shows a planet
      */
-    public static class PlanetFragment extends Fragment {
-        public static final String ARG_PLANET_NUMBER = "planet_number";
+  //  public static class PlanetFragment extends Fragment {
+   //     public static final String ARG_PLANET_NUMBER = "planet_number";
 
-        public PlanetFragment() {
+  //      public PlanetFragment() {
             // Empty constructor required for fragment subclasses
-        }
+  //      }
 
-        @Override
-        public View onCreateView(LayoutInflater inflater, ViewGroup container,
-                Bundle savedInstanceState) {
-            View rootView = inflater.inflate(R.layout.fragment_planet, container, false);
-            int i = getArguments().getInt(ARG_PLANET_NUMBER);
-            String planet = getResources().getStringArray(R.array.menu)[i];
-            int imageId = getResources().getIdentifier(planet.toLowerCase(Locale.getDefault()),
-                            "drawable", getActivity().getPackageName());
-            ((ImageView) rootView.findViewById(R.id.image)).setImageResource(imageId);
-            getActivity().setTitle(planet);
-            return rootView;
-        }
-    }
+  //      @Override
+  //      public View onCreateView(LayoutInflater inflater, ViewGroup container,
+  //             Bundle savedInstanceState) {
+   //         View rootView = inflater.inflate(R.layout.fragment_planet, container, false);
+   //         int i = getArguments().getInt(ARG_PLANET_NUMBER);
+   //         String planet = getResources().getStringArray(R.array.menu)[i];
+   //         int imageId = getResources().getIdentifier(planet.toLowerCase(Locale.getDefault()),
+   //                         "drawable", getActivity().getPackageName());
+   //         ((ImageView) rootView.findViewById(R.id.image)).setImageResource(imageId);
+   //         getActivity().setTitle(planet);
+   //         return rootView;
+  //      }
+ //   }
 }

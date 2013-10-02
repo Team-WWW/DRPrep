@@ -16,7 +16,8 @@ public class PersonalEmergencies extends MainActivity {
 	public boolean onCreateOptionsMenu(Menu menu) {
 		// Inflate the menu; this adds items to the action bar if it is present.
 		getMenuInflater().inflate(R.menu.personal_emergencies, menu);
-		return true;
+		return super.onCreateOptionsMenu(menu);
+
 	}
 
 }

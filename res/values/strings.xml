@@ -8,7 +8,7 @@
     <string-array name="menu">
         <item>Home</item>
         <item>Natural Disasters</item>
-        <item>Structural Disasters</item>
+        <item>Structural Emergencies</item>
         <item>Personal Emergencies</item>
         <item>About</item>
         <item>Contact Us</item>
