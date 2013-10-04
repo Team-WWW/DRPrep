@@ -106,11 +106,6 @@ public class MainActivity extends Activity {
                 R.layout.drawer_list_item, mLinks));     //changing this to mLinks2 makes both menus the same
         mDrawerList.setOnItemClickListener(new DrawerItemClickListener());
         
-        //mDrawerLayout.setDrawerShadow(R.drawable.drawer_shadow, GravityCompat.END);
-        // set up the drawer's list view with items and click listener
-        //mDrawerList1.setAdapter(new ArrayAdapter<String>(this,
-         //       R.layout.drawer_list_item, mLinks2));
-        //mDrawerList1.setOnItemClickListener(new DrawerItemClickListener());
 
         // enable ActionBar app icon to behave as action to toggle nav drawer
         getActionBar().setDisplayHomeAsUpEnabled(true);
@@ -206,6 +201,7 @@ public class MainActivity extends Activity {
         }
     }
 
+    /*
     void selectItem(int position) {
         switch(position) {
         case 1:
@@ -229,6 +225,57 @@ public class MainActivity extends Activity {
     	setTitle(mLinks[position]);
     	mDrawerLayout.closeDrawer(mDrawerList);// update selected item and title, then close the drawer
     }
+    */
+
+    
+    
+    private void selectItem(int position) {
+    	
+        // Create a new fragment and specify the fragment to show based on position
+        Fragment fragment = null;
+        
+        switch(position)
+        {
+	    	case 0:
+	            fragment = new HomeFragment();
+	    		break;
+	    	case 1:
+	            fragment = new NaturalDisastersFragment();
+	    		break;
+	    	case 2:
+	            fragment = new StructuralEmergenciesFragment();
+	    		break;
+	    	case 3:
+	    		fragment = new PersonalEmergenciesFragment();
+	    		break;
+	    	case 4:
+	    		fragment = new AboutFragment();
+	    		break;
+	    	case 5:
+	    		fragment = new ContactUsFragment();
+	    		break;
+	    	case 6:
+	    		fragment = new SupportFragment();
+	    		break;	
+        }
+        
+        if (fragment != null)
+        {
+            Bundle args = new Bundle();
+            fragment.setArguments(args);
+
+            // Insert the fragment by replacing any existing fragment
+            FragmentManager fragmentManager = getFragmentManager();
+            fragmentManager.beginTransaction().replace(R.id.content_frame, fragment).commit();
+
+            // Highlight the selected item, update the title, and close the drawer
+            mDrawerList.setItemChecked(position, true);
+            setTitle("");
+            mDrawerLayout.closeDrawer(mDrawerList);        	
+        }
+
+    }
+    
 
     @Override
     public void setTitle(CharSequence title) 
@@ -239,13 +286,7 @@ public class MainActivity extends Activity {
         
     }
     
-   // public void setTitle1(CharSequence title1) 
-    //{
-        
-    //    mTitle1 = title1;
-        
-   //     getActionBar().setTitle(mTitle1);
-   // }
+   
 
     /**
      * When using the ActionBarDrawerToggle, you must call it during
@@ -266,6 +307,8 @@ public class MainActivity extends Activity {
         mDrawerToggle.onConfigurationChanged(newConfig);
     }
 
+
+    
     /**
      * Fragment that appears in the "content_frame", shows a planet
      */

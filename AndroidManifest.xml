@@ -41,25 +41,25 @@
             
 	</activity>
 	
-	<activity
-            android:name="NaturalDisasters"
-            android:theme="@android:style/Theme.DeviceDefault.Light" 
-            android:label="@string/title_activity_natural_disasters" >
-            <intent-filter>
-                <action android:name="android.intent.action.MAIN" />
-                <category android:name="android.intent.category.LAUNCHER" />
-            </intent-filter>
-        </activity>
-        <activity
-            android:name="PersonalEmergencies"
-            android:theme="@android:style/Theme.DeviceDefault.Light" 
-            android:label="@string/title_activity_personal_emergencies" >
-      </activity>
-      <activity
-            android:name="StructuralEmergencies"
-            android:theme="@android:style/Theme.DeviceDefault.Light" 
-            android:label="@string/title_activity_structural_emergencies" >
-        </activity>
+<!-- 	<activity -->
+<!--             android:name="NaturalDisasters" -->
+<!--             android:theme="@android:style/Theme.DeviceDefault.Light"  -->
+<!--             android:label="@string/title_activity_natural_disasters" > -->
+<!--             <intent-filter> -->
+<!--                 <action android:name="android.intent.action.MAIN" /> -->
+<!--                 <category android:name="android.intent.category.LAUNCHER" /> -->
+<!--             </intent-filter> -->
+<!--         </activity> -->
+<!--         <activity -->
+<!--             android:name="PersonalEmergencies" -->
+<!--             android:theme="@android:style/Theme.DeviceDefault.Light"  -->
+<!--             android:label="@string/title_activity_personal_emergencies" > -->
+<!--       </activity> -->
+<!--       <activity -->
+<!--             android:name="StructuralEmergencies" -->
+<!--             android:theme="@android:style/Theme.DeviceDefault.Light"  -->
+<!--             android:label="@string/title_activity_structural_emergencies" > -->
+<!--         </activity> -->
 
     </application>
 
