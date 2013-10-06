@@ -58,7 +58,7 @@
         android:layout_alignBottom="@+id/btnThunderstorm"
         android:layout_alignLeft="@+id/btnEarthquake"
         android:onClick="onClick"
-        android:background="@drawable/disaster_storm_surge" />
+        android:background="@drawable/disaster_hurricane" />
 
     <Button
         android:id="@+id/btnTornado"

@@ -19,74 +19,74 @@
         android:typeface="sans" />
 
     <Button
-        android:id="@+id/btnWildfire"
+        android:id="@+id/btnPoweroutage"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_alignParentLeft="true"
         android:layout_below="@+id/textView1"
         android:layout_marginLeft="20dp"
         android:layout_marginTop="50dp"
-        android:background="@drawable/disaster_fire"/>
+        android:background="@drawable/poweroutage"/>
 
     <Button
-        android:id="@+id/btnEarthquake"
+        android:id="@+id/btnGasLeak"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_alignBaseline="@+id/btnWildfire"
-        android:layout_alignBottom="@+id/btnWildfire"
+        android:layout_alignBaseline="@+id/btnPoweroutage"
+        android:layout_alignBottom="@+id/btnPoweroutage"
         android:layout_centerHorizontal="true"
-        android:background="@drawable/disaster_earthquake"/>
+        android:background="@drawable/gas_leak"/>
 
     <Button
-        android:id="@+id/btnFlood"
+        android:id="@+id/btnCo"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_alignBaseline="@+id/btnEarthquake"
-        android:layout_alignBottom="@+id/btnEarthquake"
+        android:layout_alignBaseline="@+id/btnGasLeak"
+        android:layout_alignBottom="@+id/btnGasLeak"
         android:layout_alignParentRight="true"
         android:layout_marginRight="20dp"
-        android:background="@drawable/disaster_flood"/>
+        android:background="@drawable/co"/>
 
     <Button
-        android:id="@+id/btnHurricane"
+        android:id="@+id/btnCarCrash"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_alignBaseline="@+id/btnThunderstorm"
         android:layout_alignBottom="@+id/btnThunderstorm"
-        android:layout_alignLeft="@+id/btnEarthquake"
-        android:background="@drawable/disaster_storm_surge"/>
+        android:layout_alignLeft="@+id/btnGasLeak"
+        android:background="@drawable/car_crash"/>
 
     <Button
         android:id="@+id/btnTornado"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_alignBottom="@+id/btnHurricane"
-        android:layout_alignLeft="@+id/btnFlood"
-        android:background="@drawable/disaster_tornado"/>
+        android:layout_alignBottom="@+id/btnCarCrash"
+        android:layout_alignLeft="@+id/btnCo"
+        android:background="@drawable/disaster_insect_infestation"/>
 
     <Button
         android:id="@+id/btnHeatwave"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_alignLeft="@+id/btnHurricane"
+        android:layout_alignLeft="@+id/btnCarCrash"
         android:layout_alignParentBottom="true"
         android:layout_marginBottom="64dp"
-        android:background="@drawable/disaster_heatwave" />
+        android:background="@drawable/terrorist_attack" />
 
     <Button
         android:id="@+id/btnThunderstorm"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_alignLeft="@+id/btnWildfire"
+        android:layout_alignLeft="@+id/btnPoweroutage"
         android:layout_centerVertical="true"
-        android:background="@drawable/disaster_storm" />
+        android:background="@drawable/explosion_icon" />
 
     <TextView
         android:id="@+id/txtWildfire"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_alignLeft="@+id/btnWildfire"
-        android:layout_below="@+id/btnWildfire"
+        android:layout_alignLeft="@+id/btnPoweroutage"
+        android:layout_below="@+id/btnPoweroutage"
         android:layout_marginTop="22dp"
         android:text="TextView" />
     
@@ -105,7 +105,7 @@
         android:layout_height="wrap_content"
         android:layout_alignBaseline="@+id/txtEarthquake"
         android:layout_alignBottom="@+id/txtEarthquake"
-        android:layout_alignRight="@+id/btnFlood"
+        android:layout_alignRight="@+id/btnCo"
         android:text="TextView" />
 
 
