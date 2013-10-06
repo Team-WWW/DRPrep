@@ -25,33 +25,40 @@ public final class R {
     }
     public static final class drawable {
         public static final int action_search=0x7f020000;
-        public static final int drawer_shadow=0x7f020001;
-        public static final int ic_drawer=0x7f020002;
-        public static final int ic_launcher=0x7f020003;
-        public static final int mercury=0x7f020004;
-        public static final int neptune=0x7f020005;
-        public static final int saturn=0x7f020006;
-        public static final int uranus=0x7f020007;
-        public static final int venus=0x7f020008;
-        public static final int wildfire=0x7f020009;
+        public static final int disaster_earthquake=0x7f020001;
+        public static final int disaster_fire=0x7f020002;
+        public static final int disaster_flood=0x7f020003;
+        public static final int disaster_heatwave=0x7f020004;
+        public static final int disaster_storm=0x7f020005;
+        public static final int disaster_storm_surge=0x7f020006;
+        public static final int disaster_tornado=0x7f020007;
+        public static final int drawer_shadow=0x7f020008;
+        public static final int ic_drawer=0x7f020009;
+        public static final int ic_launcher=0x7f02000a;
     }
     public static final class id {
-        public static final int action_settings=0x7f09000f;
-        public static final int button1=0x7f090004;
-        public static final int button2=0x7f090006;
-        public static final int button3=0x7f090007;
-        public static final int button4=0x7f090008;
-        public static final int button5=0x7f090009;
-        public static final int button6=0x7f09000a;
-        public static final int button7=0x7f09000b;
-        public static final int button8=0x7f09000c;
+        public static final int action_settings=0x7f090015;
+        public static final int btnEarthquake=0x7f090006;
+        public static final int btnFlood=0x7f090007;
+        public static final int btnHeatwave=0x7f09000b;
+        public static final int btnHurricane=0x7f090008;
+        public static final int btnThunderstorm=0x7f090009;
+        public static final int btnTornado=0x7f09000a;
+        public static final int btnWildfire=0x7f090005;
         public static final int content_frame=0x7f090001;
         public static final int drawer_layout=0x7f090000;
-        public static final int ic_launcher=0x7f09000e;
-        public static final int image=0x7f09000d;
+        public static final int ic_launcher=0x7f090014;
+        public static final int image=0x7f090013;
         public static final int left_drawer=0x7f090002;
         public static final int textView1=0x7f090003;
-        public static final int textView2=0x7f090005;
+        public static final int textView2=0x7f090004;
+        public static final int txtEarthquake=0x7f09000d;
+        public static final int txtFlood=0x7f09000e;
+        public static final int txtHeatwave=0x7f090012;
+        public static final int txtHurricane=0x7f090010;
+        public static final int txtThunderstorm=0x7f09000f;
+        public static final int txtTornado=0x7f090011;
+        public static final int txtWildfire=0x7f09000c;
     }
     public static final class layout {
         public static final int activity_main=0x7f030000;
@@ -75,10 +82,12 @@ public final class R {
     public static final class string {
         public static final int action_settings=0x7f050001;
         public static final int app_name=0x7f050000;
+        public static final int button=0x7f050005;
+        public static final int contact=0x7f050006;
         public static final int drawer_close=0x7f050003;
         public static final int drawer_open=0x7f050002;
+        public static final int hyperlink=0x7f050007;
         public static final int pick=0x7f050004;
-        public static final int test_button=0x7f050005;
     }
     public static final class style {
         /** 

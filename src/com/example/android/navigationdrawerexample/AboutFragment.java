@@ -19,7 +19,7 @@ public class AboutFragment extends Fragment
     {
         View rootView = inflator.inflate(R.layout.fragment_about, container, false);
 
-        getActivity().setTitle("About Our App");
+        getActivity().setTitle("About");
         
         return rootView;
         

@@ -39,6 +39,8 @@ import android.widget.ArrayAdapter;
 import android.widget.ImageView;
 import android.widget.ListView;
 import android.widget.Toast;
+import android.widget.Button;
+import android.view.View.OnClickListener;
 
 /**
  * This example illustrates a common usage of the DrawerLayout widget
@@ -105,6 +107,8 @@ public class MainActivity extends Activity {
         mDrawerList.setAdapter(new ArrayAdapter<String>(this,
                 R.layout.drawer_list_item, mLinks));     //changing this to mLinks2 makes both menus the same
         mDrawerList.setOnItemClickListener(new DrawerItemClickListener());
+        
+        
         
 
         // enable ActionBar app icon to behave as action to toggle nav drawer
@@ -200,6 +204,8 @@ public class MainActivity extends Activity {
             selectItem(position);
         }
     }
+    
+    
 
     /*
     void selectItem(int position) {

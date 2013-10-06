@@ -4,7 +4,6 @@
 <!-- android:layout_width="match_parent" -->
 <!-- android:layout_height="wrap_content" -->
 <!-- android:text="Natural Disasters content goes here." /> -->
-
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
     android:layout_height="match_parent" >
@@ -19,24 +18,137 @@
         android:textSize="24sp"
         android:typeface="sans" />
 
-    <ImageButton
-        android:id="@+id/button1"
+    <Button
+        android:id="@+id/btnWildfire"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_alignParentLeft="true"
         android:layout_below="@+id/textView1"
         android:layout_marginLeft="20dp"
         android:layout_marginTop="50dp"
-        android:text="@string/test_button" 
-        android:background="@drawable/wildfire"/>
+        android:onClick="onClick"
+        android:background="@drawable/disaster_fire" />
 
-    <TextView
-        android:id="@+id/textView2"
+    <Button
+        android:id="@+id/btnEarthquake"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_alignLeft="@+id/button1"
-        android:layout_below="@+id/button1"
-        android:layout_marginTop="19dp"
+        android:layout_alignBaseline="@+id/btnWildfire"
+        android:layout_alignBottom="@+id/btnWildfire"
+        android:layout_centerHorizontal="true"
+        android:onClick="onClick"
+        android:background="@drawable/disaster_earthquake" />
+
+    <Button
+        android:id="@+id/btnFlood"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/btnEarthquake"
+        android:layout_alignBottom="@+id/btnEarthquake"
+        android:layout_alignParentRight="true"
+        android:layout_marginRight="20dp"
+        android:onClick="onClick"
+        android:background="@drawable/disaster_flood" />
+
+    <Button
+        android:id="@+id/btnHurricane"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/btnThunderstorm"
+        android:layout_alignBottom="@+id/btnThunderstorm"
+        android:layout_alignLeft="@+id/btnEarthquake"
+        android:onClick="onClick"
+        android:background="@drawable/disaster_storm_surge" />
+
+    <Button
+        android:id="@+id/btnTornado"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/btnHurricane"
+        android:layout_alignLeft="@+id/btnFlood"
+        android:onClick="onClick"
+        android:background="@drawable/disaster_tornado" />
+
+    <Button
+        android:id="@+id/btnHeatwave"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/btnHurricane"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="64dp"
+        android:onClick="onClick"
+        android:background="@drawable/disaster_heatwave" />
+
+    <Button
+        android:id="@+id/btnThunderstorm"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/btnWildfire"
+        android:layout_centerVertical="true"
+        android:onClick="onClick"
+        android:background="@drawable/disaster_storm" />
+
+    <TextView
+        android:id="@+id/txtWildfire"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/btnWildfire"
+        android:layout_below="@+id/btnWildfire"
+        android:layout_marginTop="22dp"
         android:text="Wildfire" />
+    
+    <TextView
+        android:id="@+id/txtEarthquake"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/txtWildfire"
+        android:layout_alignBottom="@+id/txtWildfire"
+        android:layout_centerHorizontal="true"
+        android:text="Earthquake" />
+
+    <TextView
+        android:id="@+id/txtFlood"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/txtEarthquake"
+        android:layout_alignBottom="@+id/txtEarthquake"
+        android:layout_alignRight="@+id/btnFlood"
+        android:text="Flood" />
+
+    <TextView
+        android:id="@+id/txtThunderstorm"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/btnThunderstorm"
+        android:layout_below="@+id/btnThunderstorm"
+        android:layout_marginTop="30dp"
+        android:text="Thunderstorm" />
+
+    <TextView
+        android:id="@+id/txtHurricane"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/txtThunderstorm"
+        android:layout_alignBottom="@+id/txtThunderstorm"
+        android:layout_centerHorizontal="true"
+        android:text="Hurricane" />
+
+    <TextView
+        android:id="@+id/txtTornado"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/txtHurricane"
+        android:layout_alignBottom="@+id/txtHurricane"
+        android:layout_alignRight="@+id/btnTornado"
+        android:text="Tornado" />
+
+    <TextView
+        android:id="@+id/txtHeatwave"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="20dp"
+        android:text="Heatwave" />
 
 </RelativeLayout>
