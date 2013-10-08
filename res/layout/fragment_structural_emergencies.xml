@@ -9,7 +9,7 @@
     android:layout_height="match_parent" >
 
     <TextView
-        android:id="@+id/textView1"
+        android:id="@+id/txtPick"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_alignParentTop="true"
@@ -23,7 +23,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_alignParentLeft="true"
-        android:layout_below="@+id/textView1"
+        android:layout_below="@+id/txtPick"
         android:layout_marginLeft="20dp"
         android:layout_marginTop="50dp"
         android:background="@drawable/poweroutage"/>
@@ -48,16 +48,7 @@
         android:background="@drawable/co"/>
 
     <Button
-        android:id="@+id/btnCarCrash"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_alignBaseline="@+id/btnThunderstorm"
-        android:layout_alignBottom="@+id/btnThunderstorm"
-        android:layout_alignLeft="@+id/btnGasLeak"
-        android:background="@drawable/car_crash"/>
-
-    <Button
-        android:id="@+id/btnTornado"
+        android:id="@+id/btnInfestation"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_alignBottom="@+id/btnCarCrash"
@@ -65,7 +56,7 @@
         android:background="@drawable/disaster_insect_infestation"/>
 
     <Button
-        android:id="@+id/btnHeatwave"
+        android:id="@+id/btnBleeding"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_alignLeft="@+id/btnCarCrash"
@@ -74,75 +65,81 @@
         android:background="@drawable/terrorist_attack" />
 
     <Button
-        android:id="@+id/btnThunderstorm"
+        android:id="@+id/btnExplosion"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_alignLeft="@+id/btnPoweroutage"
         android:layout_centerVertical="true"
         android:background="@drawable/explosion_icon" />
 
+    <Button
+        android:id="@+id/btnCarCrash"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/btnExplosion"
+        android:layout_alignBottom="@+id/btnExplosion"
+        android:layout_alignLeft="@+id/btnGasLeak"
+        android:background="@drawable/car_crash" />
+
     <TextView
-        android:id="@+id/txtWildfire"
+        android:id="@+id/txtPower"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_alignLeft="@+id/btnPoweroutage"
         android:layout_below="@+id/btnPoweroutage"
-        android:layout_marginTop="22dp"
-        android:text="TextView" />
-    
-    <TextView
-        android:id="@+id/txtEarthquake"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_alignBaseline="@+id/txtWildfire"
-        android:layout_alignBottom="@+id/txtWildfire"
-        android:layout_centerHorizontal="true"
-        android:text="TextView" />
+        android:layout_marginTop="15dp"
+        android:text="Power Outage" />
 
     <TextView
-        android:id="@+id/txtFlood"
+        android:id="@+id/txtGasLeak"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_alignBaseline="@+id/txtEarthquake"
-        android:layout_alignBottom="@+id/txtEarthquake"
+        android:layout_alignBaseline="@+id/txtPower"
+        android:layout_alignBottom="@+id/txtPower"
+        android:layout_centerHorizontal="true"
+        android:text="Gas Leak" />
+
+    <TextView
+        android:id="@+id/txtCo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/txtGasLeak"
         android:layout_alignRight="@+id/btnCo"
-        android:text="TextView" />
-
-
-    <TextView
-        android:id="@+id/txtThunderstorm"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_alignLeft="@+id/btnThunderstorm"
-        android:layout_below="@+id/btnThunderstorm"
-        android:layout_marginTop="30dp"
-        android:text="TextView" />
+        android:text="CO Poison" />
 
     <TextView
-        android:id="@+id/txtHurricane"
+        android:id="@+id/txtExplosion"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_alignBaseline="@+id/txtThunderstorm"
-        android:layout_alignBottom="@+id/txtThunderstorm"
+        android:layout_alignLeft="@+id/btnExplosion"
+        android:layout_below="@+id/btnExplosion"
+        android:layout_marginTop="25dp"
+        android:text="Explosion" />
+
+    <TextView
+        android:id="@+id/txtCarCrash"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/txtExplosion"
         android:layout_centerHorizontal="true"
-        android:text="TextView" />
+        android:text="Car Crash" />
 
     <TextView
-        android:id="@+id/txtTornado"
+        android:id="@+id/txtInfestation"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_alignBaseline="@+id/txtHurricane"
-        android:layout_alignBottom="@+id/txtHurricane"
-        android:layout_alignRight="@+id/btnTornado"
-        android:text="TextView" />
+        android:layout_alignBaseline="@+id/txtCarCrash"
+        android:layout_alignBottom="@+id/txtCarCrash"
+        android:layout_alignRight="@+id/btnInfestation"
+        android:text="Infestation" />
 
     <TextView
-        android:id="@+id/txtHeatwave"
+        android:id="@+id/txtTerrorist"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_alignParentBottom="true"
-        android:layout_marginBottom="20dp"
         android:layout_centerHorizontal="true"
-        android:text="TextView" />
+        android:layout_marginBottom="21dp"
+        android:text="Terrorist Attack" />
 
 </RelativeLayout>

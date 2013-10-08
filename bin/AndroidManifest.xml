@@ -30,41 +30,26 @@
         <activity
             android:name="com.example.android.navigationdrawerexample.Splash"
             android:label="@string/app_name"
-            android:theme="@android:style/Theme.DeviceDefault.Light" >
+            android:screenOrientation="portrait"
+            android:theme="@android:style/Theme.DeviceDefault.Light"
+    		android:configChanges="orientation|keyboardHidden|keyboard">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
-
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
         <activity
             android:name="com.example.android.navigationdrawerexample.MainActivity"
-            android:theme="@android:style/Theme.DeviceDefault.Light" >
+            android:screenOrientation="portrait"
+            android:theme="@android:style/Theme.DeviceDefault.Light"
+    		android:configChanges="orientation|keyboardHidden|keyboard">         
         </activity>
-
-        <!-- <activity -->
-        <!-- android:name="NaturalDisasters" -->
-        <!-- android:theme="@android:style/Theme.DeviceDefault.Light" -->
-        <!-- android:label="@string/title_activity_natural_disasters" > -->
-        <!-- <intent-filter> -->
-        <!-- <action android:name="android.intent.action.MAIN" /> -->
-        <!-- <category android:name="android.intent.category.LAUNCHER" /> -->
-        <!-- </intent-filter> -->
-        <!-- </activity> -->
-        <!-- <activity -->
-        <!-- android:name="PersonalEmergencies" -->
-        <!-- android:theme="@android:style/Theme.DeviceDefault.Light" -->
-        <!-- android:label="@string/title_activity_personal_emergencies" > -->
-        <!-- </activity> -->
-        <!-- <activity -->
-        <!-- android:name="StructuralEmergencies" -->
-        <!-- android:theme="@android:style/Theme.DeviceDefault.Light" -->
-        <!-- android:label="@string/title_activity_structural_emergencies" > -->
-        <!-- </activity> -->
         <activity
             android:name="com.example.android.navigationdrawerexample.Thunderstorm"
             android:label="@string/title_activity_thunderstorm" 
-            android:theme="@android:style/Theme.DeviceDefault.Light">
+            android:screenOrientation="portrait"
+            android:theme="@android:style/Theme.DeviceDefault.Light"
+    		android:configChanges="orientation|keyboardHidden|keyboard">
         </activity>
     </application>
 

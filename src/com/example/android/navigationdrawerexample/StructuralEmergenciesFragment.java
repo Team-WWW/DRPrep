@@ -11,8 +11,16 @@ import android.view.View.OnClickListener;
 
 
 
-public class StructuralEmergenciesFragment extends Fragment
+public class StructuralEmergenciesFragment extends Fragment implements OnClickListener
 {
+	
+	Button btnPoweroutage;
+	Button btnGasLeak;
+	Button btnCo;
+	Button btnCarCrash;
+	Button btnHurricane;
+	Button btnTornado;
+	Button btnHeatwave;
 	
 
     public StructuralEmergenciesFragment()
@@ -29,6 +37,12 @@ public class StructuralEmergenciesFragment extends Fragment
         
         return rootView;
     }
+
+	@Override
+	public void onClick(View v) {
+		// TODO Auto-generated method stub
+		
+	}
     
     }
 

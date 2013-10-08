@@ -20,7 +20,7 @@
         android:id="@+id/scrollView1"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_below="@+id/textView1"
+        android:layout_below="@+id/txtPick"
         android:layout_centerHorizontal="true" >
 
         <LinearLayout
@@ -29,11 +29,10 @@
             android:orientation="vertical" >
 
             <TextView
-                android:id="@+id/textView2"
-                android:layout_width="278dp"
+                android:id="@+id/txtPower"
+                android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="133dp"
-                android:layout_weight="0.06"
                 android:text="@string/thunderstormtxt" />
 
         </LinearLayout>

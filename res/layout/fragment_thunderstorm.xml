@@ -17,7 +17,7 @@
         android:src="@drawable/disaster_technological" />
 
     <TextView
-        android:id="@+id/textView1"
+        android:id="@+id/txtPick"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_alignRight="@+id/imageView1"
@@ -29,7 +29,7 @@
         android:id="@+id/scrollView1"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_below="@+id/textView1"
+        android:layout_below="@+id/txtPick"
         android:layout_centerHorizontal="true" >
 
         <LinearLayout
@@ -38,7 +38,7 @@
             android:orientation="vertical" >
 
             <TextView
-                android:id="@+id/textView2"
+                android:id="@+id/txtPower"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="133dp"

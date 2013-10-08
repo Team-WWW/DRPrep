@@ -71,33 +71,42 @@ public final class R {
         public static final int thunderstorm_main=0x7f02002c;
     }
     public static final class id {
-        public static final int action_settings=0x7f09001b;
-        public static final int btnCarCrash=0x7f090019;
-        public static final int btnCo=0x7f090018;
-        public static final int btnEarthquake=0x7f090008;
-        public static final int btnFlood=0x7f090009;
-        public static final int btnGasLeak=0x7f090017;
-        public static final int btnHeatwave=0x7f09000d;
-        public static final int btnHurricane=0x7f09000a;
-        public static final int btnPoweroutage=0x7f090016;
-        public static final int btnThunderstorm=0x7f09000b;
-        public static final int btnTornado=0x7f09000c;
-        public static final int btnWildfire=0x7f090007;
+        public static final int action_settings=0x7f090024;
+        public static final int btnAllergicReactions=0x7f090008;
+        public static final int btnAssault=0x7f090007;
+        public static final int btnBleeding=0x7f09000d;
+        public static final int btnBurns=0x7f09000b;
+        public static final int btnCarCrash=0x7f09001b;
+        public static final int btnChoking=0x7f09000c;
+        public static final int btnCo=0x7f090019;
+        public static final int btnExplosion=0x7f09001c;
+        public static final int btnGasLeak=0x7f090018;
+        public static final int btnInfection=0x7f09000a;
+        public static final int btnInfestation=0x7f09001a;
+        public static final int btnPoisonControl=0x7f090009;
+        public static final int btnPoweroutage=0x7f090017;
         public static final int content_frame=0x7f090001;
         public static final int drawer_layout=0x7f090000;
-        public static final int ic_launcher=0x7f09001a;
-        public static final int image=0x7f090015;
+        public static final int ic_launcher=0x7f090023;
+        public static final int image=0x7f090016;
         public static final int imageView1=0x7f090003;
         public static final int left_drawer=0x7f090002;
-        public static final int scrollView1=0x7f090005;
-        public static final int textView1=0x7f090004;
-        public static final int textView2=0x7f090006;
-        public static final int txtEarthquake=0x7f09000f;
-        public static final int txtFlood=0x7f090010;
-        public static final int txtHeatwave=0x7f090014;
-        public static final int txtHurricane=0x7f090012;
-        public static final int txtThunderstorm=0x7f090011;
-        public static final int txtTornado=0x7f090013;
+        public static final int scrollView1=0x7f090004;
+        public static final int txtAllergicReactions=0x7f09000f;
+        public static final int txtAssault=0x7f090015;
+        public static final int txtBleeding=0x7f090014;
+        public static final int txtBurns=0x7f090011;
+        public static final int txtCarCrash=0x7f090020;
+        public static final int txtChoking=0x7f090013;
+        public static final int txtCo=0x7f09001e;
+        public static final int txtExplosion=0x7f09001f;
+        public static final int txtGasLeak=0x7f09001d;
+        public static final int txtInfection=0x7f090012;
+        public static final int txtInfestation=0x7f090021;
+        public static final int txtPick=0x7f090005;
+        public static final int txtPoisonControl=0x7f090010;
+        public static final int txtPower=0x7f090006;
+        public static final int txtTerrorist=0x7f090022;
         public static final int txtWildfire=0x7f09000e;
     }
     public static final class layout {
@@ -129,10 +138,9 @@ public final class R {
         public static final int contact=0x7f050006;
         public static final int drawer_close=0x7f050003;
         public static final int drawer_open=0x7f050002;
-        public static final int hello_world=0x7f050009;
         public static final int hyperlink=0x7f050007;
         public static final int pick=0x7f050004;
-        public static final int thunderstormtxt=0x7f05000a;
+        public static final int thunderstormtxt=0x7f050009;
         public static final int title_activity_thunderstorm=0x7f050008;
     }
     public static final class style {

@@ -9,7 +9,7 @@
     android:layout_height="match_parent" >
 
     <TextView
-        android:id="@+id/textView1"
+        android:id="@+id/txtPick"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_alignParentTop="true"
@@ -19,71 +19,71 @@
         android:typeface="sans" />
 
     <Button
-        android:id="@+id/btnWildfire"
+        android:id="@+id/btnAssault"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_alignParentLeft="true"
-        android:layout_below="@+id/textView1"
+        android:layout_below="@+id/txtPick"
         android:layout_marginLeft="20dp"
         android:layout_marginTop="50dp"
         android:onClick="onClick"
         android:background="@drawable/disaster_fire" />
 
     <Button
-        android:id="@+id/btnEarthquake"
+        android:id="@+id/btnAllergicReactions"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_alignBaseline="@+id/btnWildfire"
-        android:layout_alignBottom="@+id/btnWildfire"
+        android:layout_alignBaseline="@+id/btnAssault"
+        android:layout_alignBottom="@+id/btnAssault"
         android:layout_centerHorizontal="true"
         android:onClick="onClick"
         android:background="@drawable/disaster_earthquake" />
 
     <Button
-        android:id="@+id/btnFlood"
+        android:id="@+id/btnPoisonControl"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_alignBaseline="@+id/btnEarthquake"
-        android:layout_alignBottom="@+id/btnEarthquake"
+        android:layout_alignBaseline="@+id/btnAllergicReactions"
+        android:layout_alignBottom="@+id/btnAllergicReactions"
         android:layout_alignParentRight="true"
         android:layout_marginRight="20dp"
         android:onClick="onClick"
         android:background="@drawable/disaster_flood" />
 
     <Button
-        android:id="@+id/btnHurricane"
+        android:id="@+id/btnInfection"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_alignBaseline="@+id/btnThunderstorm"
-        android:layout_alignBottom="@+id/btnThunderstorm"
-        android:layout_alignLeft="@+id/btnEarthquake"
+        android:layout_alignBaseline="@+id/btnBurns"
+        android:layout_alignBottom="@+id/btnBurns"
+        android:layout_alignLeft="@+id/btnAllergicReactions"
         android:onClick="onClick"
         android:background="@drawable/disaster_hurricane" />
 
     <Button
-        android:id="@+id/btnTornado"
+        android:id="@+id/btnChoking"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_alignBottom="@+id/btnHurricane"
-        android:layout_alignLeft="@+id/btnFlood"
+        android:layout_alignBottom="@+id/btnInfection"
+        android:layout_alignLeft="@+id/btnPoisonControl"
         android:onClick="onClick"
         android:background="@drawable/disaster_tornado" />
 
     <Button
-        android:id="@+id/btnHeatwave"
+        android:id="@+id/btnBleeding"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_alignLeft="@+id/btnHurricane"
+        android:layout_alignLeft="@+id/btnInfection"
         android:layout_alignParentBottom="true"
         android:layout_marginBottom="64dp"
         android:onClick="onClick"
         android:background="@drawable/disaster_heatwave" />
 
     <Button
-        android:id="@+id/btnThunderstorm"
+        android:id="@+id/btnBurns"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_alignLeft="@+id/btnWildfire"
+        android:layout_alignLeft="@+id/btnAssault"
         android:layout_centerVertical="true"
         android:onClick="onClick"
         android:background="@drawable/disaster_storm" />
@@ -92,13 +92,13 @@
         android:id="@+id/txtWildfire"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_alignLeft="@+id/btnWildfire"
-        android:layout_below="@+id/btnWildfire"
+        android:layout_alignLeft="@+id/btnAssault"
+        android:layout_below="@+id/btnAssault"
         android:layout_marginTop="22dp"
         android:text="Wildfire" />
     
     <TextView
-        android:id="@+id/txtEarthquake"
+        android:id="@+id/txtAllergicReactions"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_alignBaseline="@+id/txtWildfire"
@@ -107,43 +107,43 @@
         android:text="Earthquake" />
 
     <TextView
-        android:id="@+id/txtFlood"
+        android:id="@+id/txtPoisonControl"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_alignBaseline="@+id/txtEarthquake"
-        android:layout_alignBottom="@+id/txtEarthquake"
-        android:layout_alignRight="@+id/btnFlood"
+        android:layout_alignBaseline="@+id/txtAllergicReactions"
+        android:layout_alignBottom="@+id/txtAllergicReactions"
+        android:layout_alignRight="@+id/btnPoisonControl"
         android:text="Flood" />
 
     <TextView
-        android:id="@+id/txtThunderstorm"
+        android:id="@+id/txtBurns"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_alignLeft="@+id/btnThunderstorm"
-        android:layout_below="@+id/btnThunderstorm"
+        android:layout_alignLeft="@+id/btnBurns"
+        android:layout_below="@+id/btnBurns"
         android:layout_marginTop="30dp"
         android:text="Thunderstorm" />
 
     <TextView
-        android:id="@+id/txtHurricane"
+        android:id="@+id/txtInfection"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_alignBaseline="@+id/txtThunderstorm"
-        android:layout_alignBottom="@+id/txtThunderstorm"
+        android:layout_alignBaseline="@+id/txtBurns"
+        android:layout_alignBottom="@+id/txtBurns"
         android:layout_centerHorizontal="true"
         android:text="Hurricane" />
 
     <TextView
-        android:id="@+id/txtTornado"
+        android:id="@+id/txtChoking"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_alignBaseline="@+id/txtHurricane"
-        android:layout_alignBottom="@+id/txtHurricane"
-        android:layout_alignRight="@+id/btnTornado"
+        android:layout_alignBaseline="@+id/txtInfection"
+        android:layout_alignBottom="@+id/txtInfection"
+        android:layout_alignRight="@+id/btnChoking"
         android:text="Tornado" />
 
     <TextView
-        android:id="@+id/txtHeatwave"
+        android:id="@+id/txtBleeding"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_alignParentBottom="true"
