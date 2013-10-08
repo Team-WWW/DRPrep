@@ -86,11 +86,14 @@ public class MainActivity extends Activity {
     
     public String[] mLinks;
     public String[] mLinks2;
+    
 	
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
+        
+        
 
         mTitle = mDrawerTitle = getTitle();
         //mTitle1 = mDrawerTitle1 = getTitle();
@@ -312,7 +315,8 @@ public class MainActivity extends Activity {
         // Pass any configuration change to the drawer toggles
         mDrawerToggle.onConfigurationChanged(newConfig);
     }
-
+    
+    
 
     
     /**

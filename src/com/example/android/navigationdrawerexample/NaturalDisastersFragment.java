@@ -5,12 +5,13 @@ import android.content.Intent;
 import android.os.Bundle;
 import android.view.LayoutInflater;
 import android.view.View;
+import android.view.View.OnClickListener;
 import android.view.ViewGroup;
 import android.widget.Button;
-import android.view.View.OnClickListener;
 
 
-public class NaturalDisastersFragment extends Fragment
+
+public class NaturalDisastersFragment extends Fragment implements OnClickListener
 {
 	
 	Button btnThunderstorm;
@@ -24,6 +25,7 @@ public class NaturalDisastersFragment extends Fragment
 
     }
 
+    
     @Override
     public View onCreateView(LayoutInflater inflator, ViewGroup container, Bundle savedInstanceState)
     {
@@ -31,30 +33,40 @@ public class NaturalDisastersFragment extends Fragment
 
         getActivity().setTitle("Natural Disasters!");
         
+        
+        Button tStorm = (Button) rootView.findViewById(R.id.btnThunderstorm);
+        tStorm.setOnClickListener(this);
+        
         return rootView;
+           
+    }
+    @Override
+    public void onClick(View rootView) {
+        switch (rootView.getId()) {
+        case R.id.btnThunderstorm:
+
+        	Intent a = new Intent(getActivity(), Thunderstorm.class);
+        	startActivity(a);
+
+            break;
+        }
     }
     
 //    public void onCreate(Bundle savedInstanceState) {
-//      btnThunderstorm.setOnClickListener(onClickListener);
-//      btnWildfire.setOnClickListener(onClickListener);
-//      btnFlood.setOnClickListener(onClickListener);
+//      btnThunderstorm.setOnClickListener(btnonClickListener);
+//      
 //  }
 //
-//  private OnClickListener onClickListener = new OnClickListener() {
+//  private OnClickListener btnonClickListener = new OnClickListener() {
 //      @Override
 //      public void onClick(final View v) {
 //          switch(v.getId()){
 //              case R.id.btnThunderstorm:
-//              	Intent a = new Intent(null, ContactUsFragment.class);
+//              	Intent a = new Intent(null, Thunderstorm.class);
 //                  startActivity(a);
 //              break;
-//              case R.id.btnWildfire:
-//                   //DO something
-//              break;
-//              case R.id.btnFlood:
-//                   //DO something
-//              break;
+//              
 //          }
 //      }
 //  };
-    }
+  }
