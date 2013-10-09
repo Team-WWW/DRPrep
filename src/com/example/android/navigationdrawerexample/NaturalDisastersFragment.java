@@ -65,31 +65,31 @@ public class NaturalDisastersFragment extends Fragment implements OnClickListene
     public void onClick(View rootView) {
         switch (rootView.getId()) {
         case R.id.btnBurns:
-        	Intent a = new Intent(getActivity(), Thunderstorm.class);
+        	Intent a = new Intent(getActivity(), Burns.class);
         	startActivity(a);
             break;
         case R.id.btnBleeding:
-        	Intent b = new Intent(getActivity(), Thunderstorm.class);
+        	Intent b = new Intent(getActivity(), Bleeding.class);
         	startActivity(b);
         	break;
         case R.id.btnAllergicReactions:
-        	Intent c = new Intent(getActivity(), Thunderstorm.class);
+        	Intent c = new Intent(getActivity(), AllergicReaction.class);
         	startActivity(c);
         	break;
         case R.id.btnPoisonControl:
-        	Intent d = new Intent(getActivity(), Thunderstorm.class);
+        	Intent d = new Intent(getActivity(), PoisonControl.class);
         	startActivity(d);
         	break;
         case R.id.btnAssault:
-        	Intent e = new Intent(getActivity(), Thunderstorm.class);
+        	Intent e = new Intent(getActivity(), Assault.class);
         	startActivity(e);
         	break;
         case R.id.btnInfection:
-        	Intent f = new Intent(getActivity(), Thunderstorm.class);
+        	Intent f = new Intent(getActivity(), Infestation.class);
         	startActivity(f);
         	break;
         case R.id.btnChoking:
-        	Intent g = new Intent(getActivity(), Thunderstorm.class);
+        	Intent g = new Intent(getActivity(), Choking.class);
         	startActivity(g);
         	break;
         }
