@@ -22,56 +22,33 @@
         android:id="@+id/btnAssault"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_alignParentLeft="true"
+        android:layout_alignLeft="@+id/txtPick"
         android:layout_below="@+id/txtPick"
         android:layout_marginLeft="20dp"
         android:layout_marginTop="50dp"
-        android:background="@drawable/assault"/>
+        android:background="@drawable/assault"
+        android:onClick="onClick" />
 
     <Button
-        android:id="@+id/btnAllergicReactions"
+        android:id="@+id/btnAllergicReaction"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_alignBaseline="@+id/btnAssault"
         android:layout_alignBottom="@+id/btnAssault"
         android:layout_centerHorizontal="true"
-        android:background="@drawable/allergic" />
+        android:background="@drawable/allergic"
+        android:onClick="onClick" />
 
     <Button
-        android:id="@+id/btnPoisonControl"
+        android:id="@+id/btnPoisonCtrl"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_alignBaseline="@+id/btnAllergicReactions"
-        android:layout_alignBottom="@+id/btnAllergicReactions"
-        android:layout_alignParentRight="true"
+        android:layout_alignBaseline="@+id/btnAllergicReaction"
+        android:layout_alignBottom="@+id/btnAllergicReaction"
+        android:layout_alignRight="@+id/txtPick"
         android:layout_marginRight="20dp"
-        android:background="@drawable/poison" />
-
-    <Button
-        android:id="@+id/btnInfection"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_alignBaseline="@+id/btnBurns"
-        android:layout_alignBottom="@+id/btnBurns"
-        android:layout_alignLeft="@+id/btnAllergicReactions"
-        android:background="@drawable/infection" />
-
-    <Button
-        android:id="@+id/btnChoking"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_alignBottom="@+id/btnInfection"
-        android:layout_alignLeft="@+id/btnPoisonControl"
-        android:background="@drawable/choking_icon" />
-
-    <Button
-        android:id="@+id/btnBleeding"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_alignLeft="@+id/btnInfection"
-        android:layout_alignParentBottom="true"
-        android:layout_marginBottom="64dp"
-        android:background="@drawable/bleed_icon" />
+        android:background="@drawable/poison"
+        android:onClick="onClick" />
 
     <Button
         android:id="@+id/btnBurns"
@@ -79,7 +56,27 @@
         android:layout_height="wrap_content"
         android:layout_alignLeft="@+id/btnAssault"
         android:layout_centerVertical="true"
-        android:background="@drawable/burns" />
+        android:background="@drawable/burns"
+        android:onClick="onClick" />
+
+    <Button
+        android:id="@+id/btnInfection"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/btnBurns"
+        android:layout_alignBottom="@+id/btnBurns"
+        android:layout_alignLeft="@+id/btnAllergicReaction"
+        android:background="@drawable/infection"
+        android:onClick="onClick" />
+
+    <Button
+        android:id="@+id/btnChoking"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/btnInfection"
+        android:layout_alignLeft="@+id/btnPoisonCtrl"
+        android:background="@drawable/choking_icon"
+        android:onClick="onClick" />
 
     <TextView
         android:id="@+id/txtAssault"
@@ -87,25 +84,23 @@
         android:layout_height="wrap_content"
         android:layout_alignLeft="@+id/btnAssault"
         android:layout_below="@+id/btnAssault"
-        android:layout_marginTop="22dp"
+        android:layout_marginTop="20dp"
         android:text="Assault" />
-    
+
     <TextView
         android:id="@+id/txtAllergicReactions"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_alignBaseline="@+id/txtAssault"
         android:layout_alignBottom="@+id/txtAssault"
         android:layout_centerHorizontal="true"
-        android:text="Allergic Reaction" />
+        android:text="Allergic Reactions" />
 
     <TextView
         android:id="@+id/txtPoisonControl"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_alignBaseline="@+id/txtAllergicReactions"
         android:layout_alignBottom="@+id/txtAllergicReactions"
-        android:layout_alignRight="@+id/btnPoisonControl"
+        android:layout_alignRight="@+id/btnPoisonCtrl"
         android:text="Poison Ctrl" />
 
     <TextView
@@ -114,14 +109,13 @@
         android:layout_height="wrap_content"
         android:layout_alignLeft="@+id/btnBurns"
         android:layout_below="@+id/btnBurns"
-        android:layout_marginTop="30dp"
+        android:layout_marginTop="20dp"
         android:text="Burns" />
 
     <TextView
         android:id="@+id/txtInfection"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_alignBaseline="@+id/txtBurns"
         android:layout_alignBottom="@+id/txtBurns"
         android:layout_centerHorizontal="true"
         android:text="Infection" />
@@ -130,7 +124,6 @@
         android:id="@+id/txtChoking"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_alignBaseline="@+id/txtInfection"
         android:layout_alignBottom="@+id/txtInfection"
         android:layout_alignRight="@+id/btnChoking"
         android:text="Choking" />
@@ -139,9 +132,19 @@
         android:id="@+id/txtBleeding"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_alignParentBottom="true"
+        android:layout_below="@+id/btnBleeding"
         android:layout_centerHorizontal="true"
-        android:layout_marginBottom="20dp"
+        android:layout_marginTop="20dp"
         android:text="Bleeding" />
+
+    <Button
+        android:id="@+id/btnBleeding"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/btnInfection"
+        android:layout_below="@+id/txtInfection"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/bleed_icon"
+        android:onClick="onClick" />
 
 </RelativeLayout>

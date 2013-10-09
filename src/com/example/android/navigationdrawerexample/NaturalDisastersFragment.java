@@ -37,25 +37,25 @@ public class NaturalDisastersFragment extends Fragment implements OnClickListene
         getActivity().setTitle("Natural Disasters!");
         
         
-        Button tStorm = (Button) rootView.findViewById(R.id.btnBurns);
+        Button tStorm = (Button) rootView.findViewById(R.id.btnThunderstorm);
         tStorm.setOnClickListener(this);
         
-        Button wFire = (Button) rootView.findViewById(R.id.btnAssault);
+        Button wFire = (Button) rootView.findViewById(R.id.btnWildfire);
         wFire.setOnClickListener(this);
         
-        Button hWave = (Button) rootView.findViewById(R.id.btnBleeding);
+        Button hWave = (Button) rootView.findViewById(R.id.btnTerroristAttack);
         hWave.setOnClickListener(this);
         
-        Button eQuake = (Button) rootView.findViewById(R.id.btnAllergicReactions);
+        Button eQuake = (Button) rootView.findViewById(R.id.btnEarthquake);
         eQuake.setOnClickListener(this);
         
-        Button flood = (Button) rootView.findViewById(R.id.btnPoisonControl);
+        Button flood = (Button) rootView.findViewById(R.id.btnFlood);
         flood.setOnClickListener(this);
         
-        Button hurricane = (Button) rootView.findViewById(R.id.btnInfection);
+        Button hurricane = (Button) rootView.findViewById(R.id.btnHurricane);
         hurricane.setOnClickListener(this);
         
-        Button tornado = (Button) rootView.findViewById(R.id.btnChoking);
+        Button tornado = (Button) rootView.findViewById(R.id.btnTornado);
         tornado.setOnClickListener(this);
         
         return rootView;
@@ -64,31 +64,31 @@ public class NaturalDisastersFragment extends Fragment implements OnClickListene
     @Override
     public void onClick(View rootView) {
         switch (rootView.getId()) {
-        case R.id.btnBurns:
+        case R.id.btnThunderstorm:
         	Intent a = new Intent(getActivity(), Thunderstorm.class);
         	startActivity(a);
             break;
-        case R.id.btnBleeding:
+        case R.id.btnTerroristAttack:
         	Intent b = new Intent(getActivity(), Thunderstorm.class);
         	startActivity(b);
         	break;
-        case R.id.btnAllergicReactions:
+        case R.id.btnEarthquake:
         	Intent c = new Intent(getActivity(), Thunderstorm.class);
         	startActivity(c);
         	break;
-        case R.id.btnPoisonControl:
+        case R.id.btnFlood:
         	Intent d = new Intent(getActivity(), Thunderstorm.class);
         	startActivity(d);
         	break;
-        case R.id.btnAssault:
+        case R.id.btnWildfire:
         	Intent e = new Intent(getActivity(), Thunderstorm.class);
         	startActivity(e);
         	break;
-        case R.id.btnInfection:
+        case R.id.btnHurricane:
         	Intent f = new Intent(getActivity(), Thunderstorm.class);
         	startActivity(f);
         	break;
-        case R.id.btnChoking:
+        case R.id.btnTornado:
         	Intent g = new Intent(getActivity(), Thunderstorm.class);
         	startActivity(g);
         	break;

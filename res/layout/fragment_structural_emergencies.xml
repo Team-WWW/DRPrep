@@ -56,7 +56,7 @@
         android:background="@drawable/disaster_insect_infestation"/>
 
     <Button
-        android:id="@+id/btnBleeding"
+        android:id="@+id/btnTerroristAttack"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_alignLeft="@+id/btnCarCrash"
