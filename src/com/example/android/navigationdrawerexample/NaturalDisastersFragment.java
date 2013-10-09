@@ -64,6 +64,7 @@ public class NaturalDisastersFragment extends Fragment implements OnClickListene
     @Override
     public void onClick(View rootView) {
         switch (rootView.getId()) {
+<<<<<<< HEAD
         case R.id.btnThunderstorm:
         	Intent a = new Intent(getActivity(), Thunderstorm.class);
         	startActivity(a);
@@ -90,6 +91,34 @@ public class NaturalDisastersFragment extends Fragment implements OnClickListene
         	break;
         case R.id.btnTornado:
         	Intent g = new Intent(getActivity(), Thunderstorm.class);
+=======
+        case R.id.btnBurns:
+        	Intent a = new Intent(getActivity(), Burns.class);
+        	startActivity(a);
+            break;
+        case R.id.btnBleeding:
+        	Intent b = new Intent(getActivity(), Bleeding.class);
+        	startActivity(b);
+        	break;
+        case R.id.btnAllergicReactions:
+        	Intent c = new Intent(getActivity(), AllergicReaction.class);
+        	startActivity(c);
+        	break;
+        case R.id.btnPoisonControl:
+        	Intent d = new Intent(getActivity(), PoisonControl.class);
+        	startActivity(d);
+        	break;
+        case R.id.btnAssault:
+        	Intent e = new Intent(getActivity(), Assault.class);
+        	startActivity(e);
+        	break;
+        case R.id.btnInfection:
+        	Intent f = new Intent(getActivity(), Infestation.class);
+        	startActivity(f);
+        	break;
+        case R.id.btnChoking:
+        	Intent g = new Intent(getActivity(), Choking.class);
+>>>>>>> a0699c276b4889fb35eb7d1b7247c0c64f5398c7
         	startActivity(g);
         	break;
         }
