@@ -28,5 +28,27 @@ Other associated dangers of thunderstorms include tornadoes, strong winds, hail 
 flooding. Dry thunderstorms that do not produce rain that reaches the ground are most prevalent 
 in the western United States. Falling raindrops evaporate, but lightning can still reach the 
 ground and can start wildfires.</string>
+    <string name="title_activity_wildfire">Wildfire</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="title_activity_earthquake">Earthquake</string>
+    <string name="title_activity_flood">Flood</string>
+    <string name="title_activity_hurricane">Hurricane</string>
+    <string name="title_activity_tornado">Tornado</string>
+    <string name="title_activity_heatwave">Heatwave</string>
+    <string name="title_activity_power_outage">PowerOutage</string>
+    <string name="title_activity_gas_leak">GasLeak</string>
+    <string name="title_activity_copoison">COPoison</string>
+    <string name="title_activity_esplosion">Esplosion</string>
+    <string name="title_activity_explosion">Explosion</string>
+    <string name="title_activity_car_crash">CarCrash</string>
+    <string name="title_activity_infestation">Infestation</string>
+    <string name="title_activity_terrorist_attack">TerroristAttack</string>
+    <string name="title_activity_assault">Assault</string>
+    <string name="title_activity_allergic_reaction">AllergicReaction</string>
+    <string name="title_activity_poison_control">PoisonControl</string>
+    <string name="title_activity_burns">Burns</string>
+    <string name="title_activity_infection">Infection</string>
+    <string name="title_activity_choking">Choking</string>
+    <string name="title_activity_bleeding">Bleeding</string>
 
 </resources>
