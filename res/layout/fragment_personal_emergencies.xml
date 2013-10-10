@@ -19,17 +19,6 @@
         android:typeface="sans" />
 
     <Button
-        android:id="@+id/btnAssault"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_alignLeft="@+id/txtPick"
-        android:layout_below="@+id/txtPick"
-        android:layout_marginLeft="20dp"
-        android:layout_marginTop="50dp"
-        android:background="@drawable/assault"
-        android:onClick="onClick" />
-
-    <Button
         android:id="@+id/btnAllergicReaction"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
@@ -45,18 +34,9 @@
         android:layout_height="wrap_content"
         android:layout_alignBaseline="@+id/btnAllergicReaction"
         android:layout_alignBottom="@+id/btnAllergicReaction"
-        android:layout_alignRight="@+id/txtPick"
+        android:layout_alignParentRight="true"
         android:layout_marginRight="20dp"
         android:background="@drawable/poison"
-        android:onClick="onClick" />
-
-    <Button
-        android:id="@+id/btnBurns"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_alignLeft="@+id/btnAssault"
-        android:layout_centerVertical="true"
-        android:background="@drawable/burns"
         android:onClick="onClick" />
 
     <Button
@@ -128,23 +108,44 @@
         android:layout_alignRight="@+id/btnChoking"
         android:text="Choking" />
 
+    <Button
+        android:id="@+id/btnAssault"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/txtPick"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="50dp"
+        android:background="@drawable/assault"
+        android:onClick="onClick" />
+
     <TextView
         android:id="@+id/txtBleeding"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_below="@+id/btnBleeding"
-        android:layout_centerHorizontal="true"
-        android:layout_marginTop="20dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignRight="@+id/txtInfection"
+        android:layout_marginBottom="16dp"
         android:text="Bleeding" />
 
     <Button
         android:id="@+id/btnBleeding"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_above="@+id/txtBleeding"
         android:layout_alignLeft="@+id/btnInfection"
-        android:layout_below="@+id/txtInfection"
-        android:layout_marginTop="20dp"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="50dp"
         android:background="@drawable/bleed_icon"
+        android:onClick="onClick" />
+
+    <Button
+        android:id="@+id/btnBurns"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/btnAssault"
+        android:layout_centerVertical="true"
+        android:background="@drawable/burns"
         android:onClick="onClick" />
 
 </RelativeLayout>

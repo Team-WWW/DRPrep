@@ -61,12 +61,12 @@ public class PersonalEmergenciesFragment extends Fragment implements OnClickList
     @Override
     public void onClick(View rootView) {
         switch (rootView.getId()) {
-        case R.id.btnAssault:
-        	Intent a = new Intent(getActivity(), Assault.class);
+        case R.id.btnAllergicReaction:
+        	Intent a = new Intent(getActivity(), AllergicReaction.class);
         	startActivity(a);
             break;
-        case R.id.btnAllergicReaction:
-        	Intent b = new Intent(getActivity(), AllergicReaction.class);
+        case R.id.btnAssault:
+        	Intent b = new Intent(getActivity(), Thunderstorm.class);
         	startActivity(b);
         	break;
         case R.id.btnPoisonCtrl:
