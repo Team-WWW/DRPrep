@@ -136,18 +136,18 @@
         android:id="@+id/txtHeatwave"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_alignRight="@+id/txtHurricane"
-        android:layout_below="@+id/btnHeatwave"
-        android:layout_marginTop="20dp"
+        android:layout_alignLeft="@+id/txtHurricane"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="30dp"
         android:text="Heatwave" />
 
     <Button
         android:id="@+id/btnHeatwave"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_above="@+id/txtHeatwave"
         android:layout_alignLeft="@+id/btnHurricane"
-        android:layout_below="@+id/txtHurricane"
-        android:layout_marginTop="20dp"
+        android:layout_marginBottom="14dp"
         android:background="@drawable/disaster_heatwave"
         android:onClick="onClick" />
 
