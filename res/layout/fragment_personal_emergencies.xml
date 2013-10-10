@@ -19,11 +19,11 @@
         android:typeface="sans" />
 
     <Button
-        android:id="@+id/btnAllergicReaction"
+        android:id="@+id/btnAllergic"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_alignBaseline="@+id/btnAssault"
-        android:layout_alignBottom="@+id/btnAssault"
+        android:layout_alignBaseline="@+id/btnFight"
+        android:layout_alignBottom="@+id/btnFight"
         android:layout_centerHorizontal="true"
         android:background="@drawable/allergic"
         android:onClick="onClick" />
@@ -32,20 +32,20 @@
         android:id="@+id/btnPoisonCtrl"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_alignBaseline="@+id/btnAllergicReaction"
-        android:layout_alignBottom="@+id/btnAllergicReaction"
+        android:layout_alignBaseline="@+id/btnAllergic"
+        android:layout_alignBottom="@+id/btnAllergic"
         android:layout_alignParentRight="true"
         android:layout_marginRight="20dp"
         android:background="@drawable/poison"
         android:onClick="onClick" />
 
     <Button
-        android:id="@+id/btnInfection"
+        android:id="@+id/btnInfect"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_alignBaseline="@+id/btnBurns"
-        android:layout_alignBottom="@+id/btnBurns"
-        android:layout_alignLeft="@+id/btnAllergicReaction"
+        android:layout_alignBaseline="@+id/btnBurn"
+        android:layout_alignBottom="@+id/btnBurn"
+        android:layout_alignLeft="@+id/btnAllergic"
         android:background="@drawable/infection"
         android:onClick="onClick" />
 
@@ -53,7 +53,7 @@
         android:id="@+id/btnChoking"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_alignBottom="@+id/btnInfection"
+        android:layout_alignBottom="@+id/btnInfect"
         android:layout_alignLeft="@+id/btnPoisonCtrl"
         android:background="@drawable/choking_icon"
         android:onClick="onClick" />
@@ -62,8 +62,8 @@
         android:id="@+id/txtAssault"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_alignLeft="@+id/btnAssault"
-        android:layout_below="@+id/btnAssault"
+        android:layout_alignLeft="@+id/btnFight"
+        android:layout_below="@+id/btnFight"
         android:layout_marginTop="20dp"
         android:text="Assault" />
 
@@ -87,8 +87,8 @@
         android:id="@+id/txtBurns"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_alignLeft="@+id/btnBurns"
-        android:layout_below="@+id/btnBurns"
+        android:layout_alignLeft="@+id/btnBurn"
+        android:layout_below="@+id/btnBurn"
         android:layout_marginTop="20dp"
         android:text="Burns" />
 
@@ -109,7 +109,7 @@
         android:text="Choking" />
 
     <Button
-        android:id="@+id/btnAssault"
+        android:id="@+id/btnFight"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_alignParentLeft="true"
@@ -133,17 +133,17 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_above="@+id/txtBleeding"
-        android:layout_alignLeft="@+id/btnInfection"
+        android:layout_alignLeft="@+id/btnInfect"
         android:layout_alignParentBottom="true"
         android:layout_marginBottom="50dp"
         android:background="@drawable/bleed_icon"
         android:onClick="onClick" />
 
     <Button
-        android:id="@+id/btnBurns"
+        android:id="@+id/btnBurn"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_alignLeft="@+id/btnAssault"
+        android:layout_alignLeft="@+id/btnFight"
         android:layout_centerVertical="true"
         android:background="@drawable/burns"
         android:onClick="onClick" />

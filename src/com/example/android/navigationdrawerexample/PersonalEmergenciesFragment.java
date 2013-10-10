@@ -12,10 +12,10 @@ import android.widget.Button;
 
 public class PersonalEmergenciesFragment extends Fragment implements OnClickListener
 {
-	Button btnAssault;
-	Button btnAllergicReaction;
+	Button btnFight;
+	Button btnAllergic;
 	Button btnPoisonCtrl;
-	Button btnBurns;
+	Button btnBurn;
 	Button btnInfection;
 	Button btnChoking;
 	Button btnBleeding;
@@ -32,19 +32,19 @@ public class PersonalEmergenciesFragment extends Fragment implements OnClickList
 
         getActivity().setTitle("Personal Emergencies!");
         
-        Button assault = (Button) rootView.findViewById(R.id.btnAssault);
-        assault.setOnClickListener(this);
+        Button fight = (Button) rootView.findViewById(R.id.btnFight);
+        fight.setOnClickListener(this);
         
-        Button aReaction = (Button) rootView.findViewById(R.id.btnAllergicReaction);
+        Button aReaction = (Button) rootView.findViewById(R.id.btnAllergic);
         aReaction.setOnClickListener(this);
         
         Button pControl = (Button) rootView.findViewById(R.id.btnPoisonCtrl);
         pControl.setOnClickListener(this);
         
-        Button burns = (Button) rootView.findViewById(R.id.btnBurns);
-        burns.setOnClickListener(this);
+        Button burn = (Button) rootView.findViewById(R.id.btnBurn);
+        burn.setOnClickListener(this);
         
-        Button infection = (Button) rootView.findViewById(R.id.btnInfection);
+        Button infection = (Button) rootView.findViewById(R.id.btnInfect);
         infection.setOnClickListener(this);
         
         Button choking = (Button) rootView.findViewById(R.id.btnChoking);
@@ -61,34 +61,35 @@ public class PersonalEmergenciesFragment extends Fragment implements OnClickList
     @Override
     public void onClick(View rootView) {
         switch (rootView.getId()) {
-        case R.id.btnAllergicReaction:
-        	Intent a = new Intent(getActivity(), AllergicReaction.class);
+        case R.id.btnFight:
+        	Intent a = new Intent(getActivity(), Assault.class);
         	startActivity(a);
             break;
-        case R.id.btnAssault:
-        	Intent b = new Intent(getActivity(), Thunderstorm.class);
+        case R.id.btnAllergic:
+        	Intent b = new Intent(getActivity(), AllergicReaction.class);
         	startActivity(b);
-        	break;
+            break;
         case R.id.btnPoisonCtrl:
         	Intent c = new Intent(getActivity(), PoisonControl.class);
         	startActivity(c);
-        	break;
-        case R.id.btnBurns:
+            break;
+        case R.id.btnBurn:
         	Intent d = new Intent(getActivity(), Burns.class);
         	startActivity(d);
-        	break;
-        case R.id.btnInfection:
+            break;
+        case R.id.btnInfect:
         	Intent e = new Intent(getActivity(), Infection.class);
         	startActivity(e);
-        	break;
+            break;
         case R.id.btnChoking:
         	Intent f = new Intent(getActivity(), Choking.class);
         	startActivity(f);
-        	break;
+            break;
         case R.id.btnBleeding:
         	Intent g = new Intent(getActivity(), Bleeding.class);
         	startActivity(g);
-        	break;
+            break;
+        
         }
     }
 }

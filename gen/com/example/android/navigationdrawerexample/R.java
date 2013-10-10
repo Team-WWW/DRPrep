@@ -72,20 +72,20 @@ public final class R {
     }
     public static final class id {
         public static final int action_settings=0x7f090032;
-        public static final int btnAllergicReaction=0x7f090016;
-        public static final int btnAssault=0x7f090015;
+        public static final int btnAllergic=0x7f090015;
         public static final int btnBleeding=0x7f090022;
-        public static final int btnBurns=0x7f090018;
+        public static final int btnBurn=0x7f090019;
         public static final int btnCarCrash=0x7f090028;
         public static final int btnChoking=0x7f09001a;
         public static final int btnCo=0x7f090026;
         public static final int btnEarthquake=0x7f090008;
         public static final int btnExplosion=0x7f09002a;
+        public static final int btnFight=0x7f090016;
         public static final int btnFlood=0x7f090009;
         public static final int btnGasLeak=0x7f090025;
         public static final int btnHeatwave=0x7f090014;
         public static final int btnHurricane=0x7f09000a;
-        public static final int btnInfection=0x7f090019;
+        public static final int btnInfect=0x7f090018;
         public static final int btnInfestation=0x7f090027;
         public static final int btnPoisonCtrl=0x7f090017;
         public static final int btnPoweroutage=0x7f090024;
