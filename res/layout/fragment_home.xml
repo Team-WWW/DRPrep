@@ -1,7 +1,28 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+     android:layout_width="match_parent"
+    	android:layout_height="match_parent" >
 
-<TextView xmlns:android="http://schemas.android.com/apk/res/android"
-		    android:id="@android:id/text1"
-		    android:layout_width="match_parent"
-		    android:layout_height="wrap_content" 
-		    android:text="Home content goes here." />
+    <TextView
+        android:id="@+id/txtDisasterKit"
+        android:layout_width="240sp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="60dp"
+        android:text="@string/disaster_kit"
+        android:textSize="24sp" />
+
+    <Button
+        android:id="@+id/btnDisaster_Kit"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/txtDisasterKit"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="34dp"
+        android:background="@drawable/disaster_icon"
+        android:onClick="onClick" />
+    
+    
+</RelativeLayout>
+
 	 

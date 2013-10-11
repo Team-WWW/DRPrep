@@ -12,7 +12,7 @@
   distributed under the License is distributed on an "AS IS" BASIS,
   WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
   See the License for the specific language governing permissions and
-  limitations under the License.
+  limitations under the License.
 -->
 
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
@@ -54,147 +54,154 @@
         </activity>
         <activity
             android:name="com.example.android.navigationdrawerexample.Wildfire"
-            android:label="@string/title_activity_wildfire" 
             android:configChanges="orientation|keyboardHidden|keyboard"
+            android:label="@string/title_activity_wildfire"
             android:screenOrientation="portrait"
             android:theme="@android:style/Theme.DeviceDefault.Light" >
         </activity>
         <activity
             android:name="com.example.android.navigationdrawerexample.Earthquake"
-            android:label="@string/title_activity_earthquake" 
             android:configChanges="orientation|keyboardHidden|keyboard"
+            android:label="@string/title_activity_earthquake"
             android:screenOrientation="portrait"
             android:theme="@android:style/Theme.DeviceDefault.Light" >
         </activity>
         <activity
             android:name="com.example.android.navigationdrawerexample.Flood"
-            android:label="@string/title_activity_flood" 
             android:configChanges="orientation|keyboardHidden|keyboard"
+            android:label="@string/title_activity_flood"
             android:screenOrientation="portrait"
             android:theme="@android:style/Theme.DeviceDefault.Light" >
         </activity>
         <activity
             android:name="com.example.android.navigationdrawerexample.Hurricane"
-            android:label="@string/title_activity_hurricane" 
             android:configChanges="orientation|keyboardHidden|keyboard"
+            android:label="@string/title_activity_hurricane"
             android:screenOrientation="portrait"
             android:theme="@android:style/Theme.DeviceDefault.Light" >
         </activity>
         <activity
             android:name="com.example.android.navigationdrawerexample.Tornado"
-            android:label="@string/title_activity_tornado" 
             android:configChanges="orientation|keyboardHidden|keyboard"
+            android:label="@string/title_activity_tornado"
             android:screenOrientation="portrait"
             android:theme="@android:style/Theme.DeviceDefault.Light" >
         </activity>
         <activity
             android:name="com.example.android.navigationdrawerexample.Heatwave"
-            android:label="@string/title_activity_heatwave" 
             android:configChanges="orientation|keyboardHidden|keyboard"
+            android:label="@string/title_activity_heatwave"
             android:screenOrientation="portrait"
             android:theme="@android:style/Theme.DeviceDefault.Light" >
         </activity>
         <activity
             android:name="com.example.android.navigationdrawerexample.PowerOutage"
-            android:label="@string/title_activity_power_outage" 
             android:configChanges="orientation|keyboardHidden|keyboard"
+            android:label="@string/title_activity_power_outage"
             android:screenOrientation="portrait"
             android:theme="@android:style/Theme.DeviceDefault.Light" >
         </activity>
         <activity
             android:name="com.example.android.navigationdrawerexample.GasLeak"
-            android:label="@string/title_activity_gas_leak" 
             android:configChanges="orientation|keyboardHidden|keyboard"
+            android:label="@string/title_activity_gas_leak"
             android:screenOrientation="portrait"
             android:theme="@android:style/Theme.DeviceDefault.Light" >
         </activity>
         <activity
             android:name="com.example.android.navigationdrawerexample.COPoison"
-            android:label="@string/title_activity_copoison" 
             android:configChanges="orientation|keyboardHidden|keyboard"
+            android:label="@string/title_activity_copoison"
             android:screenOrientation="portrait"
             android:theme="@android:style/Theme.DeviceDefault.Light" >
         </activity>
         <activity
             android:name="com.example.android.navigationdrawerexample.Esplosion"
-            android:label="@string/title_activity_esplosion" 
             android:configChanges="orientation|keyboardHidden|keyboard"
+            android:label="@string/title_activity_esplosion"
             android:screenOrientation="portrait"
             android:theme="@android:style/Theme.DeviceDefault.Light" >
         </activity>
         <activity
             android:name="com.example.android.navigationdrawerexample.Explosion"
-            android:label="@string/title_activity_explosion" 
             android:configChanges="orientation|keyboardHidden|keyboard"
+            android:label="@string/title_activity_explosion"
             android:screenOrientation="portrait"
             android:theme="@android:style/Theme.DeviceDefault.Light" >
         </activity>
         <activity
             android:name="com.example.android.navigationdrawerexample.CarCrash"
-            android:label="@string/title_activity_car_crash" 
             android:configChanges="orientation|keyboardHidden|keyboard"
+            android:label="@string/title_activity_car_crash"
             android:screenOrientation="portrait"
             android:theme="@android:style/Theme.DeviceDefault.Light" >
         </activity>
         <activity
             android:name="com.example.android.navigationdrawerexample.Infestation"
-            android:label="@string/title_activity_infestation" 
             android:configChanges="orientation|keyboardHidden|keyboard"
+            android:label="@string/title_activity_infestation"
             android:screenOrientation="portrait"
             android:theme="@android:style/Theme.DeviceDefault.Light" >
         </activity>
         <activity
             android:name="com.example.android.navigationdrawerexample.TerroristAttack"
-            android:label="@string/title_activity_terrorist_attack" 
             android:configChanges="orientation|keyboardHidden|keyboard"
+            android:label="@string/title_activity_terrorist_attack"
             android:screenOrientation="portrait"
             android:theme="@android:style/Theme.DeviceDefault.Light" >
         </activity>
         <activity
             android:name="com.example.android.navigationdrawerexample.Assault"
-            android:label="@string/title_activity_assault" 
             android:configChanges="orientation|keyboardHidden|keyboard"
+            android:label="@string/title_activity_assault"
             android:screenOrientation="portrait"
             android:theme="@android:style/Theme.DeviceDefault.Light" >
         </activity>
         <activity
             android:name="com.example.android.navigationdrawerexample.AllergicReaction"
-            android:label="@string/title_activity_allergic_reaction" 
             android:configChanges="orientation|keyboardHidden|keyboard"
+            android:label="@string/title_activity_allergic_reaction"
             android:screenOrientation="portrait"
             android:theme="@android:style/Theme.DeviceDefault.Light" >
         </activity>
         <activity
             android:name="com.example.android.navigationdrawerexample.PoisonControl"
-            android:label="@string/title_activity_poison_control" 
             android:configChanges="orientation|keyboardHidden|keyboard"
+            android:label="@string/title_activity_poison_control"
             android:screenOrientation="portrait"
             android:theme="@android:style/Theme.DeviceDefault.Light" >
         </activity>
         <activity
             android:name="com.example.android.navigationdrawerexample.Burns"
-            android:label="@string/title_activity_burns" 
             android:configChanges="orientation|keyboardHidden|keyboard"
+            android:label="@string/title_activity_burns"
             android:screenOrientation="portrait"
             android:theme="@android:style/Theme.DeviceDefault.Light" >
         </activity>
         <activity
             android:name="com.example.android.navigationdrawerexample.Infection"
-            android:label="@string/title_activity_infection" 
             android:configChanges="orientation|keyboardHidden|keyboard"
+            android:label="@string/title_activity_infection"
             android:screenOrientation="portrait"
             android:theme="@android:style/Theme.DeviceDefault.Light" >
         </activity>
         <activity
             android:name="com.example.android.navigationdrawerexample.Choking"
-            android:label="@string/title_activity_choking" 
             android:configChanges="orientation|keyboardHidden|keyboard"
+            android:label="@string/title_activity_choking"
             android:screenOrientation="portrait"
             android:theme="@android:style/Theme.DeviceDefault.Light" >
         </activity>
         <activity
             android:name="com.example.android.navigationdrawerexample.Bleeding"
-            android:label="@string/title_activity_bleeding" 
+            android:configChanges="orientation|keyboardHidden|keyboard"
+            android:label="@string/title_activity_bleeding"
+            android:screenOrientation="portrait"
+            android:theme="@android:style/Theme.DeviceDefault.Light" >
+        </activity>
+        <activity
+            android:name="com.example.android.navigationdrawerexample.DisasterResourceKit"
+            android:label="@string/title_activity_disaster_resource_kit"
             android:configChanges="orientation|keyboardHidden|keyboard"
             android:screenOrientation="portrait"
             android:theme="@android:style/Theme.DeviceDefault.Light" >

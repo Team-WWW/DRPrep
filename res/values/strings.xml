@@ -22,12 +22,11 @@
         Feel free to send us any positive or negative feedback, and we will get back to you as soon possible</string>
     <string name="hyperlink">mailto:thorn79@gmail.com</string>
     <string name="title_activity_thunderstorm">Thunderstorm</string>
-    <string name="thunderstormtxt">All thunderstorms are dangerous. Every thunderstorm produces lightning. Although most 
-lightning victims survive, people struck by lightning often report a variety of long-term, debilitating symptoms.
-Other associated dangers of thunderstorms include tornadoes, strong winds, hail and flash 
-flooding. Dry thunderstorms that do not produce rain that reaches the ground are most prevalent 
-in the western United States. Falling raindrops evaporate, but lightning can still reach the 
-ground and can start wildfires.</string>
+    <string name="thunderstormtxt">All thunderstorms are dangerous. Every thunderstorm produces lightning. 
+        Although most lightning victims survive, people struck by lightning often report a variety of long-term, debilitating symptoms.<br></br>Other associated dangers of thunderstorms include tornadoes, strong winds, hail and flash flooding. Dry thunderstorms that do not produce rain that reaches the ground are most prevalent in the western United States. 
+Falling raindrops evaporate, but lightning can still reach the ground and can start wildfires.
+To prepare for a thunderstorm, you should do the following:</string>
+    <string name="disaster_kit">Disaster Resource Kit</string>
     <string name="title_activity_wildfire">Wildfire</string>
     <string name="hello_world">Hello world!</string>
     <string name="title_activity_earthquake">Earthquake</string>
@@ -50,5 +49,6 @@ ground and can start wildfires.</string>
     <string name="title_activity_infection">Infection</string>
     <string name="title_activity_choking">Choking</string>
     <string name="title_activity_bleeding">Bleeding</string>
+    <string name="title_activity_disaster_resource_kit">DisasterResourceKit</string>
 
 </resources>
