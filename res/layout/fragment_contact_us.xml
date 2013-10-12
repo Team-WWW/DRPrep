@@ -8,12 +8,13 @@
         android:id="@+id/txtContact"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginLeft="15dp"
-        android:layout_marginRight="15dp"
-        android:layout_marginTop="15dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginTop="20dp"
         android:linksClickable="true"
         android:text="@string/contact"
-        android:textSize="18sp" />
+        android:gravity="center"
+        android:textSize="24sp" />
 
     <Button
         android:id="@+id/button1"
@@ -48,5 +49,36 @@
         android:linksClickable="true"
         android:textSize="14sp"
         android:text="@string/Twitter" />
+
+    <ImageButton
+        android:id="@+id/imageButton1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/button1"
+        android:layout_toLeftOf="@+id/button1"
+        android:alpha="1"
+        android:autoLink="web"
+        android:background="@null"
+        android:linksClickable="true"
+        android:maxHeight="64dp"
+        android:maxWidth="64dp"
+        android:minHeight="64dp"
+        android:minWidth="64dp"
+        android:onClick="@string/Twitter"
+        android:src="@drawable/twittericonsmall" />
+
+    <ImageButton
+        android:id="@+id/imageButton2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignRight="@+id/txtFacebook"
+        android:layout_alignTop="@+id/button1"
+        android:autoLink="web"
+        android:background="@null"
+        android:linksClickable="true"
+        android:minHeight="64dp"
+        android:minWidth="64dp"
+        android:onClick="@string/Facebook"
+        android:src="@drawable/facebookiconsmall" />
 
 </RelativeLayout>
