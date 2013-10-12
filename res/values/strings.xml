@@ -96,14 +96,149 @@ Falling raindrops evaporate, but lightning can still reach the ground and can st
 </string>
         
     
+<string name="hurricanetxt">\n
+\t\t A hurricane is a type of tropical cyclone or severe tropical storm that forms in southern oceans. A typical cyclone is accompanied by thunderstorms, and in the Northern Hemisphere, a counterclockwise circulation of winds near the earth’s surface.\n\n
+\t\t The Atlantic hurricane season lasts from June to November, with the peak season from mid-August to late October. The Eastern Pacific hurricane season begins May 15 and ends November 30.\n\n
+\t\t Hurricanes can cause catastrophic damage to coastlines and several hundred miles inland. Hurricane can produce winds exceeding 155 miles per hour as well as tornadoes.. Additionally, hurricanes can create storm surges along the coast and cause extensive damage from heavy rainfall. Floods and flying debris from the excessive winds are often the deadly and destructive results of these weather events. Slow moving hurricanes traveling into mountainous regions tend to produce especially heavy rain.\n\n
+\t\t To prepare for a hurricane, you should take the following measures:\n\n
+&#8226;\t To begin preparing, you should build an emergency kit and make a family communications plan.\n\n
+&#8226;\t Know your surroundings.\n\n
+&#8226;\t Learn the elevation level of your property and whether the land is flood-prone. This will help you know how your property will be affected when storm surge or tidal flooding are forecasted.\n\n
+&#8226;\t Identify levees and dams in your area and determine whether they pose a hazard to you.\n\n
+&#8226;\t Learn community hurricane evacuation routes and how to find higher ground. Determine where you would go and how you would get there if you needed to evacuate.\n\n
+Make plans to secure your property:\n\n
+&#8226;\t Cover all of your home’s windows.\n\n
+&#8226;\t Install straps or additional clips to securely fasten your roof to the frame structure. This will reduce roof damage.\n\n
+&#8226;\t Be sure trees and shrubs around your home are well trimmed so they are more wind resistant.\n\n
+&#8226;\t Clear loose and clogged rain gutters and downspouts.\n\n
+&#8226;\t Reinforce your garage doors; if wind enters a garage it can cause dangerous and expensive structural damage.\n\n
+&#8226;\t Plan to bring in all outdoor furniture, decorations, garbage cans and anything else that is not tied down.\n\n
+&#8226;\t If in a high-rise building, be prepared to take shelter on or below the 10th floor.\n\n
+
+\t\t Hurricanes cause heavy rains that can cause extensive flood damage in coastal and inland areas. Everyone is at risk and should consider flood insurance protection. Flood insurance is the only way to financially protect your property or business from flood damage. To learn more about your flooding risk and how to protect yourself and your business, visit the Federal Insurance and Mitigation Administration (NFIP) Web site,www.floodsmart.gov or call 1-800-427-2419.\n\n
+
+</string>    
+    
+    
+    <string name="tornadotxt">\n
+\t\t Spawned from powerful thunderstorms, tornadoes can cause fatalities and devastate a neighborhood in seconds. A tornado appears as a rotating, funnel-shaped cloud that extends from a thunderstorm to the ground with whirling winds that can reach 300 miles per hour. Some tornadoes are clearly visible, while rain or nearby low-hanging clouds obscure others. Occasionally, tornadoes develop so rapidly that little, if any, advance warning is possible. Before a tornado hits, the wind may die down and the air may become very still. A cloud of debris can mark the location of a tornado even if a funnel is not visible. Tornadoes generally occur near the trailing edge of a thunderstorm. It is not uncommon to see clear, sunlit skies behind a tornado.\n\n
+
+&#8226;\t To begin preparing, you should build an emergency kit and make a family communications plan.\n\n
+&#8226;\t Listen to NOAA Weather Radio or to commercial radio or television newscasts for the latest information. In any emergency, always listen to the instructions given by local emergency management officials.\n\n
+&#8226;\t Be alert to changing weather conditions. Look for approaching storms.\n\n
+&#8226;\t Look for the following danger signs:\n\n
+\t\t\t&#8226;\t Dark, often greenish sky\n\n
+\t\t\t&#8226;\t Large hail\n\n
+\t\t\t&#8226;\t A large, dark, low-lying cloud\n\n
+\t\t\t&#8226;\t Loud roar, similar to a freight train.\n\n
+If you see approaching storms or any of the danger signs, be prepared to take shelter immediately.\n\n
+
+</string>
     
     
     
+    <string name="heatwavetxt">\n
+\t\tHeat kills by pushing the human body beyond its limits. In extreme heat and high humidity, evaporation is slowed and the body must work extra hard to maintain a normal temperature.\n\n
+
+To prepare for extreme heat, you should:\n\n
+&#8226;\t Build an emergency kit and make a family communications plan.\n\n
+&#8226;\t Install window air conditioners snugly; insulate if necessary.\n\n
+&#8226;\t Check air-conditioning ducts for proper insulation.\n\n
+&#8226;\t Install temporary window reflectors (for use between windows and drapes), such as aluminum foil-covered cardboard, to reflect heat back outside.\n\n
+&#8226;\t Weather-strip doors and sills to keep cool air in.\n\n
+&#8226;\t Cover windows that receive morning or afternoon sun with drapes, shades, awnings, or louvers. (Outdoor awnings or louvers can reduce the heat that enters a home by up to 80 percent.)\n\n
+&#8226;\t Keep storm windows up all year.\n\n
+&#8226;\t Listen to local weather forecasts and stay aware of upcoming temperature changes.\n\n
+&#8226;\t Be aware that people living in urban areas may be at greater risk from the effects of a prolonged heat wave than are people living in rural areas.\n\n
+&#8226;\t Get trained in first aid to learn how to treat heat-related emergencies.\n\n
+</string>
     
     
     
-    
-    
+<string name="poweroutagetxt">\n
+        \t\tFloods are one of the most common hazards in the United States, however not all floods are alike. Some floods develop slowly, while others such a flash floods, can develop in just a few minutes and without visible signs of rain. Additionally, floods can be local, impacting a neighborhood or community, or very large, affecting entire river basins and multiple states.\n\n
+
+&#8226;\t To prepare for a flood, you should:\n\n
+&#8226;\t Build an emergency kit and make a family communications plan.\n\n
+&#8226;\t Avoid building in a floodplain unless you elevate and reinforce your home.\n\n
+&#8226;\t Elevate the furnace, water heater and electric panel in your home if you live in an area that has a high flood risk.\n\n
+&#8226;\t Consider installing "check valves" to prevent flood water from backing up into the drains of your home.\n\n
+&#8226;\t If feasible, construct barriers to stop floodwater from entering the building and seal walls in basements with waterproofing compounds.\n\n
+</string>
+
+
+<string name="gasleaktxt">\n
+        \t\tFloods are one of the most common hazards in the United States, however not all floods are alike. Some floods develop slowly, while others such a flash floods, can develop in just a few minutes and without visible signs of rain. Additionally, floods can be local, impacting a neighborhood or community, or very large, affecting entire river basins and multiple states.\n\n
+
+&#8226;\t To prepare for a flood, you should:\n\n
+&#8226;\t Build an emergency kit and make a family communications plan.\n\n
+&#8226;\t Avoid building in a floodplain unless you elevate and reinforce your home.\n\n
+&#8226;\t Elevate the furnace, water heater and electric panel in your home if you live in an area that has a high flood risk.\n\n
+&#8226;\t Consider installing "check valves" to prevent flood water from backing up into the drains of your home.\n\n
+&#8226;\t If feasible, construct barriers to stop floodwater from entering the building and seal walls in basements with waterproofing compounds.\n\n
+</string>
+
+
+<string name="copoisontxt">\n
+        \t\tFloods are one of the most common hazards in the United States, however not all floods are alike. Some floods develop slowly, while others such a flash floods, can develop in just a few minutes and without visible signs of rain. Additionally, floods can be local, impacting a neighborhood or community, or very large, affecting entire river basins and multiple states.\n\n
+
+&#8226;\t To prepare for a flood, you should:\n\n
+&#8226;\t Build an emergency kit and make a family communications plan.\n\n
+&#8226;\t Avoid building in a floodplain unless you elevate and reinforce your home.\n\n
+&#8226;\t Elevate the furnace, water heater and electric panel in your home if you live in an area that has a high flood risk.\n\n
+&#8226;\t Consider installing "check valves" to prevent flood water from backing up into the drains of your home.\n\n
+&#8226;\t If feasible, construct barriers to stop floodwater from entering the building and seal walls in basements with waterproofing compounds.\n\n
+</string>
+
+
+<string name="explosiontxt">\n
+        \t\tFloods are one of the most common hazards in the United States, however not all floods are alike. Some floods develop slowly, while others such a flash floods, can develop in just a few minutes and without visible signs of rain. Additionally, floods can be local, impacting a neighborhood or community, or very large, affecting entire river basins and multiple states.\n\n
+
+&#8226;\t To prepare for a flood, you should:\n\n
+&#8226;\t Build an emergency kit and make a family communications plan.\n\n
+&#8226;\t Avoid building in a floodplain unless you elevate and reinforce your home.\n\n
+&#8226;\t Elevate the furnace, water heater and electric panel in your home if you live in an area that has a high flood risk.\n\n
+&#8226;\t Consider installing "check valves" to prevent flood water from backing up into the drains of your home.\n\n
+&#8226;\t If feasible, construct barriers to stop floodwater from entering the building and seal walls in basements with waterproofing compounds.\n\n
+</string>
+
+
+<string name="carcrashtxt">\n
+        \t\tFloods are one of the most common hazards in the United States, however not all floods are alike. Some floods develop slowly, while others such a flash floods, can develop in just a few minutes and without visible signs of rain. Additionally, floods can be local, impacting a neighborhood or community, or very large, affecting entire river basins and multiple states.\n\n
+
+&#8226;\t To prepare for a flood, you should:\n\n
+&#8226;\t Build an emergency kit and make a family communications plan.\n\n
+&#8226;\t Avoid building in a floodplain unless you elevate and reinforce your home.\n\n
+&#8226;\t Elevate the furnace, water heater and electric panel in your home if you live in an area that has a high flood risk.\n\n
+&#8226;\t Consider installing "check valves" to prevent flood water from backing up into the drains of your home.\n\n
+&#8226;\t If feasible, construct barriers to stop floodwater from entering the building and seal walls in basements with waterproofing compounds.\n\n
+</string>
+
+
+<string name="infestation">\n
+        \t\tFloods are one of the most common hazards in the United States, however not all floods are alike. Some floods develop slowly, while others such a flash floods, can develop in just a few minutes and without visible signs of rain. Additionally, floods can be local, impacting a neighborhood or community, or very large, affecting entire river basins and multiple states.\n\n
+
+&#8226;\t To prepare for a flood, you should:\n\n
+&#8226;\t Build an emergency kit and make a family communications plan.\n\n
+&#8226;\t Avoid building in a floodplain unless you elevate and reinforce your home.\n\n
+&#8226;\t Elevate the furnace, water heater and electric panel in your home if you live in an area that has a high flood risk.\n\n
+&#8226;\t Consider installing "check valves" to prevent flood water from backing up into the drains of your home.\n\n
+&#8226;\t If feasible, construct barriers to stop floodwater from entering the building and seal walls in basements with waterproofing compounds.\n\n
+</string>
+
+
+<string name="terroristtxt">\n
+        \t\tFloods are one of the most common hazards in the United States, however not all floods are alike. Some floods develop slowly, while others such a flash floods, can develop in just a few minutes and without visible signs of rain. Additionally, floods can be local, impacting a neighborhood or community, or very large, affecting entire river basins and multiple states.\n\n
+
+&#8226;\t To prepare for a flood, you should:\n\n
+&#8226;\t Build an emergency kit and make a family communications plan.\n\n
+&#8226;\t Avoid building in a floodplain unless you elevate and reinforce your home.\n\n
+&#8226;\t Elevate the furnace, water heater and electric panel in your home if you live in an area that has a high flood risk.\n\n
+&#8226;\t Consider installing "check valves" to prevent flood water from backing up into the drains of your home.\n\n
+&#8226;\t If feasible, construct barriers to stop floodwater from entering the building and seal walls in basements with waterproofing compounds.\n\n
+</string>
+
+
     
     
     
