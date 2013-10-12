@@ -3,10 +3,9 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical" >
-  
-  
-  <TextView
-        android:id="@+id/txtPower"
+
+    <TextView
+        android:id="@+id/txtContact"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginLeft="15dp"
@@ -15,15 +14,34 @@
         android:linksClickable="true"
         android:text="@string/contact"
         android:textSize="18sp" />
-  
-  
+
     <Button
         android:id="@+id/button1"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_alignParentBottom="true"
+        android:layout_below="@+id/txtContact"
         android:layout_centerHorizontal="true"
-        android:layout_marginBottom="138dp"
         android:text="@string/emailus" />
+
+    <TextView
+        android:id="@+id/txtFacebook"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/button1"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="30dp"
+        android:layout_marginLeft="10dp"
+        android:autoLink="web"
+        android:linksClickable="true"
+        android:text="@string/Facebook" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/txtFacebook"
+        android:layout_below="@+id/txtFacebook"
+        android:layout_marginTop="23dp"
+        android:text="TextView" />
 
 </RelativeLayout>

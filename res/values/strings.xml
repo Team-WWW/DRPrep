@@ -19,10 +19,10 @@
     <string name="drawer_close">Close navigation drawer</string>
     <string name="pick">Please Choose an Emergency</string>
     <string name="button"></string>
-    <string name="contact">Welcome to our contact us page. If you would like to contact any of the developers directly please follow the link below. 
-        Feel free to send us any positive or negative feedback, and we will get back to you as soon possible\n\n</string>
-    <string name="hyperlink">mailto://thorn79@gmail.com</string>
-    <string name="title_activity_thunderstorm">Thunderstorm</string>
+    <string name="contact">\t\t Welcome to our contact us page. If you would like to contact any of the developers directly please follow the link below. 
+        Feel free to send us any positive or negative feedback, and we will get back to you as soon possible. 
+        If social media is your preference please contact us via the Facebook or Twitter links below.\n\n</string>
+    <string name="Facebook">https://www.facebook.com/pages/DR-Prep/1383849238519326</string>
     <string name="emailus">Email Us</string>
     <string name="hometitle"><i>Dr. Prep: Disaster Resource Preparation</i></string>
         
@@ -198,7 +198,7 @@ To prepare for extreme heat, you should:\n\n
 
 
 <string name="terroristtxt">\n
-\t\t The age we live in is surrounded by many treats. In this day and age terrorism has become rampant and being prepared may just save your life. Things you must know:\n\n
+\t\t The age we live in is surrounded by many threats. In this day and age terrorism has become rampant and being prepared may just save your life. Things you must know:\n\n
 Biological Attack\n\n
 &#8226;\t  Keep immunizations up to date\n\n
 &#8226;\t Install a HEPA filter in furnace return air duct\n\n
@@ -210,6 +210,7 @@ Chemical Attack\n\n
 </string>
 
 <string name="assulttxt">\n
+\t\t Many people, every year, are victims of assault. Too many times there is no rhyme or reason why, however being prepared at all times can certainly help in reducing your chances of attack.\n\n
 &#8226;\t  Be alert, when traveling at opening and closing times.\n\n
 &#8226;\t  Keep good visibility, and be aware of your surroundings.\n\n
 &#8226;\t  Know where the local authority, or where help can be accessed quickly if needed.\n\n
@@ -233,11 +234,12 @@ Chemical Attack\n\n
 </string>
 
 <string name="burnstxt">\n
-&#8226;\t  Rinse burned skin with cool water until the pain stops. Rinsing will usually stop the pain in 15 to 30 minutes.\n\n
-&#8226;\t  Place arms, hands, fingers, legs, feet, or toes in a basin of cool water.\n\n
-&#8226;\t  Apply cool compresses to burns on the face or body.\n\n
-&#8226;\t  Do not use ice or ice water, which can cause tissue damage.\n\n
-&#8226;\t  Take off any jewelry, rings, or clothing that could be in the way or that would become too tight if the skin swells.\n\n
+\t\t Burns have the potential of causing quite a bit of damage to the human body. Knowing what can cause burns and how to avoid them is key.\n\n 
+&#8226;\t  Avoid chemicals that are marked corrosive. Due to this property, they have the potential to cause chemical burns.\n\n
+&#8226;\t  If handling chemicals make sure all portions of skin to be exposed are covered properly.\n\n
+&#8226;\t  If dealing with extreme temperatures (hot or cold) ensure you have the proper protection.\n\n
+&#8226;\t  If using something that has the potential to cause a burn, please read all the instructions that come with it to limit the potential for accidents.\n\n
+&#8226;\t  In any situation, be aware of the potential risks and procedures for treatment if a burn should happen.\n\n
 </string>
 
 <string name="infectiontxt">\n
@@ -252,7 +254,7 @@ Chemical Attack\n\n
 &#8226;\t Alcohol - drinking alcohol will dull your senses which can result non-proper eating\n\n
 &#8226;\t Bite Size - take smaller bites; cut food into small pieces; chew food thoroughly\n\n
 &#8226;\t Children - be cautious of small objects, such as marbles; cut hot dogs into small pieces; remove balloons and plastic bags away from children prone to inserting objects in his/her mouth\n\n
-\t\t After attempting these tips and the choker is still having issues, call 999 and repeat step five until help arrives.\n\n
+\t\t After attempting these tips and the choker is still having issues, call 911 and repeat step five until help arrives.\n\n
 </string>
 
 <string name="bleedingtxt">\n
@@ -296,6 +298,7 @@ Life is a risk and people get hurt everyday without realizing it. Here are some 
     
 
     <string name="disaster_kit">Disaster Resource Kit</string>
+    <string name="title_activity_thunderstorm">Thunderstorm</string>
     <string name="title_activity_wildfire">Wildfire</string>
     <string name="hello_world">Hello world!</string>
     <string name="title_activity_earthquake">Earthquake</string>

@@ -4,7 +4,7 @@
     android:layout_height="match_parent" >
 
     <ImageView
-        android:id="@+id/imageAnthony"
+        android:id="@+id/imageDisaster"
         android:layout_width="85dp"
         android:layout_height="85dp"
         android:layout_alignParentLeft="true"
@@ -17,8 +17,8 @@
         android:id="@+id/imageScott"
         android:layout_width="85dp"
         android:layout_height="85dp"
-        android:layout_alignLeft="@+id/imageAnthony"
-        android:layout_below="@+id/imageAnthony"
+        android:layout_alignLeft="@+id/imageDisaster"
+        android:layout_below="@+id/imageDisaster"
         android:layout_marginTop="30dp"
         android:src="@drawable/sschramm" />
 
@@ -52,7 +52,7 @@
         android:id="@+id/txtAnthony"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_alignTop="@+id/imageAnthony"
+        android:layout_alignTop="@+id/imageDisaster"
         android:layout_centerHorizontal="true"
         android:text="Anthony Rush" />
 

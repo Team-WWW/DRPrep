@@ -9,7 +9,7 @@
     tools:context=".Thunderstorm" >
 
     <ImageView
-        android:id="@+id/imageAnthony"
+        android:id="@+id/imageDisaster"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_centerHorizontal="true"
@@ -20,8 +20,8 @@
         android:id="@+id/txtPick"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_alignRight="@+id/imageAnthony"
-        android:layout_below="@+id/imageAnthony"
+        android:layout_alignRight="@+id/imageDisaster"
+        android:layout_below="@+id/imageDisaster"
         android:layout_marginTop="44dp"
         android:text="Text" />
 
