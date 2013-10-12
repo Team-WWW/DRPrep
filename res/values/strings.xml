@@ -229,10 +229,83 @@ Biological Attack\n\n
 &#8226;\t Know the warning systems\n\n
 
 Chemical Attack\n\n
-&#8226;\t  Pick a room to use as shelter with plastic and duct tape to cover openings and vents\n
+&#8226;\t  Pick a room to use as shelter with plastic and duct tape to cover openings and vents\n\n
 &#8226;\t  Do not go outside\n\n
 &#8226;\t  Listen to emergency broadcast for news, alerts, and potential instructions\n
 </string>
+
+
+<string name="assulttxt">\n
+&#8226;\t  Be alert, when traveling at opening and closing times.\n\n
+&#8226;\t  Keep good visibility, and be aware of your surroundings.\n\n
+&#8226;\t  Know where the local authority, or where help can be accessed quickly if needed.\n\n
+&#8226;\t  Take self defense classes if necessary.\n\n
+&#8226;\t  Travel in groups (strength in numbers).\n\n
+
+</string>
+
+<string name="allergictxt">\n
+\t\t A great way to prevent an allergic reaction from occurring or becoming worse is to see an allergy specialist to help distinguish what causes the allergic reaction. Some of the allergy tests involve:\n\n
+&#8226;\t  Skin Testing - expose the skin with a small dosage of different substances while examining and recording what occurs\n\n
+&#8226;\t  Blood Testing - identifies antibodies that are specific to the cause(s) of the allergic reaction\n\n
+&#8226;\t  Other Testing - eliminate allergens from the environment and re-introduce them to define whether the allergen is the cause of the allergic reaction\n\n
+
+</string>
+
+<string name="poisontxt">
+\t\t Educating yourself about the chemicals and drugs that you are consistently exposed is a great prevention measure.  Understanding what these chemicals and drugs do will help greatly in preventing a chance of poisoning. Some other tips are:\n\n
+&#8226;\t  Labeling - label poisonous products that you, and/or loved ones, consistently use and/or are exposed to\n\n
+&#8226;\t  Store Toxic Substances - keep all toxic substances, chemicals, drugs, etc., in a safe area away from the general community that can be locked to prevent accidental use\n\n
+&#8226;\t  Disposal - remove expired substances and properly dispose of them by combining the substances with a non tempting substance, like cat litter\n\n
+&#8226;\t  Detectors - using a carbon monoxide detector will help prevent carbon monoxide poisoning\n\n
+
+</string>
+
+<string name="burnstxt">\n
+&#8226;\t  Rinse burned skin with cool water until the pain stops. Rinsing will usually stop the pain in 15 to 30 minutes.\n\n
+&#8226;\t  Place arms, hands, fingers, legs, feet, or toes in a basin of cool water.\n\n
+&#8226;\t  Apply cool compresses to burns on the face or body.\n\n
+&#8226;\t  Do not use ice or ice water, which can cause tissue damage.\n\n
+&#8226;\t  Take off any jewelry, rings, or clothing that could be in the way or that would become too tight if the skin swells.\n\n
+
+
+</string>
+
+<string name="infectiontxt">\n
+\t\tPlease consult with your doctor if you have an infection or suspect an infection has or will occur. Here are some general tips to help prevent infection from occurring or becoming worse.\n\n
+&#8226;\t  Observation - observe your environment and the people around you for signs of sickness and infection; staying away from people who are sick and infected with help prevent further infection.\n\n
+&#8226;\t  Education - educated yourself about particular infections that you are concerned about and how to prevent them to gain more control\n\n
+\t\tInfections occur when bacteria invades a wound. There are many indicators that suggest an infection has occurred, like a rash\n\n
+</string>
+
+<string name="chockingtxt">\n
+\t\t The following tips will help assist in preventing from someone choking. These tips include:\n\n
+&#8226;\t Alcohol - drinking alcohol will dull your senses which can result non-proper eating\n\n
+&#8226;\t Bite Size - take smaller bites; cut food into small pieces; chew food thoroughly\n\n
+&#8226;\t Children - be cautious of small objects, such as marbles; cut hot dogs into small pieces; remove balloons and plastic bags away from children prone to inserting objects in his/her mouth\n\n
+\t\t After attempting these tips and the choker is still having issues, call 999 and repeat step five until help arrives.\n\n
+</string>
+
+<string name="bleedingtxt">\n
+Life is a risk and people get hurt everyday without realizing it. Here are some tips to follow to prevent getting injured and further bleeding.\n\n
+&#8226;\t Your Head - use a soft toothbrush and brush gently; do not blow your nose too hard; using an electric razor will reduce chance of bleeding\n\n
+&#8226;\t Upper Body - try not to fall or bump into objects; be careful using sharp objects; \n\n
+&#8226;\t Lower Body - do not walk barefoot; wear slip resistant footwear; know the environment before enter the premises\n\n
+&#8226;\t Other - consult your physician or personal trainer about safe exercises\n\n
+
+</string>
+
+
+
+
+
+
+
+
+
+
+
+
 
 
     

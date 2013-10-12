@@ -12,8 +12,8 @@
     
     <ScrollView
     	android:id="@+id/SCROLLER_ID"
-        android:layout_marginRight="20dp"
-        android:layout_marginLeft="20dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginLeft="10dp"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:fillViewport="true"
@@ -23,7 +23,7 @@
             android:id="@+id/TEXT_STATUS_ID"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="@string/thunderstormtxt"
+            android:text="@string/bleedingtxt"
             android:textSize="18sp" />
 
     </ScrollView>
