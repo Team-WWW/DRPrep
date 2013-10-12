@@ -23,13 +23,16 @@
         Feel free to send us any positive or negative feedback, and we will get back to you as soon possible</string>
     <string name="hyperlink">mailto:thorn79@gmail.com</string>
     <string name="title_activity_thunderstorm">Thunderstorm</string>
+    
+    
+    
+    
     <string name="thunderstormtxt">\n
         \t\tAll thunderstorms are dangerous. Every thunderstorm produces lightning. 
         Although most lightning victims survive, people struck by lightning often report a variety of long-term, debilitating symptoms.\n\n
         \t\tOther associated dangers of thunderstorms include tornadoes, strong winds, hail and flash flooding. Dry thunderstorms that do not produce rain that reaches the ground are most prevalent in the western United States. 
 Falling raindrops evaporate, but lightning can still reach the ground and can start wildfires.\n\n
 
-<<<<<<< HEAD
 \t\tTo prepare for a thunderstorm, you should do the following:\n\n
 &#8226;  To begin preparing, you should build an emergency kit and make a family communications plan.\n\n
 &#8226;  Remove dead or rotting trees and branches that could fall and cause injury or damage during a severe thunderstorm.\n\n
@@ -40,21 +43,77 @@ Falling raindrops evaporate, but lightning can still reach the ground and can st
 &#8226;  Remember, rubber-soled shoes and rubber tires provide NO protection from lightning. However, the steel frame of a hard-topped vehicle provides increased protection if you are not touching metal.\n\n
 &#8226;  Shutter windows and secure outside doors. If shutters are not available, close window blinds, shades or curtains.\n\n
 &#8226;  Unplug any electronic equipment well before the storm arrives.\n\n
+</string>
+  
+    
+<string name="wildfiretxt">\n
+\t\tWildfires often begin unnoticed. These fires are usually triggered by lightning or accidents. They spread quickly, igniting brush, trees, and homes. Reduce your risk by preparing now - before wildfire strikes. Meet with your family to decide what to do and where to go if wildfires threaten your area. Follow the steps listed below to protect your family, home, and property
 
+\t\tThe following are things you can do to protect yourself, your family and your property in the event of a fire.
+&#8226;  To begin preparing, you should build an emergency kit and make a family communications plan.
+&#8226;  Use fire-resistant or noncombustible materials on the roof and exterior structure of the dwelling, or treat wood or combustible material used in roofs, siding, decking or trim with fire-retardant chemicals evaluated by a nationally recognized laboratory, such as Underwriters Laboratories (UL).
+&#8226;  Plant fire-resistant shrubs and trees. For example, hardwood trees are less flammable than pine, evergreen, eucalyptus or fir trees.
+&#8226;  Regularly clean roof and gutters.
+&#8226;  Inspect chimneys at least twice a year. Clean them at least once a year. Keep the dampers in good working order. Equip chimneys and stovepipes with a spark arrester that meets the requirements of National Fire Protection Association Standard 211. (Contact your local fire department for exact specifications.)
+&#8226;  Install a dual-sensor smoke alarm on each level of your home, especially near bedrooms; test monthly and change the batteries at least once each year.
+&#8226;  Teach each family member how to use a fire extinguisher (ABC type) and show them where it\'s kept.
+&#8226;  Keep a ladder that will reach the roof.
+&#8226;  Consider installing protective shutters or heavy fire-resistant drapes.
+&#8226;  Clear items that will burn from around the house, including wood piles, lawn furniture, barbecue grills, tarp coverings, etc. Move them outside of your defensible space.
 
-</string>
-=======
-\t\t\tTo prepare for a thunderstorm, you should do the following:\n\n
-**To begin preparing, you should build an emergency kit and make a family communications plan.\n\n
-**Remove dead or rotting trees and branches that could fall and cause injury or damage during a severe thunderstorm.\n\n
-**Postpone outdoor activities.\n\n
-**Remember the 30/30 Lightning Safety Rule: Go indoors if, after seeing lightning, you cannot count to 30 before hearing thunder. Stay indoors for 30 minutes after hearing the last clap of thunder.\n\n
-**Secure outdoor objects that could blow away or cause damage.\n\n
-**Get inside a home, building, or hard top automobile (not a convertible). Although you may be injured if lightning strikes your car, you are much safer inside a vehicle than outside.\n\n
-**Remember, rubber-soled shoes and rubber tires provide NO protection from lightning. However, the steel frame of a hard-topped vehicle provides increased protection if you are not touching metal.\n\n
-**Shutter windows and secure outside doors. If shutters are not available, close window blinds, shades or curtains.\n\n
-**Unplug any electronic equipment well before the storm arrives.\n\n</string>
->>>>>>> a4d3b94ba628adc7a8440296ea2042f5a80efa32
+\t\tYour best resource for proper planning is www.firewise.org which has outstanding information used daily by residents, property owners, fire departments, community planners, builders, public policy officials, water authorities, architects and others to assure safety from fire - it really works. Firewise workshops are offered for free all across the nation in communities large and small and free Firewise materials can be obtained easily by anyone interested.
+
+</string>
+    
+    
+<string name="earthquaketxt">\n
+\t\t One of the most frightening and destructive phenomena of nature is a severe earthquake and its terrible after effects. An earthquake is the sudden, rapid shaking of the earth, caused by the breaking and shifting of subterranean rock as it releases strain that has accumulated over a long time. All 50 states and 5 U.S. territories are at some risk for earthquakes.  Earthquakes can happen at any time of the year. It is impossible to predict when or where an earthquake will occur, so it is important that you and your family are prepared ahead of time.
+\t\tThe following are things you can do to protect yourself, your family and your property in the event of an earthquake.
+
+&#8226;  To begin preparing, you should build an emergency kit and make a family communications plan.
+&#8226;  Fasten shelves securely to walls.
+&#8226;  Place large or heavy objects on lower shelves.
+&#8226;  Store breakable items such as bottled foods, glass, and china in low, closed cabinets with latches.
+&#8226;  Fasten heavy items such as pictures and mirrors securely to walls and away from beds, couches and anywhere people sit.
+&#8226;  Brace overhead light fixtures and top heavy objects.
+&#8226;  Repair defective electrical wiring and leaky gas connections. These are potential fire risks. Get appropriate professional help. Do not work with gas or electrical lines yourself.
+&#8226;  Install flexible pipe fittings to avoid gas or water leaks. Flexible fittings are more resistant to breakage.
+&#8226;  Secure your water heater, refrigerator, furnace and gas appliances by strapping them to the wall studs and bolting to the floor. If recommended by your gas company, have an automatic gas shut-off valve installed that is triggered by strong vibrations.
+&#8226;  Store weed killers, pesticides, and flammable products securely in closed cabinets with latches and on bottom shelves.
+&#8226;  Locate safe spots in each room under a sturdy table or against an inside wall. Reinforce this information by moving to these places during each drill.
+&#8226;  Hold earthquake drills with your family members: Drop, cover and hold on.
+</string>
+      
+<string name="floodtxt">\n
+        \t\tFloods are one of the most common hazards in the United States, however not all floods are alike. Some floods develop slowly, while others such a flash floods, can develop in just a few minutes and without visible signs of rain. Additionally, floods can be local, impacting a neighborhood or community, or very large, affecting entire river basins and multiple states.
+
+&#8226;  To prepare for a flood, you should:
+&#8226;  Build an emergency kit and make a family communications plan.
+&#8226;  Avoid building in a floodplain unless you elevate and reinforce your home.
+&#8226;  Elevate the furnace, water heater and electric panel in your home if you live in an area that has a high flood risk.
+&#8226;  Consider installing "check valves" to prevent flood water from backing up into the drains of your home.
+&#8226;  If feasible, construct barriers to stop floodwater from entering the building and seal walls in basements with waterproofing compounds.
+</string>
+        
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+
     <string name="disaster_kit">Disaster Resource Kit</string>
     <string name="title_activity_wildfire">Wildfire</string>
     <string name="hello_world">Hello world!</string>

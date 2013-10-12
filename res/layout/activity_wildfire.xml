@@ -23,7 +23,7 @@
             android:id="@+id/TEXT_STATUS_ID"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="@string/thunderstormtxt"
+            android:text="@string/wildfiretxt"
             android:textSize="18sp" />
 
     </ScrollView>
