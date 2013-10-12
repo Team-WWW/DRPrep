@@ -138,7 +138,7 @@ If you see approaching storms or any of the danger signs, be prepared to take sh
     
     
     <string name="heatwavetxt">\n
-\t\tHeat kills by pushing the human body beyond its limits. In extreme heat and high humidity, evaporation is slowed and the body must work extra hard to maintain a normal temperature.\n\n
+\t\t Heat kills by pushing the human body beyond its limits. In extreme heat and high humidity, evaporation is slowed and the body must work extra hard to maintain a normal temperature.\n\n
 
 To prepare for extreme heat, you should:\n\n
 &#8226;\t Build an emergency kit and make a family communications plan.\n\n
@@ -156,91 +156,113 @@ To prepare for extreme heat, you should:\n\n
     
     
 <string name="poweroutagetxt">\n
-        \t\tFloods are one of the most common hazards in the United States, however not all floods are alike. Some floods develop slowly, while others such a flash floods, can develop in just a few minutes and without visible signs of rain. Additionally, floods can be local, impacting a neighborhood or community, or very large, affecting entire river basins and multiple states.\n\n
-
-&#8226;\t To prepare for a flood, you should:\n\n
-&#8226;\t Build an emergency kit and make a family communications plan.\n\n
-&#8226;\t Avoid building in a floodplain unless you elevate and reinforce your home.\n\n
-&#8226;\t Elevate the furnace, water heater and electric panel in your home if you live in an area that has a high flood risk.\n\n
-&#8226;\t Consider installing "check valves" to prevent flood water from backing up into the drains of your home.\n\n
-&#8226;\t If feasible, construct barriers to stop floodwater from entering the building and seal walls in basements with waterproofing compounds.\n\n
+\t\t Blackouts can happen at any time, anywhere, and to anyone. It is beneficial to everyone to know what they need to prepare for the unexpected. \n\n
+&#8226;\t Conserve energy\n\n
+&#8226;\t Plastic containers of water in fridge and freezer\n\n
+&#8226;\t Maintain at least ½ tank of gas in car\n\n
+&#8226;\t Know how to open your garage door manually\n\n
+&#8226;\t Keep physical keys with you in case electronic locks fail\n\n
+&#8226;\t Maintain an emergency kit\n\n
 </string>
 
 
 <string name="gasleaktxt">\n
-        \t\tFloods are one of the most common hazards in the United States, however not all floods are alike. Some floods develop slowly, while others such a flash floods, can develop in just a few minutes and without visible signs of rain. Additionally, floods can be local, impacting a neighborhood or community, or very large, affecting entire river basins and multiple states.\n\n
-
-&#8226;\t To prepare for a flood, you should:\n\n
-&#8226;\t Build an emergency kit and make a family communications plan.\n\n
-&#8226;\t Avoid building in a floodplain unless you elevate and reinforce your home.\n\n
-&#8226;\t Elevate the furnace, water heater and electric panel in your home if you live in an area that has a high flood risk.\n\n
-&#8226;\t Consider installing "check valves" to prevent flood water from backing up into the drains of your home.\n\n
-&#8226;\t If feasible, construct barriers to stop floodwater from entering the building and seal walls in basements with waterproofing compounds.\n\n
+\t\t Gas leaks can prove to be very deadly and knowing what to watch out for will have everyone prepared.\n\n
+&#8226;\t Speed is key. Do not wait for someone else to do something.\n\n
+&#8226;\t Know where gas lines are buried before digging\n\n
+&#8226;\t Keep appliances in good condition\n\n
+&#8226;\t If you smell gas, call your local gas provider and leave building. Do not use electrical equipment or matches.\n\n
 </string>
 
 
 <string name="copoisontxt">\n
-        \t\tFloods are one of the most common hazards in the United States, however not all floods are alike. Some floods develop slowly, while others such a flash floods, can develop in just a few minutes and without visible signs of rain. Additionally, floods can be local, impacting a neighborhood or community, or very large, affecting entire river basins and multiple states.\n\n
-
-&#8226;\t To prepare for a flood, you should:\n\n
-&#8226;\t Build an emergency kit and make a family communications plan.\n\n
-&#8226;\t Avoid building in a floodplain unless you elevate and reinforce your home.\n\n
-&#8226;\t Elevate the furnace, water heater and electric panel in your home if you live in an area that has a high flood risk.\n\n
-&#8226;\t Consider installing "check valves" to prevent flood water from backing up into the drains of your home.\n\n
-&#8226;\t If feasible, construct barriers to stop floodwater from entering the building and seal walls in basements with waterproofing compounds.\n\n
+\t\t Carbon Monoxide Poisoning is a silent killer. People suffering from this type of poisoning may not even know they are being poisoned. It is odor less and colorless. Points everyone must know are:\n\n
+&#8226;\t Know the symptoms of carbon monoxide poisoning\n\n
+&#8226;\t Check heater vents and chimneys for obstructions\n\n
+&#8226;\t Install Carbon Monoxide alarm\n\n
+&#8226;\t If poisoning is suspected, go outside, call 911\n\n
+&#8226;\t Do not run a car in a closed garage\n\n
+&#8226;\t Ensure exhaust pipe is clear when digging out of snow\n\n
+&#8226;\t Ensure proper ventilation when running any combustible engine\n\n
 </string>
 
 
 <string name="explosiontxt">\n
-        \t\tFloods are one of the most common hazards in the United States, however not all floods are alike. Some floods develop slowly, while others such a flash floods, can develop in just a few minutes and without visible signs of rain. Additionally, floods can be local, impacting a neighborhood or community, or very large, affecting entire river basins and multiple states.\n\n
-
-&#8226;\t To prepare for a flood, you should:\n\n
-&#8226;\t Build an emergency kit and make a family communications plan.\n\n
-&#8226;\t Avoid building in a floodplain unless you elevate and reinforce your home.\n\n
-&#8226;\t Elevate the furnace, water heater and electric panel in your home if you live in an area that has a high flood risk.\n\n
-&#8226;\t Consider installing "check valves" to prevent flood water from backing up into the drains of your home.\n\n
-&#8226;\t If feasible, construct barriers to stop floodwater from entering the building and seal walls in basements with waterproofing compounds.\n\n
+\t\t There is really no true way to prepare for an explosion. They are unexpected and extremely dangerous. If ever presented with this type of situation two things to keep up to date and ready are:\n\n
+&#8226;\t Emergency Supply Kit (Disaster Kit)\n\n
+&#8226;\t Family Emergency Plan (where to meet, out of town contact, pets)\n\n
 </string>
 
 
 <string name="carcrashtxt">\n
-        \t\tFloods are one of the most common hazards in the United States, however not all floods are alike. Some floods develop slowly, while others such a flash floods, can develop in just a few minutes and without visible signs of rain. Additionally, floods can be local, impacting a neighborhood or community, or very large, affecting entire river basins and multiple states.\n\n
-
-&#8226;\t To prepare for a flood, you should:\n\n
-&#8226;\t Build an emergency kit and make a family communications plan.\n\n
-&#8226;\t Avoid building in a floodplain unless you elevate and reinforce your home.\n\n
-&#8226;\t Elevate the furnace, water heater and electric panel in your home if you live in an area that has a high flood risk.\n\n
-&#8226;\t Consider installing "check valves" to prevent flood water from backing up into the drains of your home.\n\n
-&#8226;\t If feasible, construct barriers to stop floodwater from entering the building and seal walls in basements with waterproofing compounds.\n\n
+\t\t Car accidents kill hundreds of people every year. There are multiple reasons or causes for them so preparation for this type of disaster is paramount. \n\n
+&#8226;\t Buckle up, slow down, don’t drive impaired\n\n
+&#8226;\t Be well rested and alert\n\n
+&#8226;\t Use caution in work zones\n\n
+&#8226;\t Give your full attention to the road. Avoid distractions such as cell phones.\n\n
+&#8226;\t Observe speed limits – driving too fast or too slow can increase your chance of being in a collision\n\n
+&#8226;\t Make frequent stops. During long trips, rotate drivers. If you’re too tired to drive, stop and get some rest. Tired drivers make poor judgments\n\n
+&#8226;\t If you have car trouble, pull off the road as far as possible\n\n
+&#8226;\t Have a Disaster Kit in your car\n\n
+&#8226;\t Let someone know your destination, your route, and when you expect to arrive. If your car gets stuck along the way, help can be sent along your predetermined route.\n\n
+&#8226;\t Check the weather before going on an extensive trip\n\n
+&#8226;\t Don’t let your vehicle’s gas tank get too low\n\n
 </string>
 
 
 <string name="infestation">\n
-        \t\tFloods are one of the most common hazards in the United States, however not all floods are alike. Some floods develop slowly, while others such a flash floods, can develop in just a few minutes and without visible signs of rain. Additionally, floods can be local, impacting a neighborhood or community, or very large, affecting entire river basins and multiple states.\n\n
+\t\t Managing structural infestation, or pest control, is to reduce the pest population by altering the structural environment, change practices and carefully using pesticides (speak with a professional before using pesticides). Some tips to follow in pest management are:\n\n
+&#8226;\t Inspection - inspect the structure for signs of infestation; generally, infestation occurs in a specific area\n\n
+&#8226;\t Alter Environment - changing the living conditions will eliminate chance of infestation; some alterations include cleanliness and moisture reduction\n\n
+&#8226;\t Follow-up Actions - keep record of structural stability and possible infested areas\n\n
+&#8226;\t Consult a Technician - contact pest control to gain more knowledge and instructions of how to properly target a specific type of infestation\n\n
 
-&#8226;\t To prepare for a flood, you should:\n\n
-&#8226;\t Build an emergency kit and make a family communications plan.\n\n
-&#8226;\t Avoid building in a floodplain unless you elevate and reinforce your home.\n\n
-&#8226;\t Elevate the furnace, water heater and electric panel in your home if you live in an area that has a high flood risk.\n\n
-&#8226;\t Consider installing "check valves" to prevent flood water from backing up into the drains of your home.\n\n
-&#8226;\t If feasible, construct barriers to stop floodwater from entering the building and seal walls in basements with waterproofing compounds.\n\n
 </string>
 
 
 <string name="terroristtxt">\n
-        \t\tFloods are one of the most common hazards in the United States, however not all floods are alike. Some floods develop slowly, while others such a flash floods, can develop in just a few minutes and without visible signs of rain. Additionally, floods can be local, impacting a neighborhood or community, or very large, affecting entire river basins and multiple states.\n\n
+\t\t The age we live in is surrounded by many treats. In this day and age terrorism has become rampant and being prepared may just save your life. Things you must know:\n\n
 
-&#8226;\t To prepare for a flood, you should:\n\n
-&#8226;\t Build an emergency kit and make a family communications plan.\n\n
-&#8226;\t Avoid building in a floodplain unless you elevate and reinforce your home.\n\n
-&#8226;\t Elevate the furnace, water heater and electric panel in your home if you live in an area that has a high flood risk.\n\n
-&#8226;\t Consider installing "check valves" to prevent flood water from backing up into the drains of your home.\n\n
-&#8226;\t If feasible, construct barriers to stop floodwater from entering the building and seal walls in basements with waterproofing compounds.\n\n
+Biological Attack\n\n
+&#8226;\t  Keep immunizations up to date\n\n
+&#8226;\t Install a HEPA filter in furnace return air duct\n\n
+&#8226;\t Know the warning systems\n\n
+
+Chemical Attack\n\n
+&#8226;\t  Pick a room to use as shelter with plastic and duct tape to cover openings and vents\n
+&#8226;\t  Do not go outside\n\n
+&#8226;\t  Listen to emergency broadcast for news, alerts, and potential instructions\n
 </string>
 
 
     
-    
+<string name="disasterkittxt">\n
+\t\t No matter the situation, everyone should have a generic disaster kit ensuring the best results from whatever disaster a person is faced with.\n\n
+
+&#8226;\t  Water (1 gallon per person per day for 3+ days)\n\n
+&#8226;\t  Nonperishable food (3+ days)\n\n
+&#8226;\t  Battery powered radio\n\n
+&#8226;\t  NOAA Weather Radio\n\n
+&#8226;\t  Flashlight\n\n
+&#8226;\t  Spare batteries\n\n
+&#8226;\t  First Aid Kit\n\n
+&#8226;\t  Whistle\n\n
+&#8226;\t  Dust Mask, Plastic sheeting and duct tape\n\n
+&#8226;\t  Moist towelettes\n\n
+&#8226;\t  Garbage bags and twist ties\n\n
+&#8226;\t  Wrench or pliers\n\n
+&#8226;\t  Manual can opener\n\n
+&#8226;\t  Local Maps\n\n
+&#8226;\t  Cell Phone with charger\n\n
+&#8226;\t  Copies of prescriptions\n\n
+&#8226;\t  Sleeping bags and pillows\n\n
+&#8226;\t  Clothes\n\n
+&#8226;\t  Copies of important documents (Social Security, ID, Birth and Marriage certs, Will, insurance)\n\n
+&#8226;\t  Personal Hygiene items\n\n
+&#8226;\t  Extra medication\n\n
+&#8226;\t  Cash\n\n
+&#8226;\t  Cooler of ice\n\n
+</string>
     
     
     

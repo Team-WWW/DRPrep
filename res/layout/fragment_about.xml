@@ -46,7 +46,7 @@
         android:layout_height="wrap_content"
         android:layout_alignLeft="@+id/txtAnthony"
         android:layout_alignTop="@+id/imageScott"
-        android:text="TextView" />
+        android:text="Scott Schramm" />
 
     <TextView
         android:id="@+id/txtAnthony"
@@ -54,7 +54,7 @@
         android:layout_height="wrap_content"
         android:layout_alignTop="@+id/imageAnthony"
         android:layout_centerHorizontal="true"
-        android:text="TextView" />
+        android:text="Anthony Rush" />
 
     <TextView
         android:id="@+id/txtZack"
@@ -62,7 +62,7 @@
         android:layout_height="wrap_content"
         android:layout_alignLeft="@+id/txtScott"
         android:layout_alignTop="@+id/imageZack"
-        android:text="TextView" />
+        android:text="Zachary Leitner" />
 
     <TextView
         android:id="@+id/txtKyle"
@@ -70,6 +70,6 @@
         android:layout_height="wrap_content"
         android:layout_alignLeft="@+id/txtZack"
         android:layout_alignTop="@+id/imageKyle"
-        android:text="TextView" />
+        android:text="Kyle Burk" />
 
 </RelativeLayout>
