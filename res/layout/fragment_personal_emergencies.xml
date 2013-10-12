@@ -65,7 +65,7 @@
         android:layout_alignLeft="@+id/btnFight"
         android:layout_below="@+id/btnFight"
         android:layout_marginTop="20dp"
-        android:text="Assault" />
+        android:text=" Assault" />
 
     <TextView
         android:id="@+id/txtAllergicReactions"
@@ -90,7 +90,7 @@
         android:layout_alignLeft="@+id/btnBurn"
         android:layout_below="@+id/btnBurn"
         android:layout_marginTop="20dp"
-        android:text="Burns" />
+        android:text="   Burns" />
 
     <TextView
         android:id="@+id/txtInfection"
@@ -106,7 +106,7 @@
         android:layout_height="wrap_content"
         android:layout_alignBottom="@+id/txtInfection"
         android:layout_alignRight="@+id/btnChoking"
-        android:text="Choking" />
+        android:text="Choking  " />
 
     <Button
         android:id="@+id/btnFight"

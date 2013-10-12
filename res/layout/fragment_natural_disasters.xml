@@ -85,7 +85,7 @@
         android:layout_alignLeft="@+id/btnWildfire"
         android:layout_below="@+id/btnWildfire"
         android:layout_marginTop="20dp"
-        android:text="Wildfire" />
+        android:text=" Wildfire" />
     
     <TextView
         android:id="@+id/txtEarthquake"
@@ -103,7 +103,7 @@
         android:layout_alignBaseline="@+id/txtEarthquake"
         android:layout_alignBottom="@+id/txtEarthquake"
         android:layout_alignRight="@+id/btnFlood"
-        android:text="Flood" />
+        android:text="Flood    " />
 
     <TextView
         android:id="@+id/txtThunderstorm"
@@ -130,7 +130,7 @@
         android:layout_alignBaseline="@+id/txtHurricane"
         android:layout_alignBottom="@+id/txtHurricane"
         android:layout_alignRight="@+id/btnTornado"
-        android:text="Tornado" />
+        android:text="Tornado  " />
 
     <TextView
         android:id="@+id/txtHeatwave"
