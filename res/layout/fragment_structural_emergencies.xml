@@ -53,7 +53,8 @@
         android:layout_height="wrap_content"
         android:layout_alignBottom="@+id/btnCarCrash"
         android:layout_alignLeft="@+id/btnCo"
-        android:background="@drawable/disaster_insect_infestation"/>
+        android:background="@drawable/disaster_insect_infestation"
+        android:minHeight="64dp" />
 
     <Button
         android:id="@+id/btnTerroristAttack"
