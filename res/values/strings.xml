@@ -11,7 +11,8 @@
         <item>Personal Emergencies</item>
         <item>About</item>
         <item>Contact Us</item>
-        <item>Support</item>
+        <item>Help</item>
+        <item>References</item>
     </string-array>
 
     <string name="drawer_open">Open navigation drawer</string>
@@ -36,8 +37,7 @@ Falling raindrops evaporate, but lightning can still reach the ground and can st
 **Get inside a home, building, or hard top automobile (not a convertible). Although you may be injured if lightning strikes your car, you are much safer inside a vehicle than outside.\n\n
 **Remember, rubber-soled shoes and rubber tires provide NO protection from lightning. However, the steel frame of a hard-topped vehicle provides increased protection if you are not touching metal.\n\n
 **Shutter windows and secure outside doors. If shutters are not available, close window blinds, shades or curtains.\n\n
-**Unplug any electronic equipment well before the storm arrives.\n\n
-</string>
+**Unplug any electronic equipment well before the storm arrives.\n\n</string>
     <string name="disaster_kit">Disaster Resource Kit</string>
     <string name="title_activity_wildfire">Wildfire</string>
     <string name="hello_world">Hello world!</string>
@@ -62,5 +62,7 @@ Falling raindrops evaporate, but lightning can still reach the ground and can st
     <string name="title_activity_choking">Choking</string>
     <string name="title_activity_bleeding">Bleeding</string>
     <string name="title_activity_disaster_resource_kit">DisasterResourceKit</string>
+    
+    <string name="thunderstorm_ref">http://www.ready.gov/thunderstorms-lightning</string>
 
 </resources>

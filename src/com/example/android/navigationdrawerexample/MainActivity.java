@@ -264,8 +264,11 @@ public class MainActivity extends Activity {
 	    		fragment = new ContactUsFragment();
 	    		break;
 	    	case 6:
-	    		fragment = new SupportFragment();
-	    		break;	
+	    		fragment = new HelpFragment();
+	    		break;
+	    	case 7:
+	    		fragment = new ReferencesFragment();
+	    		break;
         }
         
         if (fragment != null)

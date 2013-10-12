@@ -1,7 +1,75 @@
 <?xml version="1.0" encoding="utf-8"?>
-<GridLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
     android:layout_height="match_parent" >
-    
 
-</GridLayout>
+    <ImageView
+        android:id="@+id/imageAnthony"
+        android:layout_width="85dp"
+        android:layout_height="85dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="30dp"
+        android:src="@drawable/arush" />
+
+    <ImageView
+        android:id="@+id/imageScott"
+        android:layout_width="85dp"
+        android:layout_height="85dp"
+        android:layout_alignLeft="@+id/imageAnthony"
+        android:layout_below="@+id/imageAnthony"
+        android:layout_marginTop="30dp"
+        android:src="@drawable/sschramm" />
+
+    <ImageView
+        android:id="@+id/imageKyle"
+        android:layout_width="85dp"
+        android:layout_height="85dp"
+        android:layout_alignLeft="@+id/imageZack"
+        android:layout_below="@+id/imageZack"
+        android:layout_marginTop="30dp"
+        android:src="@drawable/kyle" />
+
+    <ImageView
+        android:id="@+id/imageZack"
+        android:layout_width="85dp"
+        android:layout_height="85dp"
+        android:layout_below="@+id/imageScott"
+        android:layout_alignLeft="@+id/imageScott"
+        android:layout_marginTop="30dp"
+        android:src="@drawable/zleitner" />
+
+    <TextView
+        android:id="@+id/txtScott"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/txtAnthony"
+        android:layout_alignTop="@+id/imageScott"
+        android:text="TextView" />
+
+    <TextView
+        android:id="@+id/txtAnthony"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/imageAnthony"
+        android:layout_centerHorizontal="true"
+        android:text="TextView" />
+
+    <TextView
+        android:id="@+id/txtZack"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/txtScott"
+        android:layout_alignTop="@+id/imageZack"
+        android:text="TextView" />
+
+    <TextView
+        android:id="@+id/txtKyle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/txtZack"
+        android:layout_alignTop="@+id/imageKyle"
+        android:text="TextView" />
+
+</RelativeLayout>
