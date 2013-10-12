@@ -30,7 +30,7 @@ public class PersonalEmergenciesFragment extends Fragment implements OnClickList
     {
         View rootView = inflator.inflate(R.layout.fragment_personal_emergencies, container, false);
 
-        getActivity().setTitle("Personal Emergencies!");
+        getActivity().setTitle("Personal Emergencies");
         
         Button fight = (Button) rootView.findViewById(R.id.btnFight);
         fight.setOnClickListener(this);

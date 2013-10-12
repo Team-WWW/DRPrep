@@ -25,7 +25,7 @@ public class HomeFragment extends Fragment implements OnClickListener
     {
         View rootView = inflator.inflate(R.layout.fragment_home, container, false);
 
-        getActivity().setTitle("Home!");
+        getActivity().setTitle("Home");
         
         Button dResourceKit = (Button) rootView.findViewById(R.id.btnDisaster_Kit);
         dResourceKit.setOnClickListener(this);

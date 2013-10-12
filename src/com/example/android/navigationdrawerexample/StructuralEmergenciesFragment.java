@@ -33,7 +33,7 @@ public class StructuralEmergenciesFragment extends Fragment implements OnClickLi
     {
         View rootView = inflator.inflate(R.layout.fragment_structural_emergencies, container, false);
 
-        getActivity().setTitle("Structural Emergencies!");
+        getActivity().setTitle("Structural Emergencies");
         
         Button pOutage = (Button) rootView.findViewById(R.id.btnPoweroutage);
         pOutage.setOnClickListener(this);

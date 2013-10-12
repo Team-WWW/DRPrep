@@ -22,21 +22,24 @@
         Feel free to send us any positive or negative feedback, and we will get back to you as soon possible</string>
     <string name="hyperlink">mailto:thorn79@gmail.com</string>
     <string name="title_activity_thunderstorm">Thunderstorm</string>
-    <string name="thunderstormtxt">\t\t\tAll thunderstorms are dangerous. Every thunderstorm produces lightning. 
+    <string name="thunderstormtxt">\n
+        \t\tAll thunderstorms are dangerous. Every thunderstorm produces lightning. 
         Although most lightning victims survive, people struck by lightning often report a variety of long-term, debilitating symptoms.\n\n
-        \t\t\tOther associated dangers of thunderstorms include tornadoes, strong winds, hail and flash flooding. Dry thunderstorms that do not produce rain that reaches the ground are most prevalent in the western United States. 
+        \t\tOther associated dangers of thunderstorms include tornadoes, strong winds, hail and flash flooding. Dry thunderstorms that do not produce rain that reaches the ground are most prevalent in the western United States. 
 Falling raindrops evaporate, but lightning can still reach the ground and can start wildfires.\n\n
 
-\t\t\tTo prepare for a thunderstorm, you should do the following:\n\n
-**To begin preparing, you should build an emergency kit and make a family communications plan.\n\n
-**Remove dead or rotting trees and branches that could fall and cause injury or damage during a severe thunderstorm.\n\n
-**Postpone outdoor activities.\n\n
-**Remember the 30/30 Lightning Safety Rule: Go indoors if, after seeing lightning, you cannot count to 30 before hearing thunder. Stay indoors for 30 minutes after hearing the last clap of thunder.\n\n
-**Secure outdoor objects that could blow away or cause damage.\n\n
-**Get inside a home, building, or hard top automobile (not a convertible). Although you may be injured if lightning strikes your car, you are much safer inside a vehicle than outside.\n\n
-**Remember, rubber-soled shoes and rubber tires provide NO protection from lightning. However, the steel frame of a hard-topped vehicle provides increased protection if you are not touching metal.\n\n
-**Shutter windows and secure outside doors. If shutters are not available, close window blinds, shades or curtains.\n\n
-**Unplug any electronic equipment well before the storm arrives.\n\n
+\t\tTo prepare for a thunderstorm, you should do the following:\n\n
+&#8226;  To begin preparing, you should build an emergency kit and make a family communications plan.\n\n
+&#8226;  Remove dead or rotting trees and branches that could fall and cause injury or damage during a severe thunderstorm.\n\n
+&#8226;  Postpone outdoor activities.\n\n
+&#8226;  Remember the 30/30 Lightning Safety Rule: Go indoors if, after seeing lightning, you cannot count to 30 before hearing thunder. Stay indoors for 30 minutes after hearing the last clap of thunder.\n\n
+&#8226;  Secure outdoor objects that could blow away or cause damage.\n\n
+&#8226;  Get inside a home, building, or hard top automobile (not a convertible). Although you may be injured if lightning strikes your car, you are much safer inside a vehicle than outside.\n\n
+&#8226;  Remember, rubber-soled shoes and rubber tires provide NO protection from lightning. However, the steel frame of a hard-topped vehicle provides increased protection if you are not touching metal.\n\n
+&#8226;  Shutter windows and secure outside doors. If shutters are not available, close window blinds, shades or curtains.\n\n
+&#8226;  Unplug any electronic equipment well before the storm arrives.\n\n
+
+
 </string>
     <string name="disaster_kit">Disaster Resource Kit</string>
     <string name="title_activity_wildfire">Wildfire</string>

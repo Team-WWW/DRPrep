@@ -19,7 +19,7 @@ public class ThunderstormFragment extends Fragment
     {
         View rootView = inflator.inflate(R.layout.fragment_thunderstorm, container, false);
 
-        getActivity().setTitle("Thunderstorm!");
+        getActivity().setTitle("Thunderstorm");
         
         return rootView;
     }

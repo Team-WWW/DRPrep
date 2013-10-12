@@ -19,7 +19,7 @@ public class SupportFragment extends Fragment
     {
         View rootView = inflator.inflate(R.layout.fragment_support, container, false);
 
-        getActivity().setTitle("Support!");
+        getActivity().setTitle("Support");
         
         return rootView;
     }

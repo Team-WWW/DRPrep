@@ -34,7 +34,7 @@ public class NaturalDisastersFragment extends Fragment implements OnClickListene
     {
         View rootView = inflator.inflate(R.layout.fragment_natural_disasters, container, false);
 
-        getActivity().setTitle("Natural Disasters!");
+        getActivity().setTitle("Natural Disasters");
         
         
         Button tStorm = (Button) rootView.findViewById(R.id.btnThunderstorm);

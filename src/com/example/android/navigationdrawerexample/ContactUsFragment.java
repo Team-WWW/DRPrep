@@ -19,7 +19,7 @@ public class ContactUsFragment extends Fragment
     {
         View rootView = inflator.inflate(R.layout.fragment_contact_us, container, false);
 
-        getActivity().setTitle("Contact Us!");
+        getActivity().setTitle("Contact Us");
         
         return rootView;
     }
