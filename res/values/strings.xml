@@ -338,6 +338,24 @@ http://www.hopkinsmedicine.org/kimmel_cancer_center/patient_information/educatio
 </string>
 
 
+<string name="helptxttitle">
+<B>Here are some tips for navigating throughout the app!</B>
+
+</string>
+
+<string name="helptxt">
+1. \t\t To navigate between the sections, you can access the menu two ways: \n\n
+\t &#8226;\t Tap the menu icon in the top left corner next to the Android icon\n\n
+\t &#8226;\t Slide your finger from the left edge of the screen into the center of the screen \n\n
+2. \t\t When you select a section with disasters or emergencies, choose an icon from the grid to learn more.  \n\n
+3. \t\t When you are finished reading the information, push the back button on your phone to return to the previous page. \n
+</string>
+
+
+<string name="helptxtcontact">
+<B> If you need additional help, please feel free to contact us! \n</B>
+</string>
+
     
 <string name="disasterkittxt">\n
 \t\t No matter the situation, everyone should have a generic disaster kit ensuring the best results from whatever disaster a person is faced with.\n\n

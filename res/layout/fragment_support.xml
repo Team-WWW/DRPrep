@@ -4,5 +4,42 @@
     android:layout_height="match_parent"
     android:orientation="vertical" >
     
+<TextView
+        android:id="@+id/txtContact"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp"
+        android:layout_marginTop="15dp"
+        android:linksClickable="true"
+        android:text="@string/helptxttitle"
+        android:gravity="center"
+        android:textSize="24sp" />
 
+
+<TextView
+        android:id="@+id/txtContact"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="12dp"
+        android:layout_marginRight="12dp"
+        android:layout_marginTop="20dp"
+        android:linksClickable="true"
+        android:text="@string/helptxt"
+        android:textSize="18sp" />
+
+
+<TextView
+        android:id="@+id/txtContact"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginTop="12dp"
+        android:linksClickable="true"
+        android:text="@string/helptxtcontact"
+        android:gravity="center"
+        android:textSize="22sp" />
+
+    
 </LinearLayout>
