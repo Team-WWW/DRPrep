@@ -135,17 +135,17 @@ public final class R {
         public static final int drawer_layout=0x7f090003;
         public static final int ic_launcher=0x7f090044;
         public static final int image=0x7f090034;
+        public static final int imageAnthony=0x7f090006;
         public static final int imageDisaster=0x7f090000;
-        public static final int imageKyle=0x7f090008;
+        public static final int imageKyle=0x7f09000d;
         public static final int imageLogo=0x7f090015;
-        public static final int imageScott=0x7f090007;
-        public static final int imageView1=0x7f090006;
-        public static final int imageZack=0x7f090009;
+        public static final int imageScott=0x7f090009;
+        public static final int imageZack=0x7f09000b;
         public static final int left_drawer=0x7f090005;
         public static final int linearLayout1=0x7f09000f;
         public static final int scrollView1=0x7f090043;
         public static final int txtAllergicReactions=0x7f09002d;
-        public static final int txtAnthony=0x7f09000b;
+        public static final int txtAnthony=0x7f090008;
         public static final int txtAssault=0x7f09002c;
         public static final int txtBleeding=0x7f090032;
         public static final int txtBurns=0x7f09002f;
@@ -162,17 +162,17 @@ public final class R {
         public static final int txtHurricane=0x7f090022;
         public static final int txtInfection=0x7f090030;
         public static final int txtInfestation=0x7f090041;
-        public static final int txtKyle=0x7f09000d;
+        public static final int txtKyle=0x7f09000c;
         public static final int txtPick=0x7f090017;
         public static final int txtPoisonControl=0x7f09002e;
         public static final int txtPower=0x7f09003c;
-        public static final int txtScott=0x7f09000a;
+        public static final int txtScott=0x7f090007;
         public static final int txtTerrorist=0x7f090042;
         public static final int txtThunderStormRef=0x7f090016;
         public static final int txtThunderstorm=0x7f090021;
         public static final int txtTornado=0x7f090023;
         public static final int txtWildfire=0x7f09001e;
-        public static final int txtZack=0x7f09000c;
+        public static final int txtZack=0x7f09000a;
     }
     public static final class layout {
         public static final int activity_allergic_reaction=0x7f030000;
@@ -201,12 +201,12 @@ public final class R {
         public static final int drawer_list_item=0x7f030017;
         public static final int fragment_about=0x7f030018;
         public static final int fragment_contact_us=0x7f030019;
-        public static final int fragment_home=0x7f03001a;
-        public static final int fragment_natural_disasters=0x7f03001b;
-        public static final int fragment_personal_emergencies=0x7f03001c;
-        public static final int fragment_planet=0x7f03001d;
-        public static final int fragment_structural_emergencies=0x7f03001e;
-        public static final int fragment_support=0x7f03001f;
+        public static final int fragment_help=0x7f03001a;
+        public static final int fragment_home=0x7f03001b;
+        public static final int fragment_natural_disasters=0x7f03001c;
+        public static final int fragment_personal_emergencies=0x7f03001d;
+        public static final int fragment_planet=0x7f03001e;
+        public static final int fragment_structural_emergencies=0x7f03001f;
         public static final int fragment_thunderstorm=0x7f030020;
         public static final int splash=0x7f030021;
     }

@@ -17,7 +17,7 @@ public class HelpFragment extends Fragment
     @Override
     public View onCreateView(LayoutInflater inflator, ViewGroup container, Bundle savedInstanceState)
     {
-        View rootView = inflator.inflate(R.layout.fragment_support, container, false);
+        View rootView = inflator.inflate(R.layout.fragment_help, container, false);
 
         getActivity().setTitle("Help");
         
