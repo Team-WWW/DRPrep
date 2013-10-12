@@ -18,8 +18,8 @@
         android:layout_height="wrap_content"
         android:layout_above="@+id/txtDisasterKit"
         android:layout_centerHorizontal="true"
-        android:layout_marginBottom="34dp"
-        android:background="@drawable/disaster_icon"
+        android:layout_marginBottom="22dp"
+        android:background="@drawable/btn_d_kit"
         android:onClick="onClick" />
 
     <ImageView
@@ -28,17 +28,20 @@
         android:layout_height="100dp"
         android:layout_above="@+id/btnDisaster_Kit"
         android:layout_centerHorizontal="true"
-        android:layout_marginBottom="46dp"
+        android:layout_marginBottom="80dp"
         android:src="@drawable/ic_launcher" />
 
     <TextView
         android:id="@+id/txtThunderStormRef"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+
+        android:gravity="center"
         android:layout_alignParentTop="true"
         android:layout_centerHorizontal="true"
-        android:layout_marginTop="38dp"
-        android:text="Disaster Resource Preparation" />
+        android:layout_marginTop="30dp"
+        android:textSize="30sp"
+        android:text="@string/hometitle" />
     
 </RelativeLayout>
 

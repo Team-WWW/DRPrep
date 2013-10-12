@@ -20,20 +20,18 @@
     <string name="pick">Please Choose an Emergency</string>
     <string name="button"></string>
     <string name="contact">Welcome to our contact us page. If you would like to contact any of the developers directly please follow the link below. 
-        Feel free to send us any positive or negative feedback, and we will get back to you as soon possible</string>
-    <string name="hyperlink">mailto:thorn79@gmail.com</string>
+        Feel free to send us any positive or negative feedback, and we will get back to you as soon possible\n\n</string>
+    <string name="hyperlink">mailto://thorn79@gmail.com</string>
     <string name="title_activity_thunderstorm">Thunderstorm</string>
+    <string name="emailus">Email Us</string>
+    <string name="hometitle"><i>Dr. Prep: Disaster Resource Preparation</i></string>
+        
     
-    
-    
-    
-    <string name="thunderstormtxt">\n
-        \t\tAll thunderstorms are dangerous. Every thunderstorm produces lightning. 
-        Although most lightning victims survive, people struck by lightning often report a variety of long-term, debilitating symptoms.\n\n
-        \t\tOther associated dangers of thunderstorms include tornadoes, strong winds, hail and flash flooding. Dry thunderstorms that do not produce rain that reaches the ground are most prevalent in the western United States. 
-Falling raindrops evaporate, but lightning can still reach the ground and can start wildfires.\n\n
-
-\t\tTo prepare for a thunderstorm, you should do the following:\n\n
+<string name="thunderstormtxt">\n
+\t\t All thunderstorms are dangerous. Every thunderstorm produces lightning. Although most lightning victims survive, people struck by lightning often report a variety of long-term, debilitating symptoms.\n\n
+\t\t Other associated dangers of thunderstorms include tornadoes, strong winds, hail and flash flooding. Dry thunderstorms that do not produce rain that reaches the ground are most prevalent in the western United States. 
+\t\t Falling raindrops evaporate, but lightning can still reach the ground and can start wildfires.\n\n
+\t\t To prepare for a thunderstorm, you should do the following:\n\n
 &#8226;\t To begin preparing, you should build an emergency kit and make a family communications plan.\n\n
 &#8226;\t Remove dead or rotting trees and branches that could fall and cause injury or damage during a severe thunderstorm.\n\n
 &#8226;\t Postpone outdoor activities.\n\n
@@ -48,7 +46,6 @@ Falling raindrops evaporate, but lightning can still reach the ground and can st
     
 <string name="wildfiretxt">\n
 \t\t Wildfires often begin unnoticed. These fires are usually triggered by lightning or accidents. They spread quickly, igniting brush, trees, and homes. Reduce your risk by preparing now - before wildfire strikes. Meet with your family to decide what to do and where to go if wildfires threaten your area. Follow the steps listed below to protect your family, home, and property\n\n
-
 \t\t The following are things you can do to protect yourself, your family and your property in the event of a fire.\n\n
 &#8226;\t To begin preparing, you should build an emergency kit and make a family communications plan.\n\n
 &#8226;\t Use fire-resistant or noncombustible materials on the roof and exterior structure of the dwelling, or treat wood or combustible material used in roofs, siding, decking or trim with fire-retardant chemicals evaluated by a nationally recognized laboratory, such as Underwriters Laboratories (UL).\n\n
@@ -60,16 +57,13 @@ Falling raindrops evaporate, but lightning can still reach the ground and can st
 &#8226;\t Keep a ladder that will reach the roof.\n\n
 &#8226;\t Consider installing protective shutters or heavy fire-resistant drapes.\n\n
 &#8226;\t Clear items that will burn from around the house, including wood piles, lawn furniture, barbecue grills, tarp coverings, etc. Move them outside of your defensible space.\n\n
-
 \t\t Your best resource for proper planning is www.firewise.org which has outstanding information used daily by residents, property owners, fire departments, community planners, builders, public policy officials, water authorities, architects and others to assure safety from fire - it really works. Firewise workshops are offered for free all across the nation in communities large and small and free Firewise materials can be obtained easily by anyone interested.\n\n
-
 </string>
     
-    
+   
 <string name="earthquaketxt">\n
 \t\t One of the most frightening and destructive phenomena of nature is a severe earthquake and its terrible after effects. An earthquake is the sudden, rapid shaking of the earth, caused by the breaking and shifting of subterranean rock as it releases strain that has accumulated over a long time. All 50 states and 5 U.S. territories are at some risk for earthquakes.  Earthquakes can happen at any time of the year. It is impossible to predict when or where an earthquake will occur, so it is important that you and your family are prepared ahead of time.\n\n
 \t\tThe following are things you can do to protect yourself, your family and your property in the event of an earthquake.\n\n
-
 &#8226;\t To begin preparing, you should build an emergency kit and make a family communications plan.\n\n
 &#8226;\t Fasten shelves securely to walls.\n\n
 &#8226;\t Place large or heavy objects on lower shelves.\n\n
@@ -85,8 +79,7 @@ Falling raindrops evaporate, but lightning can still reach the ground and can st
 </string>
       
 <string name="floodtxt">\n
-        \t\tFloods are one of the most common hazards in the United States, however not all floods are alike. Some floods develop slowly, while others such a flash floods, can develop in just a few minutes and without visible signs of rain. Additionally, floods can be local, impacting a neighborhood or community, or very large, affecting entire river basins and multiple states.\n\n
-
+\t\tFloods are one of the most common hazards in the United States, however not all floods are alike. Some floods develop slowly, while others such a flash floods, can develop in just a few minutes and without visible signs of rain. Additionally, floods can be local, impacting a neighborhood or community, or very large, affecting entire river basins and multiple states.\n\n
 &#8226;\t To prepare for a flood, you should:\n\n
 &#8226;\t Build an emergency kit and make a family communications plan.\n\n
 &#8226;\t Avoid building in a floodplain unless you elevate and reinforce your home.\n\n
@@ -94,8 +87,7 @@ Falling raindrops evaporate, but lightning can still reach the ground and can st
 &#8226;\t Consider installing "check valves" to prevent flood water from backing up into the drains of your home.\n\n
 &#8226;\t If feasible, construct barriers to stop floodwater from entering the building and seal walls in basements with waterproofing compounds.\n\n
 </string>
-        
-    
+
 <string name="hurricanetxt">\n
 \t\t A hurricane is a type of tropical cyclone or severe tropical storm that forms in southern oceans. A typical cyclone is accompanied by thunderstorms, and in the Northern Hemisphere, a counterclockwise circulation of winds near the earth’s surface.\n\n
 \t\t The Atlantic hurricane season lasts from June to November, with the peak season from mid-August to late October. The Eastern Pacific hurricane season begins May 15 and ends November 30.\n\n
@@ -114,15 +106,11 @@ Make plans to secure your property:\n\n
 &#8226;\t Reinforce your garage doors; if wind enters a garage it can cause dangerous and expensive structural damage.\n\n
 &#8226;\t Plan to bring in all outdoor furniture, decorations, garbage cans and anything else that is not tied down.\n\n
 &#8226;\t If in a high-rise building, be prepared to take shelter on or below the 10th floor.\n\n
-
 \t\t Hurricanes cause heavy rains that can cause extensive flood damage in coastal and inland areas. Everyone is at risk and should consider flood insurance protection. Flood insurance is the only way to financially protect your property or business from flood damage. To learn more about your flooding risk and how to protect yourself and your business, visit the Federal Insurance and Mitigation Administration (NFIP) Web site,www.floodsmart.gov or call 1-800-427-2419.\n\n
-
 </string>    
-    
-    
-    <string name="tornadotxt">\n
+   
+<string name="tornadotxt">\n
 \t\t Spawned from powerful thunderstorms, tornadoes can cause fatalities and devastate a neighborhood in seconds. A tornado appears as a rotating, funnel-shaped cloud that extends from a thunderstorm to the ground with whirling winds that can reach 300 miles per hour. Some tornadoes are clearly visible, while rain or nearby low-hanging clouds obscure others. Occasionally, tornadoes develop so rapidly that little, if any, advance warning is possible. Before a tornado hits, the wind may die down and the air may become very still. A cloud of debris can mark the location of a tornado even if a funnel is not visible. Tornadoes generally occur near the trailing edge of a thunderstorm. It is not uncommon to see clear, sunlit skies behind a tornado.\n\n
-
 &#8226;\t To begin preparing, you should build an emergency kit and make a family communications plan.\n\n
 &#8226;\t Listen to NOAA Weather Radio or to commercial radio or television newscasts for the latest information. In any emergency, always listen to the instructions given by local emergency management officials.\n\n
 &#8226;\t Be alert to changing weather conditions. Look for approaching storms.\n\n
@@ -132,12 +120,9 @@ Make plans to secure your property:\n\n
 \t\t\t&#8226;\t A large, dark, low-lying cloud\n\n
 \t\t\t&#8226;\t Loud roar, similar to a freight train.\n\n
 If you see approaching storms or any of the danger signs, be prepared to take shelter immediately.\n\n
-
 </string>
     
-    
-    
-    <string name="heatwavetxt">\n
+<string name="heatwavetxt">\n
 \t\t Heat kills by pushing the human body beyond its limits. In extreme heat and high humidity, evaporation is slowed and the body must work extra hard to maintain a normal temperature.\n\n
 
 To prepare for extreme heat, you should:\n\n
@@ -152,9 +137,7 @@ To prepare for extreme heat, you should:\n\n
 &#8226;\t Be aware that people living in urban areas may be at greater risk from the effects of a prolonged heat wave than are people living in rural areas.\n\n
 &#8226;\t Get trained in first aid to learn how to treat heat-related emergencies.\n\n
 </string>
-    
-    
-    
+        
 <string name="poweroutagetxt">\n
 \t\t Blackouts can happen at any time, anywhere, and to anyone. It is beneficial to everyone to know what they need to prepare for the unexpected. \n\n
 &#8226;\t Conserve energy\n\n
@@ -165,7 +148,6 @@ To prepare for extreme heat, you should:\n\n
 &#8226;\t Maintain an emergency kit\n\n
 </string>
 
-
 <string name="gasleaktxt">\n
 \t\t Gas leaks can prove to be very deadly and knowing what to watch out for will have everyone prepared.\n\n
 &#8226;\t Speed is key. Do not wait for someone else to do something.\n\n
@@ -173,7 +155,6 @@ To prepare for extreme heat, you should:\n\n
 &#8226;\t Keep appliances in good condition\n\n
 &#8226;\t If you smell gas, call your local gas provider and leave building. Do not use electrical equipment or matches.\n\n
 </string>
-
 
 <string name="copoisontxt">\n
 \t\t Carbon Monoxide Poisoning is a silent killer. People suffering from this type of poisoning may not even know they are being poisoned. It is odor less and colorless. Points everyone must know are:\n\n
@@ -186,13 +167,11 @@ To prepare for extreme heat, you should:\n\n
 &#8226;\t Ensure proper ventilation when running any combustible engine\n\n
 </string>
 
-
 <string name="explosiontxt">\n
 \t\t There is really no true way to prepare for an explosion. They are unexpected and extremely dangerous. If ever presented with this type of situation two things to keep up to date and ready are:\n\n
 &#8226;\t Emergency Supply Kit (Disaster Kit)\n\n
 &#8226;\t Family Emergency Plan (where to meet, out of town contact, pets)\n\n
 </string>
-
 
 <string name="carcrashtxt">\n
 \t\t Car accidents kill hundreds of people every year. There are multiple reasons or causes for them so preparation for this type of disaster is paramount. \n\n
@@ -209,31 +188,26 @@ To prepare for extreme heat, you should:\n\n
 &#8226;\t Don’t let your vehicle’s gas tank get too low\n\n
 </string>
 
-
 <string name="infestation">\n
 \t\t Managing structural infestation, or pest control, is to reduce the pest population by altering the structural environment, change practices and carefully using pesticides (speak with a professional before using pesticides). Some tips to follow in pest management are:\n\n
 &#8226;\t Inspection - inspect the structure for signs of infestation; generally, infestation occurs in a specific area\n\n
 &#8226;\t Alter Environment - changing the living conditions will eliminate chance of infestation; some alterations include cleanliness and moisture reduction\n\n
 &#8226;\t Follow-up Actions - keep record of structural stability and possible infested areas\n\n
 &#8226;\t Consult a Technician - contact pest control to gain more knowledge and instructions of how to properly target a specific type of infestation\n\n
-
 </string>
 
 
 <string name="terroristtxt">\n
 \t\t The age we live in is surrounded by many treats. In this day and age terrorism has become rampant and being prepared may just save your life. Things you must know:\n\n
-
 Biological Attack\n\n
 &#8226;\t  Keep immunizations up to date\n\n
 &#8226;\t Install a HEPA filter in furnace return air duct\n\n
 &#8226;\t Know the warning systems\n\n
-
 Chemical Attack\n\n
 &#8226;\t  Pick a room to use as shelter with plastic and duct tape to cover openings and vents\n\n
 &#8226;\t  Do not go outside\n\n
 &#8226;\t  Listen to emergency broadcast for news, alerts, and potential instructions\n
 </string>
-
 
 <string name="assulttxt">\n
 &#8226;\t  Be alert, when traveling at opening and closing times.\n\n
@@ -241,7 +215,6 @@ Chemical Attack\n\n
 &#8226;\t  Know where the local authority, or where help can be accessed quickly if needed.\n\n
 &#8226;\t  Take self defense classes if necessary.\n\n
 &#8226;\t  Travel in groups (strength in numbers).\n\n
-
 </string>
 
 <string name="allergictxt">\n
@@ -249,7 +222,6 @@ Chemical Attack\n\n
 &#8226;\t  Skin Testing - expose the skin with a small dosage of different substances while examining and recording what occurs\n\n
 &#8226;\t  Blood Testing - identifies antibodies that are specific to the cause(s) of the allergic reaction\n\n
 &#8226;\t  Other Testing - eliminate allergens from the environment and re-introduce them to define whether the allergen is the cause of the allergic reaction\n\n
-
 </string>
 
 <string name="poisontxt">
@@ -258,7 +230,6 @@ Chemical Attack\n\n
 &#8226;\t  Store Toxic Substances - keep all toxic substances, chemicals, drugs, etc., in a safe area away from the general community that can be locked to prevent accidental use\n\n
 &#8226;\t  Disposal - remove expired substances and properly dispose of them by combining the substances with a non tempting substance, like cat litter\n\n
 &#8226;\t  Detectors - using a carbon monoxide detector will help prevent carbon monoxide poisoning\n\n
-
 </string>
 
 <string name="burnstxt">\n
@@ -267,8 +238,6 @@ Chemical Attack\n\n
 &#8226;\t  Apply cool compresses to burns on the face or body.\n\n
 &#8226;\t  Do not use ice or ice water, which can cause tissue damage.\n\n
 &#8226;\t  Take off any jewelry, rings, or clothing that could be in the way or that would become too tight if the skin swells.\n\n
-
-
 </string>
 
 <string name="infectiontxt">\n
@@ -292,20 +261,7 @@ Life is a risk and people get hurt everyday without realizing it. Here are some 
 &#8226;\t Upper Body - try not to fall or bump into objects; be careful using sharp objects; \n\n
 &#8226;\t Lower Body - do not walk barefoot; wear slip resistant footwear; know the environment before enter the premises\n\n
 &#8226;\t Other - consult your physician or personal trainer about safe exercises\n\n
-
 </string>
-
-
-
-
-
-
-
-
-
-
-
-
 
 
     
@@ -336,11 +292,6 @@ Life is a risk and people get hurt everyday without realizing it. Here are some 
 &#8226;\t  Cash\n\n
 &#8226;\t  Cooler of ice\n\n
 </string>
-    
-    
-    
-    
-    
     
     
 

@@ -12,6 +12,7 @@
         android:layout_marginTop="30dp"
         android:autoLink="web"
         android:linksClickable="true"
+        android:textSize="16sp"
         android:text="@string/thunderstorm_ref" />
 
 </RelativeLayout>
