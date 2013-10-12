@@ -93,6 +93,7 @@ public class MainActivity extends Activity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
         
+        new SimpleEula(this).show();
         
 
         mTitle = mDrawerTitle = getTitle();
@@ -266,9 +267,7 @@ public class MainActivity extends Activity {
 	    	case 6:
 	    		fragment = new HelpFragment();
 	    		break;
-	    	case 7:
-	    		fragment = new ReferencesFragment();
-	    		break;
+	    	
         }
         
         if (fragment != null)

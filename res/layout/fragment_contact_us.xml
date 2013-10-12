@@ -29,19 +29,24 @@
         android:layout_height="wrap_content"
         android:layout_below="@+id/button1"
         android:layout_centerHorizontal="true"
+        android:layout_marginLeft="90dp"
+        android:layout_marginRight="10dp"
         android:layout_marginTop="30dp"
-        android:layout_marginLeft="10dp"
         android:autoLink="web"
         android:linksClickable="true"
-        android:text="@string/Facebook" />
+        android:text="@string/Facebook"
+        android:textSize="14sp" />
 
     <TextView
-        android:id="@+id/textView2"
+        android:id="@+id/txtTwitter"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_alignLeft="@+id/txtFacebook"
         android:layout_below="@+id/txtFacebook"
-        android:layout_marginTop="23dp"
-        android:text="TextView" />
+        android:layout_marginTop="30dp"
+        android:autoLink="web"
+        android:linksClickable="true"
+        android:textSize="14sp"
+        android:text="@string/Twitter" />
 
 </RelativeLayout>
