@@ -7,9 +7,9 @@ import android.view.View;
 import android.view.ViewGroup;
 
 
-public class SupportFragment extends Fragment
+public class ReferencesFragment extends Fragment
 {
-    public SupportFragment()
+    public ReferencesFragment()
     {
 
     }
@@ -17,10 +17,12 @@ public class SupportFragment extends Fragment
     @Override
     public View onCreateView(LayoutInflater inflator, ViewGroup container, Bundle savedInstanceState)
     {
-        View rootView = inflator.inflate(R.layout.fragment_support, container, false);
+        View rootView = inflator.inflate(R.layout.fragment_references, container, false);
 
-        getActivity().setTitle("Support");
+        getActivity().setTitle("References");
         
         return rootView;
+        
+        
     }
 }
