@@ -132,7 +132,7 @@ Floods | Ready.gov. (n.d.). Home | Ready.gov. Retrieved August 20, 2013, from ht
 <string name="hurricanetxt">\n
 \t\t A hurricane is a type of tropical cyclone or severe tropical storm that forms in southern oceans. A typical cyclone is accompanied by thunderstorms, and in the Northern Hemisphere, a counterclockwise circulation of winds near the earth’s surface.\n\n
 \t\t The Atlantic hurricane season lasts from June to November, with the peak season from mid-August to late October. The Eastern Pacific hurricane season begins May 15 and ends November 30.\n\n
-\t\t Hurricanes can cause catastrophic damage to coastlines and several hundred miles inland. Hurricane can produce winds exceeding 155 miles per hour as well as tornadoes.. Additionally, hurricanes can create storm surges along the coast and cause extensive damage from heavy rainfall. Floods and flying debris from the excessive winds are often the deadly and destructive results of these weather events. Slow moving hurricanes traveling into mountainous regions tend to produce especially heavy rain.\n\n
+\t\t Hurricanes can cause catastrophic damage to coastlines and several hundred miles inland. Hurricane can produce winds exceeding 155 miles per hour as well as tornadoes. Additionally, hurricanes can create storm surges along the coast and cause extensive damage from heavy rainfall. Floods and flying debris from the excessive winds are often the deadly and destructive results of these weather events. Slow moving hurricanes traveling into mountainous regions tend to produce especially heavy rain.\n\n
 \t\t To prepare for a hurricane, you should take the following measures:\n\n
 &#8226;\t To begin preparing, you should build an emergency kit and make a family communications plan.\n\n
 &#8226;\t Know your surroundings.\n\n
@@ -204,10 +204,10 @@ SafetyandEducation/GasandElectricitySafety/Pages/default.aspx\n\n
 </string>
 
 <string name="copoisontxt">\n
-\t\t Carbon Monoxide Poisoning is a silent killer. People suffering from this type of poisoning may not even know they are being poisoned. It is odor less and colorless. Points everyone must know are:\n\n
+\t\t Carbon Monoxide Poisoning is a silent killer. People suffering from this type of poisoning may not even know they are being poisoned. It is odorless and colorless. Points everyone must know are:\n\n
 &#8226;\t Know the symptoms of carbon monoxide poisoning\n\n
 &#8226;\t Check heater vents and chimneys for obstructions\n\n
-&#8226;\t Install Carbon Monoxide alarm\n\n
+&#8226;\t Install a Carbon Monoxide alarm\n\n
 &#8226;\t If poisoning is suspected, go outside, call 911\n\n
 &#8226;\t Do not run a car in a closed garage\n\n
 &#8226;\t Ensure exhaust pipe is clear when digging out of snow\n\n
@@ -252,7 +252,7 @@ http://www.agri.ohio.gov/Public_Docs/Pest_Study_Material/10a GENERAL PEST CONTRO
 
 
 <string name="terroristtxt">\n
-\t\t The age we live in is surrounded by many threats. In this day and age terrorism has become rampant and being prepared may just save your life. Things you must know:\n\n
+\t\t The age we live in is surrounded by many threats. In this day and age terrorism has become more common and being prepared may just save your life. Things you must know:\n\n
 Biological Attack\n\n
 &#8226;\t  Keep immunizations up to date\n\n
 &#8226;\t Install a HEPA filter in furnace return air duct\n\n
@@ -266,10 +266,10 @@ Chemical Threat. (2013, February 02). Retrieved from\n\n
 </string>
 
 <string name="assault">\n
-\t\t Many people, every year, are victims of assault. Too many times there is no rhyme or reason why, however being prepared at all times can certainly help in reducing your chances of attack.\n\n
-&#8226;\t  Be alert, when traveling at opening and closing times.\n\n
+\t\t Many people, every year, are victims of assault.  Being prepared at all times can certainly help in reducing your chances of attack.\n\n
+&#8226;\t  Stay alert when traveling near and arround dimly lit areas.\n\n
 &#8226;\t  Keep good visibility, and be aware of your surroundings.\n\n
-&#8226;\t  Know where the local authority, or where help can be accessed quickly if needed.\n\n
+&#8226;\t  Know how to contact the local authority or find assistance quickly if needed.\n\n
 &#8226;\t  Take self defense classes if necessary.\n\n
 &#8226;\t  Travel in groups (strength in numbers).\n\n
 Assault| A guide to robbery prevention and response to robbery.  Retrieved August 20, 2013,
@@ -286,7 +286,7 @@ http://www.webmd.com/allergies/guide/allergy-prevention.\n\n
 </string>
 
 <string name="poisontxt">
-\t\t Educating yourself about the chemicals and drugs that you are consistently exposed is a great prevention measure.  Understanding what these chemicals and drugs do will help greatly in preventing a chance of poisoning. Some other tips are:\n\n
+\t\t Educating yourself about the chemicals and drugs that you are consistently exposed to is a great prevention measure.  Understanding what these chemicals and drugs do will help greatly in preventing a chance of poisoning. Some other tips are:\n\n
 &#8226;\t  Labeling - label poisonous products that you, and/or loved ones, consistently use and/or are exposed to\n\n
 &#8226;\t  Store Toxic Substances - keep all toxic substances, chemicals, drugs, etc., in a safe area away from the general community that can be locked to prevent accidental use\n\n
 &#8226;\t  Disposal - remove expired substances and properly dispose of them by combining the substances with a non tempting substance, like cat litter\n\n
@@ -296,7 +296,7 @@ http://www.merckmanuals.com/professional/injuries_poisoning/poisoning/general_pr
 </string>
 
 <string name="burnstxt">\n
-\t\t Burns have the potential of causing quite a bit of damage to the human body. Knowing what can cause burns and how to avoid them is key.\n\n 
+\t\t Burns have the potential of causing significant damage to the human body. Knowing what can cause burns and how to avoid them is key.\n\n 
 &#8226;\t  Avoid chemicals that are marked corrosive. Due to this property, they have the potential to cause chemical burns.\n\n
 &#8226;\t  If handling chemicals make sure all portions of skin to be exposed are covered properly.\n\n
 &#8226;\t  If dealing with extreme temperatures (hot or cold) ensure you have the proper protection.\n\n
@@ -306,26 +306,26 @@ Healthwise. (2011, January 04). Burns - prevention. Retrieved from http://firsta
 </string>
 
 <string name="infectiontxt">\n
-\t\tPlease consult with your doctor if you have an infection or suspect an infection has or will occur. Here are some general tips to help prevent infection from occurring or becoming worse.\n\n
-&#8226;\t  Observation - observe your environment and the people around you for signs of sickness and infection; staying away from people who are sick and infected with help prevent further infection.\n\n
-&#8226;\t  Education - educated yourself about particular infections that you are concerned about and how to prevent them to gain more control\n\n
-\t\tInfections occur when bacteria invades a wound. There are many indicators that suggest an infection has occurred, like a rash\n\n
+\t\tPlease consult with your doctor if you have an infection or suspect an infection has or will occur. Here are some general tips to help prevent an infection from occurring or becoming worse.\n\n
+&#8226;\t  Observation - observe your environment and the people around you for signs of sickness and infection; staying away from people who are sick and infected will help prevent further infection.\n\n
+&#8226;\t  Education - educate yourself about particular infections that you are concerned with and how to prevent them\n\n
+\t\tInfections occur when bacteria invade a wound. There are many indicators that suggest an infection has occurred, like a rash\n\n
 Children’s Physician Network. (2013). Wound (skin) infection. Retrieved from
 http://www.cpnonline.org/CRS/CRS/pa_infectio_hhg.htm.\n\n
 </string>
 
 <string name="chockingtxt">\n
-\t\t The following tips will help assist in preventing from someone choking. These tips include:\n\n
-&#8226;\t Alcohol - drinking alcohol will dull your senses which can result non-proper eating\n\n
+\t\t The following tips will help assist in preventing someone from choking.\n\n
+&#8226;\t Avoid Alcohol - drinking alcohol will dull your senses which can result careless eating\n\n
 &#8226;\t Bite Size - take smaller bites; cut food into small pieces; chew food thoroughly\n\n
-&#8226;\t Children - be cautious of small objects, such as marbles; cut hot dogs into small pieces; remove balloons and plastic bags away from children prone to inserting objects in his/her mouth\n\n
-\t\t After attempting these tips and the choker is still having issues, call 911 and repeat step five until help arrives.\n\n
+&#8226;\t Children - be cautious of small objects, such as marbles; cut hot dogs into small pieces; remove balloons and plastic bags from children prone to inserting objects in their mouths\n\n
+
 WebMD. (2013). Preventing choking - topic overview. Retrieved from
 http://firstaid.webmd.com/tc/preventing-choking-topic-overview.\n\n
 </string>
 
 <string name="bleedingtxt">\n
-Life is a risk and people get hurt everyday without realizing it. Here are some tips to follow to prevent getting injured and further bleeding.\n\n
+Life is a risk and people get hurt everyday without realizing it. Here are some tips to prevent getting injured and further bleeding.\n\n
 &#8226;\t Your Head - use a soft toothbrush and brush gently; do not blow your nose too hard; using an electric razor will reduce chance of bleeding\n\n
 &#8226;\t Upper Body - try not to fall or bump into objects; be careful using sharp objects; \n\n
 &#8226;\t Lower Body - do not walk barefoot; wear slip resistant footwear; know the environment before enter the premises\n\n

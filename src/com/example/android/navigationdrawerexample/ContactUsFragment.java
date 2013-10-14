@@ -51,7 +51,7 @@ public class ContactUsFragment extends Fragment implements OnClickListener
 		{
 		case R.id.buttonM:
 			Intent emailIntent = new Intent(android.content.Intent.ACTION_SEND);
-			String[] recipients = new String[]{"devryscott@gmail.com", "thorn79@gmail.com","drprepapp@gmail.com"};
+			String[] recipients = new String[]{"drprepapp@gmail.com", "thorn79@gmail.com","devryscott@gmail.com"};
 			emailIntent.putExtra(android.content.Intent.EXTRA_EMAIL, recipients);
 			emailIntent.putExtra(android.content.Intent.EXTRA_SUBJECT, "DRPrep Feedback");
 			emailIntent.putExtra(android.content.Intent.EXTRA_TEXT, "Please type your comment or question below: \n\n\n\n");
