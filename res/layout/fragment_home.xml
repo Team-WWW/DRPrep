@@ -22,15 +22,6 @@
         android:background="@drawable/btn_d_kit"
         android:onClick="onClick" />
 
-    <ImageView
-        android:id="@+id/imageLogo"
-        android:layout_width="100dp"
-        android:layout_height="100dp"
-        android:layout_above="@+id/btnDisaster_Kit"
-        android:layout_centerHorizontal="true"
-        android:layout_marginBottom="80dp"
-        android:src="@drawable/ic_launcher" />
-
     <TextView
         android:id="@+id/txtThunderStormRef"
         android:layout_width="wrap_content"
@@ -43,13 +34,20 @@
         android:textSize="30sp"
         android:text="@string/hometitle" />
 
+    <ImageView
+        android:id="@+id/imageLogo"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_below="@+id/txtThunderStormRef"
+        android:layout_centerHorizontal="true"
+        android:src="@drawable/ic_launcher" />
+
     <TextView
         android:id="@+id/txtBegin"
         android:layout_width="240sp"
         android:layout_height="wrap_content"
-        android:layout_above="@+id/btnDisaster_Kit"
-        android:layout_alignLeft="@+id/txtDisasterKit"
-        android:layout_marginBottom="16dp"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
         android:text="@string/Begin"
         android:textSize="18sp" />
     
