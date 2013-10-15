@@ -42,6 +42,16 @@
         android:layout_marginTop="30dp"
         android:textSize="30sp"
         android:text="@string/hometitle" />
+
+    <TextView
+        android:id="@+id/txtBegin"
+        android:layout_width="240sp"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/btnDisaster_Kit"
+        android:layout_alignLeft="@+id/txtDisasterKit"
+        android:layout_marginBottom="16dp"
+        android:text="@string/Begin"
+        android:textSize="18sp" />
     
 </RelativeLayout>
 
