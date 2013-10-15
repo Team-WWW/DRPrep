@@ -26,6 +26,16 @@
         android:layout_alignLeft="@+id/txtZack"
         android:layout_alignTop="@+id/imageKyle"
         android:text="@string/Kyle" />
+    
+    <TextView
+        android:id="@+id/txtAnthony"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginRight="22dp"
+        android:layout_marginTop="15dp"
+        android:text="@string/Anthony" />
 
     <ImageView
         android:id="@+id/imageKyle"

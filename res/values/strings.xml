@@ -62,28 +62,28 @@ c. If any court of law, having the jurisdiction to decide on this matter, rules 
 d. The rights granted in these Terms and Conditions may not be assigned or transferred by either you or The Company without the prior written approval of the other party. Neither you nor The Company are permitted to delegate their responsibilities or obligations under these Terms and Conditions without the prior written approval of the other party.\n\n
 e. These Terms and Conditions and your relationship with The Company under these Terms and Conditions will be governed by the laws of the State of California without regard to its conflict of laws provisions. You and The Company agree to submit to the exclusive jurisdiction of the courts located within the county of Santa Clara, California to resolve any legal matter arising from these Terms and Conditions. Notwithstanding this, you agree that The Company will still be allowed to apply for injunctive remedies (or an equivalent type of urgent legal relief) in any jurisdiction.\n\n</string>
     
-<string name="Anthony">Anthony Rush
-&#8226;\tProject Lead (Phase 2)
-&#8226;\tJava/App Programmer
-&#8226;\tDesign/Implementation  
+<string name="Anthony">Anthony Rush\n
+&#8226;\tProject Lead (Phase 2)\n
+&#8226;\tJava/App Programmer\n
+&#8226;\tDesign/Implementation\n  
 </string>
 
-<string name="Scott">Scott Schramm
-&#8226;\tJava/App Programmer
-&#8226;\tDocumentation
-&#8226;\tDesign/Implementation
+<string name="Scott">Scott Schramm\n
+&#8226;\tJava/App Programmer\n
+&#8226;\tDocumentation\n
+&#8226;\tDesign/Implementation\n
 </string>
 
-<string name="Zack">Zachary Leitner
-&#8226;\tProject Lead (Phase 1)
-&#8226;\tProject Documentation
-&#8226;\tWeb Developer/Coder
+<string name="Zack">Zachary Leitner\n
+&#8226;\tProject Lead (Phase 1)\n
+&#8226;\tProject Documentation\n
+&#8226;\tWeb Developer/Coder\n
 </string>
 
-<string name="Kyle">Kyle Burk
-&#8226;\tWeb Developer
-&#8226;\tProject Documentation
-&#8226;\tGraphic Designer
+<string name="Kyle">Kyle Burk\n
+&#8226;\tWeb Developer\n
+&#8226;\tProject Documentation\n
+&#8226;\tGraphic Designer\n
 </string>
 
 <string name="thunderstormtxt">\n
