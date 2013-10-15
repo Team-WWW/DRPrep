@@ -9,7 +9,7 @@
         android:layout_height="wrap_content"
         android:layout_alignLeft="@+id/txtAnthony"
         android:layout_alignTop="@+id/imageScott"
-        android:text="Scott Schramm" />
+        android:text="@string/Scott" />
 
     <TextView
         android:id="@+id/txtZack"
@@ -17,7 +17,7 @@
         android:layout_height="wrap_content"
         android:layout_alignLeft="@+id/txtScott"
         android:layout_alignTop="@+id/imageZack"
-        android:text="Zachary Leitner" />
+        android:text="@string/Zack" />
 
     <TextView
         android:id="@+id/txtKyle"
@@ -25,7 +25,7 @@
         android:layout_height="wrap_content"
         android:layout_alignLeft="@+id/txtZack"
         android:layout_alignTop="@+id/imageKyle"
-        android:text="Kyle Burk" />
+        android:text="@string/Kyle" />
 
     <ImageView
         android:id="@+id/imageKyle"
@@ -45,15 +45,6 @@
         android:layout_marginBottom="20dp"
         android:src="@drawable/zleitner" />
 
-    <TextView
-        android:id="@+id/txtAnthony"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_alignParentTop="true"
-        android:layout_centerHorizontal="true"
-        android:layout_marginTop="20dp"
-        android:text="Anthony Rush" />
-
     <ImageView
         android:id="@+id/imageAnthony"
         android:layout_width="85dp"
@@ -70,5 +61,15 @@
         android:layout_below="@+id/imageAnthony"
         android:layout_marginTop="20dp"
         android:src="@drawable/sschramm" />
+
+    <TextView
+        android:id="@+id/txtAnthony"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginRight="22dp"
+        android:layout_marginTop="15dp"
+        android:text="@string/Anthony" />
 
 </RelativeLayout>
