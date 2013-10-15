@@ -38,28 +38,10 @@
         android:text="@string/Anthony" />
 
     <ImageView
-        android:id="@+id/imageKyle"
-        android:layout_width="85dp"
-        android:layout_height="85dp"
-        android:layout_alignParentBottom="true"
-        android:layout_alignParentLeft="true"
-        android:layout_marginBottom="20dp"
-        android:src="@drawable/kyle" />
-
-    <ImageView
-        android:id="@+id/imageZack"
-        android:layout_width="85dp"
-        android:layout_height="85dp"
-        android:layout_above="@+id/imageKyle"
-        android:layout_alignParentLeft="true"
-        android:layout_marginBottom="20dp"
-        android:src="@drawable/zleitner" />
-
-    <ImageView
         android:id="@+id/imageAnthony"
         android:layout_width="85dp"
         android:layout_height="85dp"
-        android:layout_alignParentLeft="true"
+        android:layout_marginLeft="20dp"
         android:layout_alignTop="@+id/txtAnthony"
         android:src="@drawable/arush" />
 
@@ -67,9 +49,9 @@
         android:id="@+id/imageScott"
         android:layout_width="85dp"
         android:layout_height="85dp"
-        android:layout_alignParentLeft="true"
+        android:layout_marginLeft="20dp"
         android:layout_below="@+id/imageAnthony"
-        android:layout_marginTop="20dp"
+        android:layout_marginTop="30dp"
         android:src="@drawable/sschramm" />
 
     <TextView
@@ -81,5 +63,23 @@
         android:layout_marginRight="22dp"
         android:layout_marginTop="15dp"
         android:text="@string/Anthony" />
+
+    <ImageView
+        android:id="@+id/imageZack"
+        android:layout_width="85dp"
+        android:layout_height="85dp"
+        android:layout_marginLeft="20dp"
+        android:layout_below="@+id/imageScott"
+        android:layout_marginTop="30dp"
+        android:src="@drawable/zleitner" />
+
+    <ImageView
+        android:id="@+id/imageKyle"
+        android:layout_width="85dp"
+        android:layout_height="85dp"
+        android:layout_marginLeft="20dp"
+        android:layout_below="@+id/imageZack"
+        android:layout_marginTop="30dp"
+        android:src="@drawable/kyle" />
 
 </RelativeLayout>
