@@ -150,16 +150,6 @@
         android:layout_marginBottom="14dp"
         android:background="@drawable/disaster_heatwave"
         android:onClick="onClick" />
-
-    <TextView
-        android:id="@+id/txtBackButton"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_centerHorizontal="true"
-        android:layout_below="@+id/txtPick"
-        android:text="@string/Back"
-        android:textSize="18sp"
-        android:typeface="sans" />
         
     "
 

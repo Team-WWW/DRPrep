@@ -46,10 +46,20 @@
         android:id="@+id/txtBegin"
         android:layout_width="230sp"
         android:layout_height="wrap_content"
+        android:layout_below="@+id/imageLogo"
         android:layout_centerHorizontal="true"
-        android:layout_centerVertical="true"
         android:text="@string/Begin"
         android:textSize="18sp" />
+
+    <TextView
+        android:id="@+id/txtBack"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/txtBegin"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="14dp"
+        android:text="@string/Back"
+        android:textSize="18dp" />
     
 </RelativeLayout>
 

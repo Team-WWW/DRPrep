@@ -18,7 +18,7 @@
 
 
 <TextView
-        android:id="@+id/txtContact"
+        android:id="@+id/txtContact2"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginLeft="12dp"
@@ -30,12 +30,12 @@
 
 
 <TextView
-        android:id="@+id/txtContact"
+        android:id="@+id/txtContact3"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginLeft="10dp"
         android:layout_marginRight="10dp"
-        android:layout_marginTop="8dp"
+        android:layout_marginTop="2dp"
         android:linksClickable="true"
         android:text="@string/helptxtcontact"
         android:gravity="center"
