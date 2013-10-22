@@ -146,7 +146,7 @@ Earthquakes | Ready.gov. (n.d.). Home | Ready.gov. Retrieved August 20, 2013, fr
       
 <string name="floodtxt">\n
 \t\tFloods are one of the most common hazards in the United States, however not all floods are alike. Some floods develop slowly, while others such a flash floods, can develop in just a few minutes and without visible signs of rain. Additionally, floods can be local, impacting a neighborhood or community, or very large, affecting entire river basins and multiple states.\n\n
-&#8226;\t To prepare for a flood, you should:\n\n
+\t\tTo prepare for a flood, you should:\n\n
 &#8226;\t Build an emergency kit and make a family communications plan.\n\n
 &#8226;\t Avoid building in a floodplain unless you elevate and reinforce your home.\n\n
 &#8226;\t Elevate the furnace, water heater and electric panel in your home if you live in an area that has a high flood risk.\n\n
@@ -158,7 +158,7 @@ Floods | Ready.gov. (n.d.). Home | Ready.gov. Retrieved August 20, 2013, from ht
 <string name="hurricanetxt">\n
 \t\t A hurricane is a type of tropical cyclone or severe tropical storm that forms in southern oceans. A typical cyclone is accompanied by thunderstorms, and in the Northern Hemisphere, a counterclockwise circulation of winds near the earth’s surface.\n\n
 \t\t The Atlantic hurricane season lasts from June to November, with the peak season from mid-August to late October. The Eastern Pacific hurricane season begins May 15 and ends November 30.\n\n
-\t\t Hurricanes can cause catastrophic damage to coastlines and several hundred miles inland. Hurricane can produce winds exceeding 155 miles per hour as well as tornadoes. Additionally, hurricanes can create storm surges along the coast and cause extensive damage from heavy rainfall. Floods and flying debris from the excessive winds are often the deadly and destructive results of these weather events. Slow moving hurricanes traveling into mountainous regions tend to produce especially heavy rain.\n\n
+\t\t Hurricanes can cause catastrophic damage to coastlines and several hundred miles inland. Hurricanes have the potential to produce winds exceeding 155 miles per hour. Additionally, hurricanes can create storm surges along the coast and cause extensive damage from heavy rainfall. Floods and flying debris from the excessive winds are often the deadly and destructive results of these weather events. Slow moving hurricanes traveling into mountainous regions tend to produce especially heavy rain.\n\n
 \t\t To prepare for a hurricane, you should take the following measures:\n\n
 &#8226;\t To begin preparing, you should build an emergency kit and make a family communications plan.\n\n
 &#8226;\t Know your surroundings.\n\n
@@ -270,7 +270,7 @@ Highway Safety (2013). Retrieved from http://www.redcross.org/prepare/disaster/h
 \t\t Managing structural infestation, or pest control, is to reduce the pest population by altering the structural environment, change practices and carefully using pesticides (speak with a professional before using pesticides). Some tips to follow in pest management are:\n\n
 &#8226;\t Inspection - inspect the structure for signs of infestation; generally, infestation occurs in a specific area\n\n
 &#8226;\t Alter Environment - changing the living conditions will eliminate chance of infestation; some alterations include cleanliness and moisture reduction\n\n
-&#8226;\t Follow-up Actions - keep record of structural stability and possible infested areas\n\n
+&#8226;\t Follow-up Actions - keep records of structural stability and possible infested areas\n\n
 &#8226;\t Consult a Technician - contact pest control to gain more knowledge and instructions of how to properly target a specific type of infestation\n\n
 Roll, D. (2009, July). General Pest Control: a guide for commercial applicators category 10a.
 http://www.agri.ohio.gov/Public_Docs/Pest_Study_Material/10a GENERAL PEST CONTROL 2009.pdf\n\n
@@ -293,7 +293,7 @@ Chemical Threat. (2013, February 02). Retrieved from\n\n
 
 <string name="assault">\n
 \t\t Many people, every year, are victims of assault.  Being prepared at all times can certainly help in reducing your chances of attack.\n\n
-&#8226;\t  Stay alert when traveling near and arround dimly lit areas.\n\n
+&#8226;\t  Stay alert when traveling near and around dimly lit areas.\n\n
 &#8226;\t  Keep good visibility, and be aware of your surroundings.\n\n
 &#8226;\t  Know how to contact the local authority or find assistance quickly if needed.\n\n
 &#8226;\t  Take self defense classes if necessary.\n\n
@@ -326,7 +326,7 @@ http://www.merckmanuals.com/professional/injuries_poisoning/poisoning/general_pr
 &#8226;\t  Avoid chemicals that are marked corrosive. Due to this property, they have the potential to cause chemical burns.\n\n
 &#8226;\t  If handling chemicals make sure all portions of skin to be exposed are covered properly.\n\n
 &#8226;\t  If dealing with extreme temperatures (hot or cold) ensure you have the proper protection.\n\n
-&#8226;\t  If using something that has the potential to cause a burn, please read all the instructions that come with it to limit the potential for accidents.\n\n
+&#8226;\t  If using something that has the potential to cause a burn, please read all the instructions that come with it to limit possible accidents.\n\n
 &#8226;\t  In any situation, be aware of the potential risks and procedures for treatment if a burn should happen.\n\n
 Healthwise. (2011, January 04). Burns - prevention. Retrieved from http://firstaid.webmd.com/tc/burns-prevention\n\n
 </string>
